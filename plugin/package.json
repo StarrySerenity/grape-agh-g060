@@ -1,0 +1,8 @@
+{
+  "name": "@g060/grape-tools",
+  "version": "1.1.0",
+  "type": "module",
+  "license": "MIT",
+  "exports": "./index.mjs",
+  "agnes": {"plugins": [{"export": "grapeTools", "id": "ext:g060/grape-tools", "inject": ["extension"]}]}
+}

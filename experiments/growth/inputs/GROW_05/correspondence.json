@@ -1,0 +1,429 @@
+{
+  "rotation": [
+    [
+      -0.7357910279950289,
+      0.23926836301878163,
+      0.6335315411093049
+    ],
+    [
+      0.3391541289911594,
+      0.9399256994368267,
+      0.03891216167779966
+    ],
+    [
+      -0.5861621276662847,
+      0.24349605745577008,
+      -0.7727377498823453
+    ]
+  ],
+  "scale": 0.740905732790384,
+  "translation": [
+    1.129247792241768,
+    0.1352151895432742,
+    0.661373202459748
+  ],
+  "transformed_late_centers": [
+    [
+      0.934649537823171,
+      -0.3429818613271739,
+      1.0212678944708644
+    ],
+    [
+      0.6449011440544923,
+      -0.4561549597479094,
+      0.7861570312037731
+    ],
+    [
+      0.7098162197344244,
+      -0.6316352685902018,
+      0.9797783203030466
+    ],
+    [
+      0.3594071138814712,
+      -0.6739656005973585,
+      0.708736076625238
+    ],
+    [
+      0.9134752861127543,
+      0.4671796965665057,
+      0.9405391849512605
+    ],
+    [
+      0.5281951941385357,
+      -0.1225871426233813,
+      0.7753891721236963
+    ],
+    [
+      0.8171605670827182,
+      0.13841794434654914,
+      0.9786329463419583
+    ],
+    [
+      0.9766073875415531,
+      -0.18551101947357154,
+      1.3335825314098622
+    ],
+    [
+      0.2887806791994858,
+      -0.11026254227735485,
+      0.5727136931091292
+    ],
+    [
+      0.5496648092935644,
+      0.21344168862365362,
+      0.7496160972443214
+    ],
+    [
+      0.702895342548186,
+      -0.11814212990862008,
+      1.0733822020769572
+    ],
+    [
+      0.920783093641608,
+      0.2299723249554763,
+      1.2422824733917537
+    ],
+    [
+      0.655289695807918,
+      -0.6364921040328311,
+      1.2863950694257986
+    ],
+    [
+      0.3686613922865162,
+      -0.3997132905367504,
+      0.9105408324841321
+    ],
+    [
+      0.641736369637726,
+      0.6587701044626935,
+      0.8588471631052388
+    ],
+    [
+      0.05782913167700299,
+      -0.45068843375758116,
+      0.682901795855679
+    ],
+    [
+      0.771670546703362,
+      0.5481028252985249,
+      1.2125469265579856
+    ],
+    [
+      0.23913457822784911,
+      0.34015919231273106,
+      0.7036648213205874
+    ],
+    [
+      0.7073204989277839,
+      -0.4143445872395394,
+      1.5994391675521968
+    ],
+    [
+      0.14511959816870057,
+      0.04906479695715589,
+      0.809113906185264
+    ],
+    [
+      0.6085397274490529,
+      0.975408857273247,
+      0.9934024280330632
+    ],
+    [
+      0.1220241315686752,
+      -0.26845102878625327,
+      1.0065355767366437
+    ],
+    [
+      0.7156386192591937,
+      0.34700312585209303,
+      1.4651956889309998
+    ],
+    [
+      0.6248055363196322,
+      -0.0855913710005233,
+      1.5352411595420574
+    ],
+    [
+      0.3239762005980067,
+      0.5412797879842774,
+      0.9258966619443993
+    ],
+    [
+      0.5945943468672592,
+      0.7761867651295284,
+      1.3174492654482428
+    ],
+    [
+      0.05621083156601148,
+      0.3317314516965977,
+      0.9248602805888126
+    ],
+    [
+      0.39761524351505684,
+      -0.2553641292110749,
+      1.6229137183123625
+    ],
+    [
+      0.22007284937697336,
+      0.8459104981724547,
+      1.0775217890411914
+    ],
+    [
+      0.06088119504380285,
+      -0.48963099553720457,
+      1.4364781716557309
+    ],
+    [
+      0.4842584752397753,
+      0.22760068554938612,
+      1.6990382096326662
+    ],
+    [
+      -0.03413050384053151,
+      -0.2512944438173199,
+      1.2358956696318808
+    ],
+    [
+      0.35539036032409754,
+      1.089923519541417,
+      1.255502508275435
+    ],
+    [
+      0.3216753484322523,
+      0.4700935783346091,
+      1.469649654773828
+    ],
+    [
+      0.1956573109287526,
+      0.02078964892879162,
+      1.5573272435317729
+    ],
+    [
+      0.25140908852455157,
+      -0.513684316681884,
+      1.8328147713356482
+    ],
+    [
+      0.04711296207075932,
+      0.40530173656734714,
+      1.2780621129717922
+    ],
+    [
+      -0.24672703649286643,
+      0.11646283290656083,
+      1.0512794301489157
+    ],
+    [
+      0.01786094299970009,
+      -0.7358413652765365,
+      1.7012989351201888
+    ],
+    [
+      0.43088442879801025,
+      0.9909108837372581,
+      1.5379028782769435
+    ],
+    [
+      0.20055155881503417,
+      0.7888671304659164,
+      1.3761380421822458
+    ],
+    [
+      -0.1556303368001699,
+      0.032027858299246065,
+      1.453316261501051
+    ]
+  ],
+  "matches": [
+    {
+      "early_id": "N002",
+      "late_id": "C022",
+      "early_index": 1,
+      "late_index": 21,
+      "residual_over_radius": 1.1277458254305257,
+      "local_margin_over_radius": 0.4889837102193339,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N003",
+      "late_id": "C037",
+      "early_index": 2,
+      "late_index": 36,
+      "residual_over_radius": 0.8919996424964701,
+      "local_margin_over_radius": 0.6874571593842214,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N005",
+      "late_id": "C003",
+      "early_index": 4,
+      "late_index": 2,
+      "residual_over_radius": 1.1180030282252442,
+      "local_margin_over_radius": 1.2610618184972942,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N006",
+      "late_id": "C029",
+      "early_index": 5,
+      "late_index": 28,
+      "residual_over_radius": 0.7124934311300744,
+      "local_margin_over_radius": 1.1666212038477606,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N007",
+      "late_id": "C007",
+      "early_index": 6,
+      "late_index": 6,
+      "residual_over_radius": 1.0268940113910314,
+      "local_margin_over_radius": 0.993700372138367,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N010",
+      "late_id": "C038",
+      "early_index": 9,
+      "late_index": 37,
+      "residual_over_radius": 1.1853715672444278,
+      "local_margin_over_radius": 0.9150333217523856,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N011",
+      "late_id": "C033",
+      "early_index": 10,
+      "late_index": 32,
+      "residual_over_radius": 1.0016668024509718,
+      "local_margin_over_radius": 0.25546499148931945,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N012",
+      "late_id": "C004",
+      "early_index": 11,
+      "late_index": 3,
+      "residual_over_radius": 0.7835625439151137,
+      "local_margin_over_radius": 2.0983128274945213,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N014",
+      "late_id": "C006",
+      "early_index": 13,
+      "late_index": 5,
+      "residual_over_radius": 1.2522034928863226,
+      "local_margin_over_radius": 1.209362168587834,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N017",
+      "late_id": "C001",
+      "early_index": 16,
+      "late_index": 0,
+      "residual_over_radius": 1.2058878037555416,
+      "local_margin_over_radius": 0.5917896390147788,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N018",
+      "late_id": "C012",
+      "early_index": 17,
+      "late_index": 11,
+      "residual_over_radius": 1.192668080340394,
+      "local_margin_over_radius": 0.6965632851493228,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N020",
+      "late_id": "C021",
+      "early_index": 19,
+      "late_index": 20,
+      "residual_over_radius": 1.2966223323279482,
+      "local_margin_over_radius": 0.5391362956621655,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N023",
+      "late_id": "C015",
+      "early_index": 22,
+      "late_index": 14,
+      "residual_over_radius": 1.0750150312937472,
+      "local_margin_over_radius": 0.7336323098519277,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N035",
+      "late_id": "C008",
+      "early_index": 32,
+      "late_index": 7,
+      "residual_over_radius": 1.1796299540776767,
+      "local_margin_over_radius": 0.8863051412660898,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N036",
+      "late_id": "C030",
+      "early_index": 33,
+      "late_index": 29,
+      "residual_over_radius": 1.1946426277108841,
+      "local_margin_over_radius": 1.3532519405227137,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N038",
+      "late_id": "C028",
+      "early_index": 35,
+      "late_index": 27,
+      "residual_over_radius": 1.2929222234058015,
+      "local_margin_over_radius": 1.0932300437816258,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N039",
+      "late_id": "C017",
+      "early_index": 36,
+      "late_index": 16,
+      "residual_over_radius": 1.2423751119541464,
+      "local_margin_over_radius": 0.3431239244286818,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N042",
+      "late_id": "C005",
+      "early_index": 39,
+      "late_index": 4,
+      "residual_over_radius": 1.0579741700016787,
+      "local_margin_over_radius": 0.48953988616950517,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    }
+  ],
+  "median_residual_over_radius": 1.1536878897541012,
+  "coverage_early": 0.4,
+  "coverage_late": 0.42857142857142855,
+  "objective": 1.704565159934145,
+  "alternative_objective_gap": 0.046761076437510374,
+  "ambiguous_global_alignment": true,
+  "physical_growth_scale": false,
+  "all_correspondences_verified": false,
+  "alignment_source": "automatic_geometric_candidates",
+  "anchors": []
+}

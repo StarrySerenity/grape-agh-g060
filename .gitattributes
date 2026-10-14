@@ -1,0 +1,8 @@
+# Preserve frozen model/data and source bytes across Windows/Linux checkouts.
+* -text
+* whitespace=cr-at-eol
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pt binary
+*.ply binary

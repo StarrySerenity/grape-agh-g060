@@ -1,0 +1,20 @@
+{
+  "runtime": "D:/Anaconda/envs/grape1/python.exe",
+  "working_directory": "E:/grape_hackathon_G060_growth_20261014",
+  "commands_observed": [
+    "python -B -m unittest discover -s synthetic -p test_demo.py -v",
+    "python -B -m unittest test_real_predict -v"
+  ],
+  "synthetic_tests_passed": 3,
+  "real_prediction_tests_passed": 3,
+  "tests": [
+    "packing_preserves_identity_radius_and_input",
+    "future_assisted_input_rejected_before_prediction",
+    "full_output_keeps_ids_and_uses_only_other_pair_data",
+    "own_future_cannot_change_original_prediction",
+    "future_repair_requires_explicit_conditional_mode_and_flags_survive",
+    "metric_errors_are_dimensionless_and_include_all_fields"
+  ],
+  "both_commands_exit_code": 0,
+  "new_adapter_tests_observed_missing_implementation_before_green": true
+}

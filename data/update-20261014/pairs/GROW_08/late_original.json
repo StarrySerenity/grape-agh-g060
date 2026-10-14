@@ -1,0 +1,393 @@
+{
+  "sample_id": "July_g1_08",
+  "bunch_id": "GROW_08",
+  "group": "GROW",
+  "date": "20260707",
+  "stage": "mature",
+  "models": [
+    {
+      "id": "N001",
+      "center": [
+        -3.869439807046959,
+        -0.37779144693165073,
+        19.63205758366883
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N002",
+      "center": [
+        -4.533717406395871,
+        -4.574132681950244,
+        18.713803231112458
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N003",
+      "center": [
+        -2.51389866091174,
+        -1.8356708823580843,
+        19.008077988552195
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N004",
+      "center": [
+        -2.792939344886949,
+        0.7187924594133512,
+        20.245906292063818
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N005",
+      "center": [
+        -1.1487268835422209,
+        -3.670899301441979,
+        19.626052648782025
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N006",
+      "center": [
+        -2.848060456629365,
+        -3.8841438750067674,
+        19.07791821406367
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N007",
+      "center": [
+        -4.414989278001396,
+        -2.70634144095918,
+        19.351423923135478
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N008",
+      "center": [
+        -2.0639765371058214,
+        -5.5072976747605935,
+        18.658354037962862
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N009",
+      "center": [
+        -5.234178183288267,
+        -1.329843286327061,
+        20.125449262316813
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N010",
+      "center": [
+        -3.829058537743615,
+        1.1581211139986594,
+        21.399256670341213
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N011",
+      "center": [
+        -1.3797167401488166,
+        -1.8803627246798194,
+        20.45457370869168
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N012",
+      "center": [
+        -1.7104429052524606,
+        -0.5238852141064533,
+        21.15364072677237
+      ],
+      "radius": 1.106044683324593,
+      "evidence": "provisional_surface_refit_heldout_checked",
+      "shape": "sphere"
+    },
+    {
+      "id": "N013",
+      "center": [
+        -4.936833372878972,
+        -6.0149813291686005,
+        20.025081967659087
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N014",
+      "center": [
+        -5.044789828843786,
+        -0.10240475910908042,
+        21.066372179950935
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N015",
+      "center": [
+        -2.201147338284343,
+        0.849218907799814,
+        21.66527846961111
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N016",
+      "center": [
+        -5.324034793689217,
+        -2.947934589984388,
+        20.77911226009199
+      ],
+      "radius": 0.8111728665200787,
+      "evidence": "provisional_surface_refit_heldout_checked",
+      "shape": "sphere"
+    },
+    {
+      "id": "N017",
+      "center": [
+        -8.152132648558826,
+        -5.513313176745487,
+        21.454333183319218
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N018",
+      "center": [
+        -1.1074478774062473,
+        -4.048023158852344,
+        20.861941403781557
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N019",
+      "center": [
+        -0.4567917130772362,
+        -2.9832999067319204,
+        22.233740743393938
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "N020",
+      "center": [
+        -7.682526446805143,
+        -5.334582051084791,
+        23.047895762227395
+      ],
+      "radius": 0.9211929985977163,
+      "evidence": "measured_convex_multiview",
+      "shape": "sphere"
+    },
+    {
+      "id": "T001",
+      "center": [
+        -4.242839148797973,
+        -9.174272014009706,
+        20.328295615702324
+      ],
+      "radius": 0.8312410308600523,
+      "evidence": "video_triangulated_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "T002",
+      "center": [
+        -5.890658911448397,
+        -8.719373006440701,
+        20.499255234126203
+      ],
+      "radius": 0.807873372815145,
+      "evidence": "video_triangulated_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "T003",
+      "center": [
+        -5.047065118897911,
+        -10.876441885519464,
+        20.963561954760063
+      ],
+      "radius": 0.8516788442128475,
+      "evidence": "video_triangulated_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "T004",
+      "center": [
+        -7.09587378652679,
+        -7.776544783304722,
+        20.511133432462834
+      ],
+      "radius": 0.8178893843110225,
+      "evidence": "video_triangulated_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "T005",
+      "center": [
+        -3.244183736423804,
+        -12.246827261871125,
+        21.03085439021831
+      ],
+      "radius": 0.8449299084813228,
+      "evidence": "video_triangulated_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "T006",
+      "center": [
+        -5.115156370247621,
+        -12.390051340964078,
+        20.534222909111428
+      ],
+      "radius": 0.8350227536466286,
+      "evidence": "video_triangulated_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "T007",
+      "center": [
+        -6.687112264659848,
+        -10.147108054645008,
+        21.31285387169138
+      ],
+      "radius": 0.8262515816935412,
+      "evidence": "video_triangulated_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "T008",
+      "center": [
+        -7.875925027079233,
+        -10.26693516797777,
+        21.01628779286057
+      ],
+      "radius": 0.7910634013121283,
+      "evidence": "continuous_original_video_triangulated_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "T009",
+      "center": [
+        -4.94851073872884,
+        -8.646721489583332,
+        22.688736315559296
+      ],
+      "radius": 0.9245882910398069,
+      "evidence": "continuous_original_video_triangulated_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "T010",
+      "center": [
+        -6.299413425391434,
+        -11.056713139504154,
+        20.750902282329413
+      ],
+      "radius": 0.7965636638366291,
+      "evidence": "continuous_original_video_triangulated_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "T011",
+      "center": [
+        -6.7999650864452095,
+        -12.820496695647707,
+        20.88810058789516
+      ],
+      "radius": 1.0404907062338329,
+      "evidence": "continuous_original_video_triangulated_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "T012",
+      "center": [
+        -7.634797416936346,
+        -8.84291346840794,
+        20.455442732272775
+      ],
+      "radius": 0.9602958713413401,
+      "evidence": "continuous_original_video_triangulated_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "T013",
+      "center": [
+        -7.850781385313533,
+        -6.949062059300607,
+        20.318855582132688
+      ],
+      "radius": 0.9210488907551243,
+      "evidence": "continuous_original_video_triangulated_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "VT_M",
+      "center": [
+        -4.263797748051896,
+        -6.855870356444384,
+        21.021071567721368
+      ],
+      "radius": 0.6726170762967473,
+      "evidence": "manual_video_multiview_contact_constrained_approximate",
+      "shape": "sphere"
+    }
+  ],
+  "model_source": "E:\\grape_all_bunch_reaudit_20261011\\July_g1_08\\manual_middle_v2\\berry_centers.json",
+  "model_sha256": "bbf90012eb90b34b1a25c073997af09322ce02fb384c6612e242e380bcbdb315",
+  "revision": 0,
+  "measured_cloud": "E:\\grape_identity_repair_20261011\\july\\g1_08\\repaired_v6_approximate\\measured_cloud.ply",
+  "source_videos": [
+    "E:/grape_data_jurong/20260707/1/8/8.mp4"
+  ],
+  "uses_future_reference": false,
+  "input_manifest": null,
+  "viewer_path": "E:\\grape_all_bunch_reaudit_20261011\\July_g1_08\\manual_middle_v2\\viewer.html"
+}

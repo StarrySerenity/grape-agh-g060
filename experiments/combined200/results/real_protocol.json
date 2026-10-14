@@ -1,0 +1,49 @@
+{
+  "source_date": "20260707",
+  "source_directory": "E:/grape_data_jurong/20260707/3",
+  "source_folders": 20,
+  "unique_source_groups": 18,
+  "aliases": {
+    "FP3_06": "FP3_05",
+    "FP3_12": "FP3_11"
+  },
+  "enrollment_views": 216,
+  "query_photos": 61,
+  "detector_sha256": "58bc13a8851fdb3103a18873b5ae5029281f732c91cd528508559f0d1bb666a8",
+  "threshold": {
+    "minimum_score": 0.6250000000000002,
+    "minimum_margin": 0.03,
+    "minimum_pairs": 11,
+    "minimum_query_coverage": 0.65,
+    "selected_on": "development only",
+    "calibration_rule": "midpoint of best-error/best-recall plateau; fixed margin .03, 11 unique matches",
+    "model_version": "agh_retrained200",
+    "calibration_known_ids": "SYN180..185",
+    "calibration_unknown_ids": "SYN186..189",
+    "evaluation_not_opened_at_selection": true,
+    "scope": "orthographic synthetic only; clean enrollment geometry; not calibrated for real photos",
+    "development_summary": {
+      "known_queries": 12,
+      "unknown_queries": 8,
+      "known_top1": 12,
+      "known_top3": 12,
+      "known_correct_accepted": 12,
+      "known_wrong_accepted": 0,
+      "known_abstained": 0,
+      "unknown_wrong_accepted": 0,
+      "unknown_correct_rejected": 8,
+      "known_top1_rate": 1.0,
+      "known_correct_accept_rate": 1.0,
+      "unknown_false_accept_rate": 0.0,
+      "mean_query_seconds": 7.796779775619507
+    },
+    "detector_sha256": "58bc13a8851fdb3103a18873b5ae5029281f732c91cd528508559f0d1bb666a8",
+    "actual_selection": "AGH retraining synthetic development only, before this run real inference/rankings"
+  },
+  "trained_on_real": false,
+  "threshold_retuned_on_real": false,
+  "masks_supplied": true,
+  "gallery_nodes_from_detector": true,
+  "query_nodes_from_detector": true,
+  "scope": "real photo-to-video source-group transfer diagnostic, images previously inspected in upstream experiments"
+}

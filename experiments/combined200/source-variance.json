@@ -1,0 +1,17 @@
+{
+  "unchanged": 10613,
+  "changes": [
+    {
+      "path": "E:\\grape_growth_workspace_20261013\\real_consumer_test_20261014\\build_report.py",
+      "expected_sha256": "eb07c353f85833c72cd71e30c22ddccf0e09e00c32f0444cc32e88bbc16c350f",
+      "actual_sha256": "1a24c845c72bb7662f04ad70568125df6dbc1b247aa749f9a46775026c5052b9",
+      "role": "upstream reporting-only script; not imported or read by this run",
+      "baseline_rewritten": false,
+      "last_modified_epoch": 1791983906.7853513
+    }
+  ],
+  "original_snapshot_sha256": "7367065429d605fa284eaf98be3d3acd1f457c957a0e91a7ca6eea6fda06fccc",
+  "frozen_model_and_decision_inputs_unchanged": true,
+  "snapshot_rewritten": false,
+  "explanation": "Reporting script changed after snapshot creation; explicitly distinguished from frozen scientific inputs. No original file restored or overwritten."
+}

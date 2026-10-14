@@ -1,0 +1,12 @@
+{
+  "files": {
+    "E:\\grape_hackathon_G060_200_20261014\\training\\synthetic_consumer\\detector_best.pt": "58bc13a8851fdb3103a18873b5ae5029281f732c91cd528508559f0d1bb666a8",
+    "E:\\grape_hackathon_G060_200_20261014\\training\\synthetic_consumer\\decision_threshold.json": "a3e7e7a025eb0c92b16b90c9e8e854b44b15f2c9d925adcd3b3c3901267b2ac9",
+    "E:\\grape_hackathon_G060_200_20261014\\training\\synthetic_consumer\\gallery.json": "66e38af928f5414a53105c7777ee6857aa8acdd8aaef1d386a786673529e6e5a",
+    "E:\\grape_hackathon_G060_200_20261014\\experiment.py": "c878928a58094223c6e14eb0bcb85260b4b3940d868f6ce87494630e32ad9c7e",
+    "E:\\grape_hackathon_G060_200_20261014\\training\\matching_fast.py": "7b43897075f0be87ee5970b7660bfd9dd2739cb0d8557eedf624d11c668b4947",
+    "E:\\grape_hackathon_G060_200_20261014\\training\\engine200.py": "c90ffa30a13c21292762495c6acd4d0931949a6df5745d24dd4a79de039af79b"
+  },
+  "recalibrated_on_real": false,
+  "evaluation_scope": "Reused already-inspected synthetic benchmark and real source groups; not new independent test"
+}

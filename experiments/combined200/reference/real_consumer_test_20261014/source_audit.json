@@ -1,0 +1,224 @@
+{
+  "source": "E:\\grape_data_jurong\\20260707\\3",
+  "folders": [
+    {
+      "identity": "FP3_01",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\1",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\1\\f403fdf78adaf0b6e47f92b2480cc761_raw.mp4"
+      ],
+      "raw_photos": 4,
+      "annotated_photos": 4,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_02",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\2",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\2\\86d5d0780424257c634070e2cf12ebd8_raw.mp4"
+      ],
+      "raw_photos": 4,
+      "annotated_photos": 4,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_03",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\3",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\3\\5a8ec8a9f61452ee74d54c6971341208_raw.mp4"
+      ],
+      "raw_photos": 4,
+      "annotated_photos": 4,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_04",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\4",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\4\\7303c4f252f6d0a5ab6c43fba84511dc_raw.mp4"
+      ],
+      "raw_photos": 3,
+      "annotated_photos": 3,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_05",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\5",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\5\\646f087c5f2fd9aa39fc104eb0f75b9f_raw.mp4"
+      ],
+      "raw_photos": 4,
+      "annotated_photos": 4,
+      "status": "identity_conflict_excluded"
+    },
+    {
+      "identity": "FP3_06",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\6",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\6\\6812306c8c75714b601f6c94a13fbfa6_raw.mp4"
+      ],
+      "raw_photos": 4,
+      "annotated_photos": 4,
+      "status": "identity_conflict_excluded"
+    },
+    {
+      "identity": "FP3_07",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\7",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\7\\91125e9f3544d93979051495db54323e_raw.mp4"
+      ],
+      "raw_photos": 3,
+      "annotated_photos": 3,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_08",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\8",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\8\\2cbc392af3c64fdf0ac043968bc14277_raw.mp4"
+      ],
+      "raw_photos": 4,
+      "annotated_photos": 4,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_09",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\9",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\9\\6475946efc0075eb7b213741888e6400_raw.mp4"
+      ],
+      "raw_photos": 3,
+      "annotated_photos": 3,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_10",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\10",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\10\\db2902c4013254ff8ced340217bc1f5e_raw.mp4"
+      ],
+      "raw_photos": 3,
+      "annotated_photos": 3,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_11",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\11",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\11\\974ac1f8496ccd74ef955d4ae2c1b1b2_raw.mp4"
+      ],
+      "raw_photos": 3,
+      "annotated_photos": 3,
+      "status": "identity_conflict_excluded"
+    },
+    {
+      "identity": "FP3_12",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\12",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\12\\4fb2ddcd65a99a326d2b326995d027d2_raw.mp4"
+      ],
+      "raw_photos": 3,
+      "annotated_photos": 3,
+      "status": "identity_conflict_excluded"
+    },
+    {
+      "identity": "FP3_13",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\13",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\13\\50c6605e65b02416033b182536e84330_raw.mp4"
+      ],
+      "raw_photos": 4,
+      "annotated_photos": 4,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_14",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\14",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\14\\d12a0f2fe5d30de6114f4691a258f355_raw.mp4"
+      ],
+      "raw_photos": 3,
+      "annotated_photos": 3,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_15",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\15",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\15\\7ecea6fa63add5db13954eb81ddb286d_raw.mp4"
+      ],
+      "raw_photos": 3,
+      "annotated_photos": 3,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_16",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\16",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\16\\5c15ebc846781b28d9343a1105b3a3e7_raw.mp4"
+      ],
+      "raw_photos": 4,
+      "annotated_photos": 4,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_17",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\17",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\17\\f1998e6adc813920fca4ef0a9a19c29e_raw.mp4"
+      ],
+      "raw_photos": 3,
+      "annotated_photos": 3,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_18",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\18",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\18\\2fcf3b3568d6bee770fd7c93fea0ae1d_raw.mp4"
+      ],
+      "raw_photos": 3,
+      "annotated_photos": 3,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_19",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\19",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\19\\cc3bba0959fb368fc05a980a10421dea_raw.mp4"
+      ],
+      "raw_photos": 3,
+      "annotated_photos": 3,
+      "status": "eligible"
+    },
+    {
+      "identity": "FP3_20",
+      "folder": "E:\\grape_data_jurong\\20260707\\3\\20",
+      "videos": [
+        "E:\\grape_data_jurong\\20260707\\3\\20\\e0b038d25ed15a539d7d2e58aadcae68_raw.mp4"
+      ],
+      "raw_photos": 3,
+      "annotated_photos": 3,
+      "status": "eligible"
+    }
+  ],
+  "video_duplicate_groups": [
+    [
+      "E:\\grape_data_jurong\\20260707\\3\\5\\646f087c5f2fd9aa39fc104eb0f75b9f_raw.mp4",
+      "E:\\grape_data_jurong\\20260707\\3\\6\\6812306c8c75714b601f6c94a13fbfa6_raw.mp4"
+    ],
+    [
+      "E:\\grape_data_jurong\\20260707\\3\\11\\974ac1f8496ccd74ef955d4ae2c1b1b2_raw.mp4",
+      "E:\\grape_data_jurong\\20260707\\3\\12\\4fb2ddcd65a99a326d2b326995d027d2_raw.mp4"
+    ]
+  ],
+  "equal_size_video_sha256": {
+    "E:\\grape_data_jurong\\20260707\\3\\5\\646f087c5f2fd9aa39fc104eb0f75b9f_raw.mp4": "fd7dba868910c0ebeb2eb173a99ff0a9bbce1b7ce9e57809546f69b5c9bb2a1a",
+    "E:\\grape_data_jurong\\20260707\\3\\6\\6812306c8c75714b601f6c94a13fbfa6_raw.mp4": "fd7dba868910c0ebeb2eb173a99ff0a9bbce1b7ce9e57809546f69b5c9bb2a1a",
+    "E:\\grape_data_jurong\\20260707\\3\\11\\974ac1f8496ccd74ef955d4ae2c1b1b2_raw.mp4": "6d24dc3a390e1effb3384fe7f66afb8325d953fc3edc5f78a727b6c726554bf4",
+    "E:\\grape_data_jurong\\20260707\\3\\12\\4fb2ddcd65a99a326d2b326995d027d2_raw.mp4": "6d24dc3a390e1effb3384fe7f66afb8325d953fc3edc5f78a727b6c726554bf4"
+  },
+  "identity_scope": "folder labels; ambiguous duplicate-video labels excluded from scored experiment",
+  "annotated_source": "E:\\grape_growth_workspace_20261013\\fingerprint_2d\\all_records.json",
+  "known_original_mapping": "FP3_NN = 20260707/3/NN; original identity_map.csv"
+}

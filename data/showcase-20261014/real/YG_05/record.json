@@ -1,0 +1,147 @@
+{
+  "identity": "YG_05",
+  "group": "YG",
+  "days": 14,
+  "early_sample": "May_g1_10",
+  "late_sample": "May_g3_05",
+  "original_count": 70,
+  "repaired_count": 70,
+  "late_count": 60,
+  "prediction_files_saved_before_comparison": true,
+  "prediction_sha256_before_comparison": {
+    "original": "4c01bd55c39e1c506ce2a1fb07e4197236eb132b1664277538264e680e8b1b4f",
+    "repaired_conditional": "e5e24be7ca7d04d7456cae22fe6926fb77b99064f4c36e05b3109caa2d0d30fa"
+  },
+  "variants": {
+    "original": {
+      "independent_early_prediction": true,
+      "input_uses_future_reference": false,
+      "training_identities": [
+        "YG_01",
+        "YG_02",
+        "YG_03",
+        "YG_04",
+        "YG_06",
+        "YG_09",
+        "YG_10"
+      ],
+      "forecast_targets": [
+        0.15091231448639714,
+        0.19735919866658871,
+        0.18139428698462046,
+        0.2626616813202146
+      ],
+      "actual_generated_metrics": {
+        "targets": [
+          "radius_over_center_spacing",
+          "middle_major_ratio",
+          "minor_major_ratio",
+          "relative_nearest_spacing"
+        ],
+        "predicted": [
+          0.14829299053185077,
+          0.2060563899275406,
+          0.19240551406551334,
+          0.2980689109690199
+        ],
+        "reference": [
+          0.15277534202996867,
+          0.1866319970752029,
+          0.1481309652116353,
+          0.2754239273217479
+        ],
+        "absolute_errors": [
+          0.0044823514981179036,
+          0.019424392852337713,
+          0.04427454885387805,
+          0.022644983647271966
+        ],
+        "dimensionless": true,
+        "actual_prediction_geometry": true,
+        "individual_berry_growth_accuracy": false
+      },
+      "normalized_center_chamfer": 0.17461842682352202,
+      "contact_constraint": {
+        "before_severe_overlap_pairs": 2,
+        "after_severe_overlap_pairs": 0,
+        "minimum_separation_ratio": 1.005,
+        "maximum_movement_over_radius": 0.8000000000000003,
+        "is_geometric_display_constraint": true,
+        "per_berry_biological_motion_learned": false,
+        "minimum_contact_ratio": 1.0049999999999983,
+        "overlapping_pairs": 0,
+        "iterations_limit": 2400,
+        "status": "clear"
+      },
+      "radius_ratio": 2.640620930993391,
+      "center_spacing_ratio": 1.35,
+      "comparison_uses_similarity_registration": true,
+      "seconds": 0.35959577560424805
+    },
+    "repaired_conditional": {
+      "independent_early_prediction": false,
+      "input_uses_future_reference": true,
+      "training_identities": [
+        "YG_01",
+        "YG_02",
+        "YG_03",
+        "YG_04",
+        "YG_06",
+        "YG_09",
+        "YG_10"
+      ],
+      "forecast_targets": [
+        0.15091231448639714,
+        0.1834253042225756,
+        0.15683658539864992,
+        0.2626616813202146
+      ],
+      "actual_generated_metrics": {
+        "targets": [
+          "radius_over_center_spacing",
+          "middle_major_ratio",
+          "minor_major_ratio",
+          "relative_nearest_spacing"
+        ],
+        "predicted": [
+          0.14638673345653655,
+          0.1955252911351481,
+          0.170104969592571,
+          0.2942373342476384
+        ],
+        "reference": [
+          0.15277534202996867,
+          0.1866319970752029,
+          0.1481309652116353,
+          0.2754239273217479
+        ],
+        "absolute_errors": [
+          0.006388608573432125,
+          0.008893294059945211,
+          0.02197400438093569,
+          0.018813406925890508
+        ],
+        "dimensionless": true,
+        "actual_prediction_geometry": true,
+        "individual_berry_growth_accuracy": false
+      },
+      "normalized_center_chamfer": 0.16625350458665897,
+      "contact_constraint": {
+        "before_severe_overlap_pairs": 3,
+        "after_severe_overlap_pairs": 0,
+        "minimum_separation_ratio": 1.005,
+        "maximum_movement_over_radius": 0.8000000000000003,
+        "is_geometric_display_constraint": true,
+        "per_berry_biological_motion_learned": false,
+        "minimum_contact_ratio": 1.004999999999998,
+        "overlapping_pairs": 0,
+        "iterations_limit": 2400,
+        "status": "clear"
+      },
+      "radius_ratio": 2.6406209309933906,
+      "center_spacing_ratio": 1.35,
+      "comparison_uses_similarity_registration": true,
+      "seconds": 0.3611571788787842
+    }
+  }
+}

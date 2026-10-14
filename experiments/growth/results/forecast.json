@@ -1,0 +1,3576 @@
+{
+  "GROW": {
+    "pairs": 10,
+    "targets": [
+      "radius_over_center_spacing",
+      "middle_major_ratio",
+      "minor_major_ratio",
+      "relative_nearest_spacing"
+    ],
+    "folds": [
+      {
+        "identity": "GROW_01",
+        "train_ids": [
+          "GROW_02",
+          "GROW_03",
+          "GROW_04",
+          "GROW_05",
+          "GROW_06",
+          "GROW_07",
+          "GROW_08",
+          "GROW_09",
+          "GROW_10"
+        ],
+        "early_sample": "May_g2_01",
+        "target_days": 40,
+        "reference": [
+          0.2100796322616321,
+          0.35567457767729627,
+          0.2665313131185745,
+          0.36969417790883047
+        ],
+        "prediction": [
+          0.1899027990749449,
+          0.28725545355434007,
+          0.22444341647309246,
+          0.3534761824053707
+        ],
+        "baseline": [
+          0.1925315917506551,
+          0.28725545355434007,
+          0.22444341647309246,
+          0.3534761824053707
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "GROW_02",
+            "GROW_03",
+            "GROW_04",
+            "GROW_05",
+            "GROW_06",
+            "GROW_07",
+            "GROW_08",
+            "GROW_09",
+            "GROW_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "GROW_02",
+              "train_ids": [
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_03",
+              "train_ids": [
+                "GROW_02",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_04",
+              "train_ids": [
+                "GROW_02",
+                "GROW_03",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_05",
+              "train_ids": [
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_06",
+              "train_ids": [
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_07",
+              "train_ids": [
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_08",
+              "train_ids": [
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_09",
+              "train_ids": [
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_10",
+              "train_ids": [
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "ridge_1.0",
+              "inner_mae": 0.010936610970064745,
+              "candidate_inner_mae": {
+                "mean": 0.012651703251077118,
+                "ridge_1.0": 0.010936610970064745,
+                "ridge_3.0": 0.013143784703443524,
+                "ridge_10.0": 0.013111440904732798,
+                "ridge_30.0": 0.012374519916521023
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "mean",
+              "inner_mae": 0.06615948353286023,
+              "candidate_inner_mae": {
+                "mean": 0.06615948353286023,
+                "ridge_1.0": 0.09901503765361336,
+                "ridge_3.0": 0.09794009877686091,
+                "ridge_10.0": 0.09046517791987074,
+                "ridge_30.0": 0.08145406255359963
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "mean",
+              "inner_mae": 0.028764326864269368,
+              "candidate_inner_mae": {
+                "mean": 0.028764326864269368,
+                "ridge_1.0": 0.0361634806030571,
+                "ridge_3.0": 0.034647053213559764,
+                "ridge_10.0": 0.0354009480836615,
+                "ridge_30.0": 0.03386016206386159
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "GROW_02",
+        "train_ids": [
+          "GROW_01",
+          "GROW_03",
+          "GROW_04",
+          "GROW_05",
+          "GROW_06",
+          "GROW_07",
+          "GROW_08",
+          "GROW_09",
+          "GROW_10"
+        ],
+        "early_sample": "May_g2_02",
+        "target_days": 40,
+        "reference": [
+          0.2073564738209624,
+          0.2764252349230511,
+          0.205605846372064,
+          0.37523732390110803
+        ],
+        "prediction": [
+          0.19639064680910737,
+          0.29606093608258954,
+          0.23121291277826034,
+          0.35286027729511765
+        ],
+        "baseline": [
+          0.19283416491072955,
+          0.29606093608258954,
+          0.23121291277826034,
+          0.35286027729511765
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "GROW_01",
+            "GROW_03",
+            "GROW_04",
+            "GROW_05",
+            "GROW_06",
+            "GROW_07",
+            "GROW_08",
+            "GROW_09",
+            "GROW_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "GROW_01",
+              "train_ids": [
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_03",
+              "train_ids": [
+                "GROW_01",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_04",
+              "train_ids": [
+                "GROW_01",
+                "GROW_03",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_05",
+              "train_ids": [
+                "GROW_01",
+                "GROW_03",
+                "GROW_04",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_06",
+              "train_ids": [
+                "GROW_01",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_07",
+              "train_ids": [
+                "GROW_01",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_08",
+              "train_ids": [
+                "GROW_01",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_09",
+              "train_ids": [
+                "GROW_01",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_10",
+              "train_ids": [
+                "GROW_01",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "ridge_1.0",
+              "inner_mae": 0.011995205143053097,
+              "candidate_inner_mae": {
+                "mean": 0.013105562991188745,
+                "ridge_1.0": 0.011995205143053097,
+                "ridge_3.0": 0.014467862132923741,
+                "ridge_10.0": 0.015272270128007212,
+                "ridge_30.0": 0.014627441182428567
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "mean",
+              "inner_mae": 0.0698007327452437,
+              "candidate_inner_mae": {
+                "mean": 0.0698007327452437,
+                "ridge_1.0": 0.0964598649170584,
+                "ridge_3.0": 0.09402711502346234,
+                "ridge_10.0": 0.0917847046355422,
+                "ridge_30.0": 0.08517455413957378
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "mean",
+              "inner_mae": 0.028302398031579572,
+              "candidate_inner_mae": {
+                "mean": 0.028302398031579572,
+                "ridge_1.0": 0.03686771150982539,
+                "ridge_3.0": 0.03447326506979789,
+                "ridge_10.0": 0.03516576876202661,
+                "ridge_30.0": 0.033605368031786965
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "GROW_03",
+        "train_ids": [
+          "GROW_01",
+          "GROW_02",
+          "GROW_04",
+          "GROW_05",
+          "GROW_06",
+          "GROW_07",
+          "GROW_08",
+          "GROW_09",
+          "GROW_10"
+        ],
+        "early_sample": "May_g2_03",
+        "target_days": 40,
+        "reference": [
+          0.2222138626397373,
+          0.30538370415380633,
+          0.2352342696845011,
+          0.37851825834955305
+        ],
+        "prediction": [
+          0.19118334393086564,
+          0.2928433283902833,
+          0.2279208657435451,
+          0.3524957290230682
+        ],
+        "baseline": [
+          0.19118334393086564,
+          0.2928433283902833,
+          0.2279208657435451,
+          0.3524957290230682
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "GROW_01",
+            "GROW_02",
+            "GROW_04",
+            "GROW_05",
+            "GROW_06",
+            "GROW_07",
+            "GROW_08",
+            "GROW_09",
+            "GROW_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "GROW_01",
+              "train_ids": [
+                "GROW_02",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_02",
+              "train_ids": [
+                "GROW_01",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_04",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_05",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_04",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_06",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_04",
+                "GROW_05",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_07",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_08",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_09",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_10",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "mean",
+              "inner_mae": 0.010629331521392909,
+              "candidate_inner_mae": {
+                "mean": 0.010629331521392909,
+                "ridge_1.0": 0.01223126287924036,
+                "ridge_3.0": 0.014106642260710591,
+                "ridge_10.0": 0.014459553206205586,
+                "ridge_30.0": 0.013060210258116415
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "mean",
+              "inner_mae": 0.07139062994055112,
+              "candidate_inner_mae": {
+                "mean": 0.07139062994055112,
+                "ridge_1.0": 0.0741078960198153,
+                "ridge_3.0": 0.08819479770789729,
+                "ridge_10.0": 0.09262378565649941,
+                "ridge_30.0": 0.08585243362994643
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "mean",
+              "inner_mae": 0.028028986827542488,
+              "candidate_inner_mae": {
+                "mean": 0.028028986827542488,
+                "ridge_1.0": 0.031105109322492965,
+                "ridge_3.0": 0.0364144747056392,
+                "ridge_10.0": 0.037594222359538174,
+                "ridge_30.0": 0.03497560614420042
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "GROW_04",
+        "train_ids": [
+          "GROW_01",
+          "GROW_02",
+          "GROW_03",
+          "GROW_05",
+          "GROW_06",
+          "GROW_07",
+          "GROW_08",
+          "GROW_09",
+          "GROW_10"
+        ],
+        "early_sample": "May_g2_04",
+        "target_days": 40,
+        "reference": [
+          0.1877863713056426,
+          0.32923283542692666,
+          0.26557323474744415,
+          0.35669355437045075
+        ],
+        "prediction": [
+          0.19927631323909514,
+          0.29019342491549216,
+          0.22454986962544032,
+          0.35492069613185734
+        ],
+        "baseline": [
+          0.19500862074576505,
+          0.29019342491549216,
+          0.22454986962544032,
+          0.35492069613185734
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "GROW_01",
+            "GROW_02",
+            "GROW_03",
+            "GROW_05",
+            "GROW_06",
+            "GROW_07",
+            "GROW_08",
+            "GROW_09",
+            "GROW_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "GROW_01",
+              "train_ids": [
+                "GROW_02",
+                "GROW_03",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_02",
+              "train_ids": [
+                "GROW_01",
+                "GROW_03",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_03",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_05",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_06",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_05",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_07",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_05",
+                "GROW_06",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_08",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_09",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_10",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "ridge_1.0",
+              "inner_mae": 0.013227633362793518,
+              "candidate_inner_mae": {
+                "mean": 0.014561684383711415,
+                "ridge_1.0": 0.013227633362793518,
+                "ridge_3.0": 0.017309652601399758,
+                "ridge_10.0": 0.018306725822421578,
+                "ridge_30.0": 0.017110728296898057
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "mean",
+              "inner_mae": 0.06804894220975424,
+              "candidate_inner_mae": {
+                "mean": 0.06804894220975424,
+                "ridge_1.0": 0.11219085140858237,
+                "ridge_3.0": 0.10345547301260824,
+                "ridge_10.0": 0.09450640898828316,
+                "ridge_30.0": 0.08391174414117186
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "mean",
+              "inner_mae": 0.029847712159134343,
+              "candidate_inner_mae": {
+                "mean": 0.029847712159134343,
+                "ridge_1.0": 0.037900453827386146,
+                "ridge_3.0": 0.03684143702336834,
+                "ridge_10.0": 0.03685060734435799,
+                "ridge_30.0": 0.03531429798160249
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "GROW_05",
+        "train_ids": [
+          "GROW_01",
+          "GROW_02",
+          "GROW_03",
+          "GROW_04",
+          "GROW_06",
+          "GROW_07",
+          "GROW_08",
+          "GROW_09",
+          "GROW_10"
+        ],
+        "early_sample": "May_g2_05",
+        "target_days": 40,
+        "reference": [
+          0.18924582384397182,
+          0.43408745564846524,
+          0.3799713406502393,
+          0.3568964542988159
+        ],
+        "prediction": [
+          0.20368628782391296,
+          0.2785429115575434,
+          0.21183896896957416,
+          0.3548981516953723
+        ],
+        "baseline": [
+          0.19484645935261738,
+          0.2785429115575434,
+          0.21183896896957416,
+          0.3548981516953723
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "GROW_01",
+            "GROW_02",
+            "GROW_03",
+            "GROW_04",
+            "GROW_06",
+            "GROW_07",
+            "GROW_08",
+            "GROW_09",
+            "GROW_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "GROW_01",
+              "train_ids": [
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_02",
+              "train_ids": [
+                "GROW_01",
+                "GROW_03",
+                "GROW_04",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_03",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_04",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_04",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_06",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_07",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_06",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_08",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_06",
+                "GROW_07",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_09",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_10",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "ridge_1.0",
+              "inner_mae": 0.011720885755792202,
+              "candidate_inner_mae": {
+                "mean": 0.014723845776859102,
+                "ridge_1.0": 0.011720885755792202,
+                "ridge_3.0": 0.014882771830125811,
+                "ridge_10.0": 0.016424893525145163,
+                "ridge_30.0": 0.016208387216603594
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "mean",
+              "inner_mae": 0.05441192103310323,
+              "candidate_inner_mae": {
+                "mean": 0.05441192103310323,
+                "ridge_1.0": 0.06917858206876815,
+                "ridge_3.0": 0.07164126435177928,
+                "ridge_10.0": 0.0739660304142949,
+                "ridge_30.0": 0.06681759406121296
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "mean",
+              "inner_mae": 0.029830803831770576,
+              "candidate_inner_mae": {
+                "mean": 0.029830803831770576,
+                "ridge_1.0": 0.03877166332054511,
+                "ridge_3.0": 0.03702139048052029,
+                "ridge_10.0": 0.036992161825680464,
+                "ridge_30.0": 0.03528978725939079
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "GROW_06",
+        "train_ids": [
+          "GROW_01",
+          "GROW_02",
+          "GROW_03",
+          "GROW_04",
+          "GROW_05",
+          "GROW_07",
+          "GROW_08",
+          "GROW_09",
+          "GROW_10"
+        ],
+        "early_sample": "May_g2_06",
+        "target_days": 40,
+        "reference": [
+          0.19863125179557414,
+          0.34179753917884553,
+          0.2812888359800994,
+          0.39278283042957135
+        ],
+        "prediction": [
+          0.19380363402466153,
+          0.28879734672083457,
+          0.22280369171070083,
+          0.33208095614693084
+        ],
+        "baseline": [
+          0.19380363402466153,
+          0.28879734672083457,
+          0.22280369171070083,
+          0.3509107765697328
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "GROW_01",
+            "GROW_02",
+            "GROW_03",
+            "GROW_04",
+            "GROW_05",
+            "GROW_07",
+            "GROW_08",
+            "GROW_09",
+            "GROW_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "GROW_01",
+              "train_ids": [
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_02",
+              "train_ids": [
+                "GROW_01",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_03",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_04",
+                "GROW_05",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_04",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_05",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_05",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_07",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_08",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_07",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_09",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_07",
+                "GROW_08",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_10",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "mean",
+              "inner_mae": 0.014559766662086773,
+              "candidate_inner_mae": {
+                "mean": 0.014559766662086773,
+                "ridge_1.0": 0.014922399339954992,
+                "ridge_3.0": 0.01722015706065759,
+                "ridge_10.0": 0.017236888220327456,
+                "ridge_30.0": 0.016158802858760396
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "mean",
+              "inner_mae": 0.06630330438072349,
+              "candidate_inner_mae": {
+                "mean": 0.06630330438072349,
+                "ridge_1.0": 0.09470557554193129,
+                "ridge_3.0": 0.08141559736903284,
+                "ridge_10.0": 0.07696784459378209,
+                "ridge_30.0": 0.07291227193637626
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "ridge_1.0",
+              "inner_mae": 0.022129871950947653,
+              "candidate_inner_mae": {
+                "mean": 0.026840272487540937,
+                "ridge_1.0": 0.022129871950947653,
+                "ridge_3.0": 0.027194868472660814,
+                "ridge_10.0": 0.030034988413830885,
+                "ridge_30.0": 0.029922949992845456
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "GROW_07",
+        "train_ids": [
+          "GROW_01",
+          "GROW_02",
+          "GROW_03",
+          "GROW_04",
+          "GROW_05",
+          "GROW_06",
+          "GROW_08",
+          "GROW_09",
+          "GROW_10"
+        ],
+        "early_sample": "May_g2_07",
+        "target_days": 40,
+        "reference": [
+          0.18945552185800676,
+          0.2581645338837722,
+          0.20827848103426466,
+          0.3757859805398025
+        ],
+        "prediction": [
+          0.19824000642063516,
+          0.29808990286473164,
+          0.2309159533713491,
+          0.3527993154463738
+        ],
+        "baseline": [
+          0.19482315957328017,
+          0.29808990286473164,
+          0.2309159533713491,
+          0.3527993154463738
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "GROW_01",
+            "GROW_02",
+            "GROW_03",
+            "GROW_04",
+            "GROW_05",
+            "GROW_06",
+            "GROW_08",
+            "GROW_09",
+            "GROW_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "GROW_01",
+              "train_ids": [
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_02",
+              "train_ids": [
+                "GROW_01",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_03",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_04",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_05",
+                "GROW_06",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_05",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_06",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_06",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_08",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_08",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_09",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_08",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_10",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_08",
+                "GROW_09"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "ridge_1.0",
+              "inner_mae": 0.01229649595839726,
+              "candidate_inner_mae": {
+                "mean": 0.014747145556196332,
+                "ridge_1.0": 0.01229649595839726,
+                "ridge_3.0": 0.014660216202535634,
+                "ridge_10.0": 0.01585670334059394,
+                "ridge_30.0": 0.015885220585702242
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "mean",
+              "inner_mae": 0.06871822813572437,
+              "candidate_inner_mae": {
+                "mean": 0.06871822813572437,
+                "ridge_1.0": 0.10211398255562223,
+                "ridge_3.0": 0.09688512887711984,
+                "ridge_10.0": 0.08851890885272952,
+                "ridge_30.0": 0.08221257892205092
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "mean",
+              "inner_mae": 0.028256676645021697,
+              "candidate_inner_mae": {
+                "mean": 0.028256676645021697,
+                "ridge_1.0": 0.030007365590200657,
+                "ridge_3.0": 0.033383213738476365,
+                "ridge_10.0": 0.03591586731722308,
+                "ridge_30.0": 0.03405795961453067
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "GROW_08",
+        "train_ids": [
+          "GROW_01",
+          "GROW_02",
+          "GROW_03",
+          "GROW_04",
+          "GROW_05",
+          "GROW_06",
+          "GROW_07",
+          "GROW_09",
+          "GROW_10"
+        ],
+        "early_sample": "May_g2_08",
+        "target_days": 40,
+        "reference": [
+          0.1634199512148963,
+          0.17069377494160987,
+          0.04995869447201928,
+          0.2767078399015507
+        ],
+        "prediction": [
+          0.19771600075584797,
+          0.3817706135399104,
+          0.3009126999155377,
+          0.37123689851693614
+        ],
+        "baseline": [
+          0.19771600075584797,
+          0.3078088760805274,
+          0.24850704076715419,
+          0.36380799773951294
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "GROW_01",
+            "GROW_02",
+            "GROW_03",
+            "GROW_04",
+            "GROW_05",
+            "GROW_06",
+            "GROW_07",
+            "GROW_09",
+            "GROW_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "GROW_01",
+              "train_ids": [
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_02",
+              "train_ids": [
+                "GROW_01",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_03",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_04",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_05",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_06",
+                "GROW_07",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_06",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_07",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_07",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_09",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_09",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_10",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_09"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "mean",
+              "inner_mae": 0.011854304373628503,
+              "candidate_inner_mae": {
+                "mean": 0.011854304373628503,
+                "ridge_1.0": 0.01375328930740243,
+                "ridge_3.0": 0.01427455413645947,
+                "ridge_10.0": 0.013243581797304591,
+                "ridge_30.0": 0.011888643213056225
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "ridge_30.0",
+              "inner_mae": 0.04782362797820214,
+              "candidate_inner_mae": {
+                "mean": 0.05361168312964559,
+                "ridge_1.0": 0.049984174417984736,
+                "ridge_3.0": 0.047872121731051515,
+                "ridge_10.0": 0.048731435180807914,
+                "ridge_30.0": 0.04782362797820214
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "ridge_30.0",
+              "inner_mae": 0.017932202077051183,
+              "candidate_inner_mae": {
+                "mean": 0.018244645607825245,
+                "ridge_1.0": 0.02608546641538724,
+                "ridge_3.0": 0.02208317776838735,
+                "ridge_10.0": 0.018648492676105535,
+                "ridge_30.0": 0.017932202077051183
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "GROW_09",
+        "train_ids": [
+          "GROW_01",
+          "GROW_02",
+          "GROW_03",
+          "GROW_04",
+          "GROW_05",
+          "GROW_06",
+          "GROW_07",
+          "GROW_08",
+          "GROW_10"
+        ],
+        "early_sample": "May_g2_09",
+        "target_days": 40,
+        "reference": [
+          0.19100815760862855,
+          0.25422557350643094,
+          0.22794554937537664,
+          0.33696310133608237
+        ],
+        "prediction": [
+          0.1827353102307354,
+          0.2985275651288806,
+          0.22873072355567003,
+          0.3571129686912316
+        ],
+        "baseline": [
+          0.19465064448987773,
+          0.2985275651288806,
+          0.22873072355567003,
+          0.3571129686912316
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "GROW_01",
+            "GROW_02",
+            "GROW_03",
+            "GROW_04",
+            "GROW_05",
+            "GROW_06",
+            "GROW_07",
+            "GROW_08",
+            "GROW_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "GROW_01",
+              "train_ids": [
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_02",
+              "train_ids": [
+                "GROW_01",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_03",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_04",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_05",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_06",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_07",
+                "GROW_08",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_07",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_08",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_08",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_10"
+              ]
+            },
+            {
+              "held_out": "GROW_10",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "ridge_1.0",
+              "inner_mae": 0.013112234112470688,
+              "candidate_inner_mae": {
+                "mean": 0.014919660639598745,
+                "ridge_1.0": 0.013112234112470688,
+                "ridge_3.0": 0.016545801072903543,
+                "ridge_10.0": 0.017736309587910063,
+                "ridge_30.0": 0.016893638021763954
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "mean",
+              "inner_mae": 0.06981045785543066,
+              "candidate_inner_mae": {
+                "mean": 0.06981045785543066,
+                "ridge_1.0": 0.07801561313450685,
+                "ridge_3.0": 0.0753080031418028,
+                "ridge_10.0": 0.0789634012947528,
+                "ridge_30.0": 0.07883405723093873
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "mean",
+              "inner_mae": 0.026613431918176875,
+              "candidate_inner_mae": {
+                "mean": 0.026613431918176875,
+                "ridge_1.0": 0.027691473094662522,
+                "ridge_3.0": 0.028679377325780533,
+                "ridge_10.0": 0.031129800256735413,
+                "ridge_30.0": 0.03016068192062786
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "GROW_10",
+        "train_ids": [
+          "GROW_01",
+          "GROW_02",
+          "GROW_03",
+          "GROW_04",
+          "GROW_05",
+          "GROW_06",
+          "GROW_07",
+          "GROW_08",
+          "GROW_09"
+        ],
+        "early_sample": "May_g2_10",
+        "target_days": 40,
+        "reference": [
+          0.1836669116684762,
+          0.21528843032615222,
+          0.16613449594182392,
+          0.33170029852140154
+        ],
+        "prediction": [
+          0.19171855043066752,
+          0.3028539143711338,
+          0.23559861838162036,
+          0.3576977245595295
+        ],
+        "baseline": [
+          0.195466338483228,
+          0.3028539143711338,
+          0.23559861838162036,
+          0.3576977245595295
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "GROW_01",
+            "GROW_02",
+            "GROW_03",
+            "GROW_04",
+            "GROW_05",
+            "GROW_06",
+            "GROW_07",
+            "GROW_08",
+            "GROW_09"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "GROW_01",
+              "train_ids": [
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09"
+              ]
+            },
+            {
+              "held_out": "GROW_02",
+              "train_ids": [
+                "GROW_01",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09"
+              ]
+            },
+            {
+              "held_out": "GROW_03",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09"
+              ]
+            },
+            {
+              "held_out": "GROW_04",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09"
+              ]
+            },
+            {
+              "held_out": "GROW_05",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09"
+              ]
+            },
+            {
+              "held_out": "GROW_06",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_07",
+                "GROW_08",
+                "GROW_09"
+              ]
+            },
+            {
+              "held_out": "GROW_07",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_08",
+                "GROW_09"
+              ]
+            },
+            {
+              "held_out": "GROW_08",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_09"
+              ]
+            },
+            {
+              "held_out": "GROW_09",
+              "train_ids": [
+                "GROW_01",
+                "GROW_02",
+                "GROW_03",
+                "GROW_04",
+                "GROW_05",
+                "GROW_06",
+                "GROW_07",
+                "GROW_08"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "ridge_1.0",
+              "inner_mae": 0.012480844946913669,
+              "candidate_inner_mae": {
+                "mean": 0.014103966646248491,
+                "ridge_1.0": 0.012480844946913669,
+                "ridge_3.0": 0.014435096257020484,
+                "ridge_10.0": 0.01523996946099272,
+                "ridge_30.0": 0.015106645695156311
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "mean",
+              "inner_mae": 0.06285959889994339,
+              "candidate_inner_mae": {
+                "mean": 0.06285959889994339,
+                "ridge_1.0": 0.09891030153776434,
+                "ridge_3.0": 0.09282628367620617,
+                "ridge_10.0": 0.08776017320368326,
+                "ridge_30.0": 0.07889109019758139
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "mean",
+              "inner_mae": 0.025882487082804533,
+              "candidate_inner_mae": {
+                "mean": 0.025882487082804533,
+                "ridge_1.0": 0.03161275493368912,
+                "ridge_3.0": 0.029728501507020697,
+                "ridge_10.0": 0.029434870231612995,
+                "ridge_30.0": 0.028953133370814035
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "model_mae": [
+      0.015233622283538473,
+      0.07310490313530763,
+      0.06864900224653947,
+      0.029275362366270385
+    ],
+    "baseline_mae": [
+      0.013585697180198818,
+      0.06570872938936931,
+      0.0634084363317011,
+      0.02664949024624787
+    ],
+    "better_than_mean": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "status": "exploratory_relative_endpoint_forecast",
+    "model_parameterization": "nested train-only choice: mean or constrained Ridge alpha in [1,3,10,30]",
+    "limitations": [
+      "no physical size calibration",
+      "not a continuous biological growth curve",
+      "estimated late spheres are targets, not agricultural ground truth",
+      "future-guided corrections are excluded"
+    ]
+  },
+  "YG": {
+    "pairs": 8,
+    "targets": [
+      "radius_over_center_spacing",
+      "middle_major_ratio",
+      "minor_major_ratio",
+      "relative_nearest_spacing"
+    ],
+    "folds": [
+      {
+        "identity": "YG_01",
+        "train_ids": [
+          "YG_02",
+          "YG_03",
+          "YG_04",
+          "YG_05",
+          "YG_06",
+          "YG_09",
+          "YG_10"
+        ],
+        "early_sample": "May_g1_02",
+        "target_days": 14,
+        "reference": [
+          0.1562484815432048,
+          0.2415496509964429,
+          0.18215074358716984,
+          0.2508631539275452
+        ],
+        "prediction": [
+          0.150416151698792,
+          0.2378085193460187,
+          0.20693468250543562,
+          0.2661703632336722
+        ],
+        "baseline": [
+          0.150416151698792,
+          0.21591684831285948,
+          0.16793983579030694,
+          0.2661703632336722
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "YG_02",
+            "YG_03",
+            "YG_04",
+            "YG_05",
+            "YG_06",
+            "YG_09",
+            "YG_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "YG_02",
+              "train_ids": [
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_03",
+              "train_ids": [
+                "YG_02",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_04",
+              "train_ids": [
+                "YG_02",
+                "YG_03",
+                "YG_05",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_05",
+              "train_ids": [
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_06",
+              "train_ids": [
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_09",
+              "train_ids": [
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_10",
+              "train_ids": [
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_09"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "mean",
+              "inner_mae": 0.01599848581368238,
+              "candidate_inner_mae": {
+                "mean": 0.01599848581368238,
+                "ridge_1.0": 0.018524134694476134,
+                "ridge_3.0": 0.018990765003190822,
+                "ridge_10.0": 0.01842472350888986,
+                "ridge_30.0": 0.017727232541620334
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "ridge_3.0",
+              "inner_mae": 0.025865443835387417,
+              "candidate_inner_mae": {
+                "mean": 0.04913705928894847,
+                "ridge_1.0": 0.03125772524019137,
+                "ridge_3.0": 0.025865443835387417,
+                "ridge_10.0": 0.027577596852404802,
+                "ridge_30.0": 0.03616227979278592
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "mean",
+              "inner_mae": 0.013676076667927623,
+              "candidate_inner_mae": {
+                "mean": 0.013676076667927623,
+                "ridge_1.0": 0.01415495364860411,
+                "ridge_3.0": 0.015975440401686407,
+                "ridge_10.0": 0.015944514080641865,
+                "ridge_30.0": 0.015049982146449195
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "YG_02",
+        "train_ids": [
+          "YG_01",
+          "YG_03",
+          "YG_04",
+          "YG_05",
+          "YG_06",
+          "YG_09",
+          "YG_10"
+        ],
+        "early_sample": "May_g1_04",
+        "target_days": 14,
+        "reference": [
+          0.11745026106295854,
+          0.25298554982559407,
+          0.22378428668250475,
+          0.2509578422918331
+        ],
+        "prediction": [
+          0.15821173298140395,
+          0.2549574847392087,
+          0.19590914515027177,
+          0.2661568363244882
+        ],
+        "baseline": [
+          0.15595875462454142,
+          0.2142831484801236,
+          0.16199218677668764,
+          0.2661568363244882
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "YG_01",
+            "YG_03",
+            "YG_04",
+            "YG_05",
+            "YG_06",
+            "YG_09",
+            "YG_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "YG_01",
+              "train_ids": [
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_03",
+              "train_ids": [
+                "YG_01",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_04",
+              "train_ids": [
+                "YG_01",
+                "YG_03",
+                "YG_05",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_05",
+              "train_ids": [
+                "YG_01",
+                "YG_03",
+                "YG_04",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_06",
+              "train_ids": [
+                "YG_01",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_09",
+              "train_ids": [
+                "YG_01",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_10",
+              "train_ids": [
+                "YG_01",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_09"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "ridge_30.0",
+              "inner_mae": 0.009568786000031403,
+              "candidate_inner_mae": {
+                "mean": 0.010571408037238383,
+                "ridge_1.0": 0.011129113611676206,
+                "ridge_3.0": 0.010631851576483612,
+                "ridge_10.0": 0.009885542779055154,
+                "ridge_30.0": 0.009568786000031403
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "ridge_3.0",
+              "inner_mae": 0.025085408892783254,
+              "candidate_inner_mae": {
+                "mean": 0.04435511003016768,
+                "ridge_1.0": 0.029116659039779846,
+                "ridge_3.0": 0.025085408892783254,
+                "ridge_10.0": 0.02520704029954958,
+                "ridge_30.0": 0.031929246879097206
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "mean",
+              "inner_mae": 0.01369411254683961,
+              "candidate_inner_mae": {
+                "mean": 0.01369411254683961,
+                "ridge_1.0": 0.01915098138440521,
+                "ridge_3.0": 0.018746001997057955,
+                "ridge_10.0": 0.01698289443874988,
+                "ridge_30.0": 0.015406172502960835
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "YG_03",
+        "train_ids": [
+          "YG_01",
+          "YG_02",
+          "YG_04",
+          "YG_05",
+          "YG_06",
+          "YG_09",
+          "YG_10"
+        ],
+        "early_sample": "May_g1_06",
+        "target_days": 14,
+        "reference": [
+          0.139632963534606,
+          0.22317088767310994,
+          0.16019329429613688,
+          0.25097456833441073
+        ],
+        "prediction": [
+          0.1527897971285918,
+          0.16696078059182184,
+          0.16416240056417317,
+          0.2803589751018138
+        ],
+        "baseline": [
+          0.1527897971285918,
+          0.21854238593047848,
+          0.1710766142604545,
+          0.26615444688983425
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "YG_01",
+            "YG_02",
+            "YG_04",
+            "YG_05",
+            "YG_06",
+            "YG_09",
+            "YG_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "YG_01",
+              "train_ids": [
+                "YG_02",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_02",
+              "train_ids": [
+                "YG_01",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_04",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_05",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_05",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_04",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_06",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_04",
+                "YG_05",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_09",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_10",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_09"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "mean",
+              "inner_mae": 0.013991338411694653,
+              "candidate_inner_mae": {
+                "mean": 0.013991338411694653,
+                "ridge_1.0": 0.021806846207809726,
+                "ridge_3.0": 0.018949864139055715,
+                "ridge_10.0": 0.01663884649141319,
+                "ridge_30.0": 0.01551874608130127
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "ridge_1.0",
+              "inner_mae": 0.021488421738066962,
+              "candidate_inner_mae": {
+                "mean": 0.05072712708380341,
+                "ridge_1.0": 0.021488421738066962,
+                "ridge_3.0": 0.02263816444156864,
+                "ridge_10.0": 0.026144267748048344,
+                "ridge_30.0": 0.03460668362195744
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "ridge_1.0",
+              "inner_mae": 0.010180372741005916,
+              "candidate_inner_mae": {
+                "mean": 0.01369729845971154,
+                "ridge_1.0": 0.010180372741005916,
+                "ridge_3.0": 0.010755503883283977,
+                "ridge_10.0": 0.012589468294623698,
+                "ridge_30.0": 0.01352680881836533
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "YG_04",
+        "train_ids": [
+          "YG_01",
+          "YG_02",
+          "YG_03",
+          "YG_05",
+          "YG_06",
+          "YG_09",
+          "YG_10"
+        ],
+        "early_sample": "May_g1_08",
+        "target_days": 14,
+        "reference": [
+          0.16586733784865632,
+          0.24396649141104193,
+          0.24009387996701512,
+          0.2776074130037958
+        ],
+        "prediction": [
+          0.14904202936944175,
+          0.2420280515183855,
+          0.18596615835487046,
+          0.2623497547942078
+        ],
+        "baseline": [
+          0.14904202936944175,
+          0.21557158539648819,
+          0.15966224487890046,
+          0.2623497547942078
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "YG_01",
+            "YG_02",
+            "YG_03",
+            "YG_05",
+            "YG_06",
+            "YG_09",
+            "YG_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "YG_01",
+              "train_ids": [
+                "YG_02",
+                "YG_03",
+                "YG_05",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_02",
+              "train_ids": [
+                "YG_01",
+                "YG_03",
+                "YG_05",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_03",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_05",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_05",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_06",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_05",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_09",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_05",
+                "YG_06",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_10",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_05",
+                "YG_06",
+                "YG_09"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "mean",
+              "inner_mae": 0.014624363484332164,
+              "candidate_inner_mae": {
+                "mean": 0.014624363484332164,
+                "ridge_1.0": 0.02098180959886468,
+                "ridge_3.0": 0.017273897425653946,
+                "ridge_10.0": 0.017672660376930945,
+                "ridge_30.0": 0.01658473645145952
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "ridge_10.0",
+              "inner_mae": 0.02280084984384882,
+              "candidate_inner_mae": {
+                "mean": 0.04353454212603125,
+                "ridge_1.0": 0.029221211939078874,
+                "ridge_3.0": 0.02283442157945558,
+                "ridge_10.0": 0.02280084984384882,
+                "ridge_30.0": 0.028537466798955427
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "mean",
+              "inner_mae": 0.013684335184017436,
+              "candidate_inner_mae": {
+                "mean": 0.013684335184017436,
+                "ridge_1.0": 0.021994853760951814,
+                "ridge_3.0": 0.018959341562362887,
+                "ridge_10.0": 0.017086425985033755,
+                "ridge_30.0": 0.015518370565130874
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "YG_05",
+        "train_ids": [
+          "YG_01",
+          "YG_02",
+          "YG_03",
+          "YG_04",
+          "YG_06",
+          "YG_09",
+          "YG_10"
+        ],
+        "early_sample": "May_g1_10",
+        "target_days": 14,
+        "reference": [
+          0.15277534202996867,
+          0.1866319970752029,
+          0.1481309652116353,
+          0.2754239273217479
+        ],
+        "prediction": [
+          0.15091231448639714,
+          0.19735919866658871,
+          0.18139428698462046,
+          0.2626616813202146
+        ],
+        "baseline": [
+          0.15091231448639714,
+          0.22376222744446522,
+          0.17279980412966903,
+          0.2626616813202146
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "YG_01",
+            "YG_02",
+            "YG_03",
+            "YG_04",
+            "YG_06",
+            "YG_09",
+            "YG_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "YG_01",
+              "train_ids": [
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_02",
+              "train_ids": [
+                "YG_01",
+                "YG_03",
+                "YG_04",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_03",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_04",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_04",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_06",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_06",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_09",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_06",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_10",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_06",
+                "YG_09"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "mean",
+              "inner_mae": 0.01649464860128754,
+              "candidate_inner_mae": {
+                "mean": 0.01649464860128754,
+                "ridge_1.0": 0.016801724039941,
+                "ridge_3.0": 0.01870056296247032,
+                "ridge_10.0": 0.01886421327713642,
+                "ridge_30.0": 0.017917215262085093
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "ridge_3.0",
+              "inner_mae": 0.027008546184506696,
+              "candidate_inner_mae": {
+                "mean": 0.04609843949500259,
+                "ridge_1.0": 0.03510887689048471,
+                "ridge_3.0": 0.027008546184506696,
+                "ridge_10.0": 0.027288351973716173,
+                "ridge_30.0": 0.03480663038289236
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "mean",
+              "inner_mae": 0.01410023721869323,
+              "candidate_inner_mae": {
+                "mean": 0.01410023721869323,
+                "ridge_1.0": 0.019581485252513537,
+                "ridge_3.0": 0.018070603087787778,
+                "ridge_10.0": 0.016873114650042716,
+                "ridge_30.0": 0.015625489746912184
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "YG_06",
+        "train_ids": [
+          "YG_01",
+          "YG_02",
+          "YG_03",
+          "YG_04",
+          "YG_05",
+          "YG_09",
+          "YG_10"
+        ],
+        "early_sample": "May_g1_12",
+        "target_days": 14,
+        "reference": [
+          0.1535427157641117,
+          0.14017792268541635,
+          0.1150553224911579,
+          0.2764690213569469
+        ],
+        "prediction": [
+          0.15080268966723384,
+          0.18071851534029484,
+          0.06760423634061838,
+          0.25141789396652775
+        ],
+        "baseline": [
+          0.15080268966723384,
+          0.23039852378586329,
+          0.17752489594688006,
+          0.26251238217232903
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "YG_01",
+            "YG_02",
+            "YG_03",
+            "YG_04",
+            "YG_05",
+            "YG_09",
+            "YG_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "YG_01",
+              "train_ids": [
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_02",
+              "train_ids": [
+                "YG_01",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_03",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_04",
+                "YG_05",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_04",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_05",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_05",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_09",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_09",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_10",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_09"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "mean",
+              "inner_mae": 0.01638502378212425,
+              "candidate_inner_mae": {
+                "mean": 0.01638502378212425,
+                "ridge_1.0": 0.022757454579844547,
+                "ridge_3.0": 0.019840285583128163,
+                "ridge_10.0": 0.017724541737493583,
+                "ridge_30.0": 0.016729751985280605
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "ridge_1.0",
+              "inner_mae": 0.02645934178368288,
+              "candidate_inner_mae": {
+                "mean": 0.0385241807225965,
+                "ridge_1.0": 0.02645934178368288,
+                "ridge_3.0": 0.028355899334637787,
+                "ridge_10.0": 0.02657093816642315,
+                "ridge_30.0": 0.03264824689530925
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "ridge_1.0",
+              "inner_mae": 0.007214869478342212,
+              "candidate_inner_mae": {
+                "mean": 0.013901171688179155,
+                "ridge_1.0": 0.007214869478342212,
+                "ridge_3.0": 0.009435459233266188,
+                "ridge_10.0": 0.011870864890277746,
+                "ridge_30.0": 0.013117761305531892
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "YG_09",
+        "train_ids": [
+          "YG_01",
+          "YG_02",
+          "YG_03",
+          "YG_04",
+          "YG_05",
+          "YG_06",
+          "YG_10"
+        ],
+        "early_sample": "May_g1_16",
+        "target_days": 14,
+        "reference": [
+          0.17747466859347832,
+          0.29140600646861975,
+          0.18690215432816407,
+          0.2762093212559809
+        ],
+        "prediction": [
+          0.1473838392630386,
+          0.2611414988696253,
+          0.2511157171029329,
+          0.2625494821867528
+        ],
+        "baseline": [
+          0.1473838392630386,
+          0.20879451181683423,
+          0.16726106282730774,
+          0.2625494821867528
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "YG_01",
+            "YG_02",
+            "YG_03",
+            "YG_04",
+            "YG_05",
+            "YG_06",
+            "YG_10"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "YG_01",
+              "train_ids": [
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_02",
+              "train_ids": [
+                "YG_01",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_03",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_04",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_05",
+                "YG_06",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_05",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_06",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_06",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_10"
+              ]
+            },
+            {
+              "held_out": "YG_10",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_06"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "mean",
+              "inner_mae": 0.012966173377929017,
+              "candidate_inner_mae": {
+                "mean": 0.012966173377929017,
+                "ridge_1.0": 0.020961722989274106,
+                "ridge_3.0": 0.01897683955580266,
+                "ridge_10.0": 0.015943506995901285,
+                "ridge_30.0": 0.0149181608832587
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "ridge_3.0",
+              "inner_mae": 0.021318499998949837,
+              "candidate_inner_mae": {
+                "mean": 0.04512337573226973,
+                "ridge_1.0": 0.024309730747793697,
+                "ridge_3.0": 0.021318499998949837,
+                "ridge_10.0": 0.02177781739549412,
+                "ridge_30.0": 0.029580263522438796
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "mean",
+              "inner_mae": 0.013950638374077442,
+              "candidate_inner_mae": {
+                "mean": 0.013950638374077442,
+                "ridge_1.0": 0.01805813333573319,
+                "ridge_3.0": 0.01590875585263742,
+                "ridge_10.0": 0.015344964536732746,
+                "ridge_30.0": 0.01479396696839166
+              }
+            }
+          ]
+        }
+      },
+      {
+        "identity": "YG_10",
+        "train_ids": [
+          "YG_01",
+          "YG_02",
+          "YG_03",
+          "YG_04",
+          "YG_05",
+          "YG_06",
+          "YG_09"
+        ],
+        "early_sample": "May_g1_18",
+        "target_days": 14,
+        "reference": [
+          0.1461697730577642,
+          0.17307908305103153,
+          0.10141894755553453,
+          0.25555044907098984
+        ],
+        "prediction": [
+          0.15185596719671207,
+          0.1701257139543183,
+          0.12455814029481808,
+          0.27632542341342675
+        ],
+        "baseline": [
+          0.15185596719671207,
+          0.22569835801934682,
+          0.179472949509112,
+          0.26550074964175147
+        ],
+        "out_of_range": false,
+        "uses_future_reference": false,
+        "model_selection": {
+          "selection_scope": "inner_training_leave_one_identity_out",
+          "training_ids": [
+            "YG_01",
+            "YG_02",
+            "YG_03",
+            "YG_04",
+            "YG_05",
+            "YG_06",
+            "YG_09"
+          ],
+          "inner_folds": [
+            {
+              "held_out": "YG_01",
+              "train_ids": [
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_09"
+              ]
+            },
+            {
+              "held_out": "YG_02",
+              "train_ids": [
+                "YG_01",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_09"
+              ]
+            },
+            {
+              "held_out": "YG_03",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_04",
+                "YG_05",
+                "YG_06",
+                "YG_09"
+              ]
+            },
+            {
+              "held_out": "YG_04",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_05",
+                "YG_06",
+                "YG_09"
+              ]
+            },
+            {
+              "held_out": "YG_05",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_06",
+                "YG_09"
+              ]
+            },
+            {
+              "held_out": "YG_06",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_09"
+              ]
+            },
+            {
+              "held_out": "YG_09",
+              "train_ids": [
+                "YG_01",
+                "YG_02",
+                "YG_03",
+                "YG_04",
+                "YG_05",
+                "YG_06"
+              ]
+            }
+          ],
+          "choices": [
+            {
+              "target_indices": [
+                0
+              ],
+              "selected": "mean",
+              "inner_mae": 0.015542903265286514,
+              "candidate_inner_mae": {
+                "mean": 0.015542903265286514,
+                "ridge_1.0": 0.018903429464216286,
+                "ridge_3.0": 0.018705105238827482,
+                "ridge_10.0": 0.01770678715698904,
+                "ridge_30.0": 0.016860697349871664
+              }
+            },
+            {
+              "target_indices": [
+                1,
+                2
+              ],
+              "selected": "ridge_10.0",
+              "inner_mae": 0.02818353861688771,
+              "candidate_inner_mae": {
+                "mean": 0.04035892219211954,
+                "ridge_1.0": 0.03618382134724288,
+                "ridge_3.0": 0.03156810002217211,
+                "ridge_10.0": 0.02818353861688771,
+                "ridge_30.0": 0.03440771290880644
+              }
+            },
+            {
+              "target_indices": [
+                3
+              ],
+              "selected": "ridge_3.0",
+              "inner_mae": 0.011815574188557046,
+              "candidate_inner_mae": {
+                "mean": 0.014568894790488522,
+                "ridge_1.0": 0.013154740361011465,
+                "ridge_3.0": 0.011815574188557046,
+                "ridge_10.0": 0.013919637353322658,
+                "ridge_30.0": 0.014784274338341912
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "model_mae": [
+      0.014619502618236946,
+      0.018543410559994422,
+      0.03485288397103209,
+      0.018424556889923838
+    ],
+    "baseline_mae": [
+      0.01433788032362913,
+      0.044992526609506145,
+      0.044018933572912755,
+      0.013909095616241825
+    ],
+    "better_than_mean": [
+      false,
+      true,
+      true,
+      false
+    ],
+    "status": "exploratory_relative_endpoint_forecast",
+    "model_parameterization": "nested train-only choice: mean or constrained Ridge alpha in [1,3,10,30]",
+    "limitations": [
+      "no physical size calibration",
+      "not a continuous biological growth curve",
+      "estimated late spheres are targets, not agricultural ground truth",
+      "future-guided corrections are excluded"
+    ]
+  }
+}

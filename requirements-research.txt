@@ -1,0 +1,5 @@
+-r requirements.txt
+open3d>=0.18,<0.20
+opencv-python>=4.8,<5
+torch>=2.6,<3
+torchvision>=0.21,<1

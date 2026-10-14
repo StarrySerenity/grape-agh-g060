@@ -1,0 +1,90 @@
+{
+  "samples": [
+    {
+      "id": "YOUNG_01",
+      "group": "GROW",
+      "seed": 330711,
+      "count": 36,
+      "profile": "cone",
+      "relative_radius": 0.115
+    },
+    {
+      "id": "YOUNG_02",
+      "group": "GROW",
+      "seed": 330733,
+      "count": 42,
+      "profile": "shoulder",
+      "relative_radius": 0.125
+    },
+    {
+      "id": "YOUNG_03",
+      "group": "GROW",
+      "seed": 330757,
+      "count": 48,
+      "profile": "curved",
+      "relative_radius": 0.135
+    },
+    {
+      "id": "YOUNG_04",
+      "group": "YG",
+      "seed": 330779,
+      "count": 52,
+      "profile": "cone",
+      "relative_radius": 0.074
+    },
+    {
+      "id": "YOUNG_05",
+      "group": "YG",
+      "seed": 330799,
+      "count": 60,
+      "profile": "shoulder",
+      "relative_radius": 0.08
+    },
+    {
+      "id": "YOUNG_06",
+      "group": "YG",
+      "seed": 330823,
+      "count": 68,
+      "profile": "curved",
+      "relative_radius": 0.086
+    }
+  ],
+  "count": 6,
+  "uses_existing_growth_predictor": true,
+  "no_new_training": true,
+  "source_pairs": {
+    "GROW": [
+      "GROW_01",
+      "GROW_02",
+      "GROW_03",
+      "GROW_04",
+      "GROW_05",
+      "GROW_06",
+      "GROW_07",
+      "GROW_08",
+      "GROW_09",
+      "GROW_10"
+    ],
+    "YG": [
+      "YG_01",
+      "YG_02",
+      "YG_03",
+      "YG_04",
+      "YG_05",
+      "YG_06",
+      "YG_09",
+      "YG_10"
+    ]
+  },
+  "input_is_independent_synthetic_young": true,
+  "cohort_specific_days": {
+    "GROW": 40,
+    "YG": 14
+  },
+  "center_expansion": 1.35,
+  "expansion_is_uncalibrated_display_assumption": true,
+  "young_input_generation": "branching grammar with small spherical berries",
+  "output_no_dropout_model": true,
+  "relative_geometry_only": true,
+  "validation": "sphere IDs/counts, growth ratios, overlaps, multi-angle browser inspection"
+}

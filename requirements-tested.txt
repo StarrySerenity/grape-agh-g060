@@ -1,0 +1,6 @@
+# Tested with Python 3.9.25 on Windows
+numpy==2.0.1
+scipy==1.13.1
+scikit-learn==1.6.1
+matplotlib==3.9.2
+pytest>=8,<9

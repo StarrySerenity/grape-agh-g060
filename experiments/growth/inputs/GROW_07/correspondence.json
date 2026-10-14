@@ -1,0 +1,489 @@
+{
+  "rotation": [
+    [
+      -0.01435285966443875,
+      -0.13681745265041234,
+      -0.990492291777026
+    ],
+    [
+      -0.26184075578089566,
+      0.9565406138284444,
+      -0.12833344345412664
+    ],
+    [
+      0.9650043595919879,
+      0.25750929836989617,
+      -0.04955347839961677
+    ]
+  ],
+  "scale": 0.8103480302119594,
+  "translation": [
+    -0.8917355570393778,
+    -0.1962741403414826,
+    0.23956761738426435
+  ],
+  "transformed_late_centers": [
+    [
+      -0.44548481701773723,
+      -0.10323864034461987,
+      1.6758924132596276
+    ],
+    [
+      -0.3824858650888653,
+      -0.9223228762941961,
+      1.7202216628408293
+    ],
+    [
+      -0.6990453884613103,
+      -0.7835804090330636,
+      1.6171655774649087
+    ],
+    [
+      -0.7359761449831702,
+      -0.3766027380567637,
+      1.512479669554366
+    ],
+    [
+      -0.3935609715108048,
+      -0.6121607827297311,
+      1.4800733729129045
+    ],
+    [
+      -0.6591856955001578,
+      0.5944097147544489,
+      1.3110938811027522
+    ],
+    [
+      -0.46127445429976316,
+      0.14329790301278822,
+      1.3128300923465828
+    ],
+    [
+      -0.9479595404211184,
+      0.2884530313169441,
+      1.2779383239088404
+    ],
+    [
+      -0.3497321741464411,
+      0.8849905757258524,
+      1.1781025278839499
+    ],
+    [
+      -0.7337944714277609,
+      0.974702869205628,
+      1.1591245145425757
+    ],
+    [
+      0.1759271795394678,
+      -0.6182455033810149,
+      1.3312160993330395
+    ],
+    [
+      -0.046440745949056894,
+      -0.03851018922115501,
+      1.219421915361261
+    ],
+    [
+      -1.145783187892698,
+      -0.13468184668706687,
+      1.2327978770182817
+    ],
+    [
+      -0.15539749916648937,
+      -0.3974817392852753,
+      1.2573413489679406
+    ],
+    [
+      -0.23316952002106228,
+      0.47250395346331575,
+      1.1221073069804608
+    ],
+    [
+      -0.05650825990599373,
+      -1.007677435820317,
+      1.2988781248305048
+    ],
+    [
+      -0.7815094531656607,
+      -0.10780520173147405,
+      1.219804839587061
+    ],
+    [
+      -0.8493304720405395,
+      -0.6306014622439748,
+      1.216908363107453
+    ],
+    [
+      -0.9658554363911042,
+      1.0687255947634546,
+      0.9503590137361287
+    ],
+    [
+      -0.5226516539665618,
+      1.0667168186200295,
+      0.9295914659391101
+    ],
+    [
+      -0.7958799131991565,
+      0.6339457354681943,
+      0.9570387896112686
+    ],
+    [
+      -1.177415734709,
+      -0.4677953546920137,
+      1.031113342866672
+    ],
+    [
+      -0.3003299059521847,
+      -0.31352509142317386,
+      0.9584727864544351
+    ],
+    [
+      -0.9674579642529767,
+      0.36378752863927055,
+      0.8143959668465633
+    ],
+    [
+      -0.050500556324634904,
+      0.183303370276943,
+      0.8603716752245198
+    ],
+    [
+      -0.8654154888141656,
+      -1.1983504358383419,
+      1.0560867101119524
+    ],
+    [
+      -0.9723306468626518,
+      -0.05858089750323073,
+      0.8595800546803988
+    ],
+    [
+      -0.4045841290747799,
+      -1.0287198913973592,
+      0.9660797933042881
+    ],
+    [
+      0.1158014324737221,
+      -1.2036159113653806,
+      0.9532189347563765
+    ],
+    [
+      -0.7622211491925244,
+      1.123759427018736,
+      0.6229909765433737
+    ],
+    [
+      -1.0161205027380662,
+      -0.7932078797628053,
+      0.898237637605354
+    ],
+    [
+      -0.5160032012985765,
+      0.7976612047501385,
+      0.6754455475269856
+    ],
+    [
+      -0.21523267635011578,
+      0.49994856890408257,
+      0.6711918651280785
+    ],
+    [
+      -1.0892863219408446,
+      0.8303390190521861,
+      0.6334583120731885
+    ],
+    [
+      -0.17916616202478663,
+      -0.7971434126829972,
+      0.8511003872909985
+    ],
+    [
+      -0.6041746753296933,
+      -0.4966706216857867,
+      0.7902536455110908
+    ],
+    [
+      -0.609906469171202,
+      0.42237056927837235,
+      0.644681025778444
+    ],
+    [
+      -0.4095944649379608,
+      0.060832089722295646,
+      0.6531290231149077
+    ],
+    [
+      0.005349562296673049,
+      -0.13567293188618276,
+      0.6039454759288604
+    ],
+    [
+      -0.9787503415123849,
+      -0.46492229893356896,
+      0.6532080090634202
+    ],
+    [
+      -0.4619049246107046,
+      -0.3017060854203406,
+      0.4570771170596751
+    ],
+    [
+      -0.37175539660562895,
+      -0.6845615742282467,
+      0.47979944554551696
+    ]
+  ],
+  "matches": [
+    {
+      "early_id": "N001",
+      "late_id": "C040",
+      "early_index": 0,
+      "late_index": 38,
+      "residual_over_radius": 0.29033519706342076,
+      "local_margin_over_radius": 2.710471676845731,
+      "geometric_confidence": "strong_candidate",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N002",
+      "late_id": "C039",
+      "early_index": 1,
+      "late_index": 37,
+      "residual_over_radius": 0.7326204777806894,
+      "local_margin_over_radius": 1.9042314061160133,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N004",
+      "late_id": "C043",
+      "early_index": 3,
+      "late_index": 41,
+      "residual_over_radius": 1.0831834598531282,
+      "local_margin_over_radius": 1.330421540973963,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N006",
+      "late_id": "C042",
+      "early_index": 5,
+      "late_index": 40,
+      "residual_over_radius": 1.0638539050289588,
+      "local_margin_over_radius": 1.3497510957981322,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N007",
+      "late_id": "C028",
+      "early_index": 6,
+      "late_index": 26,
+      "residual_over_radius": 0.7235423994922562,
+      "local_margin_over_radius": 1.2984489615835983,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N008",
+      "late_id": "C029",
+      "early_index": 7,
+      "late_index": 27,
+      "residual_over_radius": 1.2444812147222917,
+      "local_margin_over_radius": 0.5903296985395621,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N012",
+      "late_id": "C033",
+      "early_index": 11,
+      "late_index": 31,
+      "residual_over_radius": 1.1830075052507518,
+      "local_margin_over_radius": 0.23277376380611914,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N013",
+      "late_id": "C016",
+      "early_index": 12,
+      "late_index": 15,
+      "residual_over_radius": 1.038973611334907,
+      "local_margin_over_radius": 1.0190482744080365,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N016",
+      "late_id": "C031",
+      "early_index": 15,
+      "late_index": 29,
+      "residual_over_radius": 1.1037369204934033,
+      "local_margin_over_radius": 1.1959953407259454,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N023",
+      "late_id": "C020",
+      "early_index": 22,
+      "late_index": 19,
+      "residual_over_radius": 0.7568537051576838,
+      "local_margin_over_radius": 0.29312773815882487,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N024",
+      "late_id": "C002",
+      "early_index": 23,
+      "late_index": 1,
+      "residual_over_radius": 0.7902569579758645,
+      "local_margin_over_radius": 1.5856608744870493,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N025",
+      "late_id": "C037",
+      "early_index": 24,
+      "late_index": 35,
+      "residual_over_radius": 0.8638551037149345,
+      "local_margin_over_radius": 1.7830291704989263,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N028",
+      "late_id": "C018",
+      "early_index": 27,
+      "late_index": 17,
+      "residual_over_radius": 1.0515706854602584,
+      "local_margin_over_radius": 1.1388820506772341,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N030",
+      "late_id": "C027",
+      "early_index": 29,
+      "late_index": 25,
+      "residual_over_radius": 0.6968814306274452,
+      "local_margin_over_radius": 1.6267647002746917,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N032",
+      "late_id": "C023",
+      "early_index": 31,
+      "late_index": 21,
+      "residual_over_radius": 1.2961796865797823,
+      "local_margin_over_radius": 1.0684894307155508,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N033",
+      "late_id": "C025",
+      "early_index": 32,
+      "late_index": 23,
+      "residual_over_radius": 0.43949477115261804,
+      "local_margin_over_radius": 1.6430306901376384,
+      "geometric_confidence": "strong_candidate",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N035",
+      "late_id": "C010",
+      "early_index": 34,
+      "late_index": 9,
+      "residual_over_radius": 0.2184746251309228,
+      "local_margin_over_radius": 1.843396766660653,
+      "geometric_confidence": "strong_candidate",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N036",
+      "late_id": "C007",
+      "early_index": 35,
+      "late_index": 6,
+      "residual_over_radius": 0.7639969697201136,
+      "local_margin_over_radius": 0.8477677057929011,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N038",
+      "late_id": "C008",
+      "early_index": 37,
+      "late_index": 7,
+      "residual_over_radius": 1.0691216961065573,
+      "local_margin_over_radius": 1.567669565269439,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N040",
+      "late_id": "C021",
+      "early_index": 39,
+      "late_index": 20,
+      "residual_over_radius": 0.031403477538746775,
+      "local_margin_over_radius": 1.2777702766939611,
+      "geometric_confidence": "strong_candidate",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N041",
+      "late_id": "C003",
+      "early_index": 40,
+      "late_index": 2,
+      "residual_over_radius": 0.7307104646270843,
+      "local_margin_over_radius": 1.6004728103631636,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N042",
+      "late_id": "C004",
+      "early_index": 41,
+      "late_index": 3,
+      "residual_over_radius": 0.923561960645262,
+      "local_margin_over_radius": 1.2668907754922307,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "U001",
+      "late_id": "C001",
+      "early_index": 43,
+      "late_index": 0,
+      "residual_over_radius": 1.373287535640437,
+      "local_margin_over_radius": 0.9857061970896704,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "U002",
+      "late_id": "C006",
+      "early_index": 44,
+      "late_index": 5,
+      "residual_over_radius": 0.6137457810005975,
+      "local_margin_over_radius": 1.7497561207503582,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    }
+  ],
+  "median_residual_over_radius": 0.8270560308453995,
+  "coverage_early": 0.5333333333333333,
+  "coverage_late": 0.5714285714285714,
+  "objective": 1.336707202267721,
+  "alternative_objective_gap": 0.23428981755791511,
+  "ambiguous_global_alignment": false,
+  "physical_growth_scale": false,
+  "all_correspondences_verified": false,
+  "alignment_source": "automatic_geometric_candidates",
+  "anchors": []
+}

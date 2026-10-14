@@ -1,0 +1,734 @@
+{
+  "source_root": "E:\\grape_growth_workspace_20261013",
+  "snapshot_date": "2026-10-14",
+  "source_version": "structure training finalized 16:28 local; subsequent research not included",
+  "files": {
+    "README.md": {
+      "sha256": "092f39920ec29df338f4427bbd909330ba78252060c0cd6ac2d05f78790339d3",
+      "snapshot": "data/update-20261014/README.md"
+    },
+    "results/forecast.json": {
+      "sha256": "76744b506f3967d5cf3f604ee55b626736002293691de8d55e55b797597ecf51",
+      "snapshot": "data/update-20261014/results/forecast.json"
+    },
+    "structure_training_20261014/results.json": {
+      "sha256": "4431d49f94f84ffd70d63b50fe1f4bd53e29d90ef063724dd1772b01f5dd80fc",
+      "snapshot": "data/update-20261014/structure_training_20261014/results.json"
+    },
+    "structure_training_20261014/README.md": {
+      "sha256": "7b1586f9ff8237b263815b5859a1438b74bfe4f7f7e7b5de50f2d89503206afe",
+      "snapshot": "data/update-20261014/structure_training_20261014/README.md"
+    },
+    "structure_training_20261014/registry.json": {
+      "sha256": "624cf1ed07e9cc8c3492cc187b9efa6015ff239c4baa2b86f71f40e555662e90",
+      "snapshot": "data/update-20261014/structure_training_20261014/registry.json"
+    },
+    "structure_training_20261014/protocol.json": {
+      "sha256": "7d128629c1a362b1b8f1c9ed0eabce654a32b945454a7657b078850c41ca0094",
+      "snapshot": "data/update-20261014/structure_training_20261014/protocol.json"
+    },
+    "structure_training_20261014/selection.json": {
+      "sha256": "73e199e846efb92e6b3b00cea367012c94229965d89b8dd12ef9c3fbd7d3eaca",
+      "snapshot": "data/update-20261014/structure_training_20261014/selection.json"
+    },
+    "structure_training_20261014/graph_model.py": {
+      "sha256": "b7c2939fde2c0b0590c1426e98b98b48e131e82ff047e9341989b35b59cc6902",
+      "snapshot": "data/update-20261014/structure_training_20261014/graph_model.py"
+    },
+    "/api/structure-trained/thumb/6": {
+      "sha256": "178f7db58e73fadbe42634c9051cef31646e67f9d40559bee62fc46fecc2e43c",
+      "snapshot": "data/update-20261014/images/6.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/95": {
+      "sha256": "4c95dd255ba1b0ed8e642f9b3153be92164b231adc04eab1f80f01b83456272b",
+      "snapshot": "data/update-20261014/images/95.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/96": {
+      "sha256": "6facf806bcbd2dda945966ea7e0729d298367fa2f4ae2919eb7dbf204a939b4c",
+      "snapshot": "data/update-20261014/images/96.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/97": {
+      "sha256": "171aa1e5ec2c3e036e5ba72a1ad47f80122a13988474def830584139be6601b7",
+      "snapshot": "data/update-20261014/images/97.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/98": {
+      "sha256": "d4fe96f50dfad78d4359a5832ee16f5e23c7b0b66a10f6fa8527047f5c2d32b9",
+      "snapshot": "data/update-20261014/images/98.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/104": {
+      "sha256": "90eb564c8e2a42e508c53ca4b7313bb29524af1ecd1ebd05341b6408ac664b36",
+      "snapshot": "data/update-20261014/images/104.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/105": {
+      "sha256": "dda4df23299bbefffb4198f0ff8e79cfddeb93079727e1ac3d90bd0f6ae776a6",
+      "snapshot": "data/update-20261014/images/105.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/111": {
+      "sha256": "138d5cc92bafdc7b140ec87c8f56f0b1df48100de935b99433a4f89e09821687",
+      "snapshot": "data/update-20261014/images/111.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/114": {
+      "sha256": "942234cd032a2dd9f3e989b62f88bd4b3e244318dd8eaece7b223b15dec8fe6b",
+      "snapshot": "data/update-20261014/images/114.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/115": {
+      "sha256": "f10b7970cd45fde2777f5c8d147405fd14eb6535dec530b181a4d04a49301d94",
+      "snapshot": "data/update-20261014/images/115.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/153": {
+      "sha256": "5b88cd71da803b00481e66e3546e4a101f3d1010469afdb9a88ee78820100800",
+      "snapshot": "data/update-20261014/images/153.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/212": {
+      "sha256": "a9a98eb878685ba1ceeb0bc0143ff7163012ffe25b3d639c723c890047a79443",
+      "snapshot": "data/update-20261014/images/212.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/213": {
+      "sha256": "16b4d948023a72f5dd6690b5905e2a2a37cd188d263e0f7a839cdc559960331d",
+      "snapshot": "data/update-20261014/images/213.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/214": {
+      "sha256": "466f021cb530ee7e22634e5ce8f590ac1a0b1401e698a3a337614495663616be",
+      "snapshot": "data/update-20261014/images/214.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/229": {
+      "sha256": "18d1d5c976162952342457669bf2dc61e5b022fd59f66cf16c4a5f4a38a86f9b",
+      "snapshot": "data/update-20261014/images/229.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/247": {
+      "sha256": "7bf8a6401f71e8578f5fdf8c25e9b537c5562ec59351333988fafc76c2b45027",
+      "snapshot": "data/update-20261014/images/247.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/301": {
+      "sha256": "06dfe715fb112ea20fa79eb69883b72d4ba10bde091c6f46a06bad59c7c7e4b8",
+      "snapshot": "data/update-20261014/images/301.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/302": {
+      "sha256": "999f3422663f10dfac7acbb3fa6c013162926c7c39be7f10f5b87850ed2b68bb",
+      "snapshot": "data/update-20261014/images/302.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/303": {
+      "sha256": "d10313941c060f169cbfe765b3873979bf631375fdeb723499e7b06ad438ff5b",
+      "snapshot": "data/update-20261014/images/303.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/314": {
+      "sha256": "b26500027e02a018d50d9dcd599e5cdc5a9989a5db6ed44b9e37b8dca6ae9c88",
+      "snapshot": "data/update-20261014/images/314.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/316": {
+      "sha256": "2579b786ff681a2594fe99fe901e836dcee3ca9ca6c93c504772e5ab8193b33d",
+      "snapshot": "data/update-20261014/images/316.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/317": {
+      "sha256": "02728783ca5ad84b11e10a57a690d3ee48aaab9fe87ff738cf1acb6398efd155",
+      "snapshot": "data/update-20261014/images/317.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/383": {
+      "sha256": "8d04a31b2249298537835453dd691588dd71116ce2abd8fdd31e3e6da02191e4",
+      "snapshot": "data/update-20261014/images/383.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/391": {
+      "sha256": "a8372fadd67ef1d901edd66b2a84a33c95c26e6651bc80f052bd58f8df99e49f",
+      "snapshot": "data/update-20261014/images/391.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/510": {
+      "sha256": "232997ed4d8dc0abaa4c8eb28a812cf9c5ff408f80ca2b645ccdc570c5794d45",
+      "snapshot": "data/update-20261014/images/510.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/545": {
+      "sha256": "e560f143c35e6e8a2159bfc02618c788a53a46e9bb7c1137da23c3b275d1593a",
+      "snapshot": "data/update-20261014/images/545.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/566": {
+      "sha256": "487b2748ad23b4186018f2c02f54ff23f4baeb1b44a522cd473c210779b378e4",
+      "snapshot": "data/update-20261014/images/566.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/569": {
+      "sha256": "68783384bb6e22a20c16a63fd126cbd0e0f9370d5f213555e0e60bc149d7b1c0",
+      "snapshot": "data/update-20261014/images/569.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/614": {
+      "sha256": "225718673db716bcda185555b9cf063ea299b99d01dbf37bd58bc5a32f02831f",
+      "snapshot": "data/update-20261014/images/614.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/623": {
+      "sha256": "d432246fcb3161622aac3c1a7d158e9f45db5361f15c873ab9709e0f57e26d4a",
+      "snapshot": "data/update-20261014/images/623.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/624": {
+      "sha256": "7a483019110b23dafc09e42e4269196abebb411678ed8a11ab78d31b2099c2f9",
+      "snapshot": "data/update-20261014/images/624.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/625": {
+      "sha256": "0f00bc754cf68051028489ea45f7f2438c37f56f8d3ca53d4f68507594826aff",
+      "snapshot": "data/update-20261014/images/625.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/632": {
+      "sha256": "62e045470703da579c2d051d86ba67c5aefa405bfd108cc3f96de4e5265f76e1",
+      "snapshot": "data/update-20261014/images/632.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/638": {
+      "sha256": "2993f4cc37e84f8119113a28a5cef516e6a9ea9c7068abd1785b154236162530",
+      "snapshot": "data/update-20261014/images/638.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/641": {
+      "sha256": "226bea5fc05862ae93610503792f18721fc379ce3a563a3984bcc8235796fd67",
+      "snapshot": "data/update-20261014/images/641.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/657": {
+      "sha256": "12cffdbedfe03bf469db0846fb40385da566239119524d03e579cac745a05846",
+      "snapshot": "data/update-20261014/images/657.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/662": {
+      "sha256": "19ffa85172c77baf1ca8951e378bca5c5398fc0d7e2d1df3f4cb3e6027ce0ebd",
+      "snapshot": "data/update-20261014/images/662.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/687": {
+      "sha256": "32aaddf41f6d85259525a8a91c3c6ba423bc48bde11072f9f86197ffaf71153c",
+      "snapshot": "data/update-20261014/images/687.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/704": {
+      "sha256": "e23cb9e45b6f8f517af768d9712ef6769eb1fb807fa971ce4acd2cb963d12cf6",
+      "snapshot": "data/update-20261014/images/704.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/747": {
+      "sha256": "36e8076d931d005ac527d2dfb653606e985c0c5b820f55cee3b42b54994b0daf",
+      "snapshot": "data/update-20261014/images/747.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/793": {
+      "sha256": "27cc54566f7f2a7514ac369747a6f4c043aaf8014ed6daf155a1e6b7ece076aa",
+      "snapshot": "data/update-20261014/images/793.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/821": {
+      "sha256": "02471d61713c209d51f6dfa3bfb370e7f44308a359fb9a7fbfc53e602eb9293b",
+      "snapshot": "data/update-20261014/images/821.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/846": {
+      "sha256": "d0257e1b3d3cbda6d7604d525188eac29f795bfdfec1fe56193d0eaaffd07129",
+      "snapshot": "data/update-20261014/images/846.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/847": {
+      "sha256": "b99b7af08f9a0e51bbd16d74531989c8573f5695dfb96a9ed19c663089e69f6f",
+      "snapshot": "data/update-20261014/images/847.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/848": {
+      "sha256": "8c4255c74b1cc9c61f5ec0edc4684c60b1e6c3695511a862409fc79cf187b4a3",
+      "snapshot": "data/update-20261014/images/848.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/849": {
+      "sha256": "49dccfdeffa3acafe8cdf450572211527834206d4f13d33e49190d5348c44d82",
+      "snapshot": "data/update-20261014/images/849.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/853": {
+      "sha256": "07ec5d32d436e9b5cb7e2da51f692fe82dd4cf00daf469e00ee8810eb91c08cf",
+      "snapshot": "data/update-20261014/images/853.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/859": {
+      "sha256": "159bfebcba6fa8105809532bd164f80676de37fb33cf4aca1a1b9b8f4b8016e9",
+      "snapshot": "data/update-20261014/images/859.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/860": {
+      "sha256": "2a048ddf0f4b61e52fe3b771c2fab4ed64d5562a2414e7725af3c1b7b9a2583d",
+      "snapshot": "data/update-20261014/images/860.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/861": {
+      "sha256": "357c59115bd1e6b20b905e8e404d1e0fb4c0d3ec40feab0d8e05334d1e9d82d1",
+      "snapshot": "data/update-20261014/images/861.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/862": {
+      "sha256": "ff64bced937cf7c7c2c46325aff63ad3fba38f64711aac0bd02fea7fa0f63a46",
+      "snapshot": "data/update-20261014/images/862.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/868": {
+      "sha256": "955fdc4d6f9b171fa4d11fe25d4f9dcd6eb47be3e37f79ecde86c8c02550f05b",
+      "snapshot": "data/update-20261014/images/868.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/870": {
+      "sha256": "58551f44fb5abe5afb1bc2ebd6b86c8f8c5b4ce1e532da012e6ea813f6f15873",
+      "snapshot": "data/update-20261014/images/870.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/881": {
+      "sha256": "7ca4d9854bf025ed85154a36864afc19847ff80023cbc45c39ad05b887cbd607",
+      "snapshot": "data/update-20261014/images/881.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/886": {
+      "sha256": "d9f2d6e75ac600e4da9b33a73d651d3024e7a55f2e906bd58d8f76c6dbe2eca3",
+      "snapshot": "data/update-20261014/images/886.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "/api/structure-trained/thumb/1049": {
+      "sha256": "fc31f55f9e031a4954c523f6576f712688292f41caba4b10a28dfde859d210d6",
+      "snapshot": "data/update-20261014/images/1049.jpg",
+      "copy_kind": "derived masked crop from local upstream API"
+    },
+    "structure_training_20261014/catalog.json": {
+      "sha256": "668d99c57d0b3e95e24ee3dc60d49321f134d047accb8f5bf41a7fbb566acb2a",
+      "snapshot": "data/update-20261014/catalog.json",
+      "copy_kind": "normalized JSON; selected image paths added"
+    },
+    "structure_training_20261014/models/real_only/best.pt": {
+      "sha256": "e74568bd6e594328969287eb77b1ef3af15349715303875e57f280d3fd94886d",
+      "snapshot": "data/update-20261014/structure_training_20261014/models/real_only/best.pt"
+    },
+    "structure_training_20261014/gallery/real_only/embeddings.npy": {
+      "sha256": "8d11d8756d118ea5f3c39ab139190940a8092a87c9f5a62c7561cbd79083a6d8",
+      "snapshot": "data/update-20261014/structure_training_20261014/gallery/real_only/embeddings.npy"
+    },
+    "structure_training_20261014/models/mixed_010/best.pt": {
+      "sha256": "e75f720fc8db6449ed22dd17b08c3a6fce188a5d9d37244ef0eff663c8a3e752",
+      "snapshot": "data/update-20261014/structure_training_20261014/models/mixed_010/best.pt"
+    },
+    "structure_training_20261014/gallery/mixed/embeddings.npy": {
+      "sha256": "1cadb5418c2f1d765e5a483723e96efa6915f39993d91666e949de1978bded4d",
+      "snapshot": "data/update-20261014/structure_training_20261014/gallery/mixed/embeddings.npy"
+    },
+    "pairs/GROW_01/early_original.json": {
+      "sha256": "d78a1400b3aa54dbf9137729c04906058c069bdaa6954e8c76459c8d8222732e",
+      "snapshot": "data/update-20261014/pairs/GROW_01/early_original.json"
+    },
+    "pairs/GROW_01/late_original.json": {
+      "sha256": "12c8608f82efd972582f53fbffdcc731ad7168b34acce951467f9249ae4ebe9e",
+      "snapshot": "data/update-20261014/pairs/GROW_01/late_original.json"
+    },
+    "pairs/GROW_01/predicted_grown_models.json": {
+      "sha256": "d28022c048820536cb9c760da6363a107da92539852b95e486b4d36fe1f9c375",
+      "snapshot": "data/update-20261014/pairs/GROW_01/predicted_grown_models.json"
+    },
+    "pairs/GROW_01/grown_display.json": {
+      "sha256": "38f509a31f71aff9e8fceffe162f11145607e5be7eaf31aadcd37036e053dba9",
+      "snapshot": "data/update-20261014/pairs/GROW_01/grown_display.json"
+    },
+    "pairs/GROW_01/report.json": {
+      "sha256": "8f5815644e2aa4d3006cd7d345d16fecb77ba5d08e5aa82dd235aed1cd2d495f",
+      "snapshot": "data/update-20261014/pairs/GROW_01/report.json"
+    },
+    "pairs/GROW_02/early_original.json": {
+      "sha256": "430b5716114f1ed7bc368ce578260c945d0d6626b25587c4c4d6342aff608fa1",
+      "snapshot": "data/update-20261014/pairs/GROW_02/early_original.json"
+    },
+    "pairs/GROW_02/late_original.json": {
+      "sha256": "70760484f2e4e04bf6499cca5c3afd89bbcea2fe0d8ef11313e4d7f90e69514f",
+      "snapshot": "data/update-20261014/pairs/GROW_02/late_original.json"
+    },
+    "pairs/GROW_02/predicted_grown_models.json": {
+      "sha256": "a66fd688e083a7c65cca3eede1448dd0581501185b2859f48aa849212008a0bb",
+      "snapshot": "data/update-20261014/pairs/GROW_02/predicted_grown_models.json"
+    },
+    "pairs/GROW_02/grown_display.json": {
+      "sha256": "a038742fc7fe28200f90046fe321ac52b0c24c94caa93a0b3585a84c5dd4d302",
+      "snapshot": "data/update-20261014/pairs/GROW_02/grown_display.json"
+    },
+    "pairs/GROW_02/report.json": {
+      "sha256": "73d9440931854e8eebf55c571d6e6dbe69a3107bde0a866f59b7682d9db6095a",
+      "snapshot": "data/update-20261014/pairs/GROW_02/report.json"
+    },
+    "pairs/GROW_03/early_original.json": {
+      "sha256": "60325217edc8ae335677884745f84da0938bf87c3658daa8725ba71ba342b2c2",
+      "snapshot": "data/update-20261014/pairs/GROW_03/early_original.json"
+    },
+    "pairs/GROW_03/late_original.json": {
+      "sha256": "0386b559e27baeb13fb290b1de21de4801b9226d32bcb8b47318e2fe2a4e5c1f",
+      "snapshot": "data/update-20261014/pairs/GROW_03/late_original.json"
+    },
+    "pairs/GROW_03/predicted_grown_models.json": {
+      "sha256": "ffac35e3399a711c15bab5b300a2b7b13fd3e0db5bdcbc90079b6b98be3390b2",
+      "snapshot": "data/update-20261014/pairs/GROW_03/predicted_grown_models.json"
+    },
+    "pairs/GROW_03/grown_display.json": {
+      "sha256": "6f771528d984934df88c2b3c23ec4f15468e13b6034c3a06f7d597841ab5a89d",
+      "snapshot": "data/update-20261014/pairs/GROW_03/grown_display.json"
+    },
+    "pairs/GROW_03/report.json": {
+      "sha256": "6f068b629ed484e7ae85134196d86a24d9bdbe6491948d83969d3bf2fcd591c1",
+      "snapshot": "data/update-20261014/pairs/GROW_03/report.json"
+    },
+    "pairs/GROW_04/early_original.json": {
+      "sha256": "b8eafce80de62e0a73d5d13e9192193b3e6aa9d32c4ac2da9db9823250486861",
+      "snapshot": "data/update-20261014/pairs/GROW_04/early_original.json"
+    },
+    "pairs/GROW_04/late_original.json": {
+      "sha256": "f3476cd28d23c7667b77124b66ebb1fa892656135ff4fe78bde6f35e7274238f",
+      "snapshot": "data/update-20261014/pairs/GROW_04/late_original.json"
+    },
+    "pairs/GROW_04/predicted_grown_models.json": {
+      "sha256": "cdf0b6bf6ebe5c218f913b379aced7a2a58e22cfd6f1ef148bc9fe6b9797f4ff",
+      "snapshot": "data/update-20261014/pairs/GROW_04/predicted_grown_models.json"
+    },
+    "pairs/GROW_04/grown_display.json": {
+      "sha256": "66e242d509482f57101661b4a616c5675bfa71ef4f93610ce959c35a522f820a",
+      "snapshot": "data/update-20261014/pairs/GROW_04/grown_display.json"
+    },
+    "pairs/GROW_04/report.json": {
+      "sha256": "23f65990de5910a44dfa4684aa24434a2ca73c3c1c87abd28d80ccb766e1ae6c",
+      "snapshot": "data/update-20261014/pairs/GROW_04/report.json"
+    },
+    "pairs/GROW_05/early_original.json": {
+      "sha256": "41343fe2af070a96435fc141ad55006fd4c63855dfafb83ac97fccbb497e390e",
+      "snapshot": "data/update-20261014/pairs/GROW_05/early_original.json"
+    },
+    "pairs/GROW_05/late_original.json": {
+      "sha256": "8829fd4f34992e6e283021f75b30b6424fe025150909c1fad473014ff6f15711",
+      "snapshot": "data/update-20261014/pairs/GROW_05/late_original.json"
+    },
+    "pairs/GROW_05/predicted_grown_models.json": {
+      "sha256": "1e8cbc53308e92e2e339eb2171ae549999b0723b071247343752ade1b92dcaae",
+      "snapshot": "data/update-20261014/pairs/GROW_05/predicted_grown_models.json"
+    },
+    "pairs/GROW_05/grown_display.json": {
+      "sha256": "e1fc0df8aa6ad2de6a05a7d2f1a596aec31d54f9be42c838ed6109094265dc44",
+      "snapshot": "data/update-20261014/pairs/GROW_05/grown_display.json"
+    },
+    "pairs/GROW_05/report.json": {
+      "sha256": "469971d1f8b77b46b6e43119d312170856e9decfeda3f01314fdc991f0f84e31",
+      "snapshot": "data/update-20261014/pairs/GROW_05/report.json"
+    },
+    "pairs/GROW_06/early_original.json": {
+      "sha256": "eedee9dde34520a06781d3c86c942c4e7596b278b5d339410b1b858b8c684c67",
+      "snapshot": "data/update-20261014/pairs/GROW_06/early_original.json"
+    },
+    "pairs/GROW_06/late_original.json": {
+      "sha256": "063379ba44df8cd5c2e5897819bedd6cbc4434f476b4e4c7e83a6a3afe31378a",
+      "snapshot": "data/update-20261014/pairs/GROW_06/late_original.json"
+    },
+    "pairs/GROW_06/predicted_grown_models.json": {
+      "sha256": "bde220d9572c769f163bd00b471e6d23804abe3c6361941ede6109836854a6f4",
+      "snapshot": "data/update-20261014/pairs/GROW_06/predicted_grown_models.json"
+    },
+    "pairs/GROW_06/grown_display.json": {
+      "sha256": "fffb70abc1819539e7fc07e6c4d98f5781c2c331778b21bcd1a7bde6d0b0b6f3",
+      "snapshot": "data/update-20261014/pairs/GROW_06/grown_display.json"
+    },
+    "pairs/GROW_06/report.json": {
+      "sha256": "784070626c22e550365a84fc5e6fc667a5a268fccff7045218755a456093b75c",
+      "snapshot": "data/update-20261014/pairs/GROW_06/report.json"
+    },
+    "pairs/GROW_07/early_original.json": {
+      "sha256": "e133fb6aabb61ce660f38b4e0f76940d125ecfb5ebc61cdea317230113a5da0b",
+      "snapshot": "data/update-20261014/pairs/GROW_07/early_original.json"
+    },
+    "pairs/GROW_07/late_original.json": {
+      "sha256": "1d4c1d0584b1f3055353a57775c27ccabf0823a942f910472f1a02f1c674e75f",
+      "snapshot": "data/update-20261014/pairs/GROW_07/late_original.json"
+    },
+    "pairs/GROW_07/predicted_grown_models.json": {
+      "sha256": "d09e1622943e413ca3b98778d56a4b4dc4e7a1ce13d7e58246980cd4e5d657ec",
+      "snapshot": "data/update-20261014/pairs/GROW_07/predicted_grown_models.json"
+    },
+    "pairs/GROW_07/grown_display.json": {
+      "sha256": "aff3e22b8ee047a20eeb8e2582d3d3655fc8f660d97284c3b4f7f5f04ff6f145",
+      "snapshot": "data/update-20261014/pairs/GROW_07/grown_display.json"
+    },
+    "pairs/GROW_07/report.json": {
+      "sha256": "2d64c34549eed548cc7f929dc89f597b2cbc9e08d564493fe062d12afa3c58ad",
+      "snapshot": "data/update-20261014/pairs/GROW_07/report.json"
+    },
+    "pairs/GROW_08/early_original.json": {
+      "sha256": "4e31533d4b5664dfab63f80e7af4a4da68c8b8a7124f572acac26f3bb7913824",
+      "snapshot": "data/update-20261014/pairs/GROW_08/early_original.json"
+    },
+    "pairs/GROW_08/late_original.json": {
+      "sha256": "27768ae66a9b6ecc5c9ff1da4ad85a48efa37162d7ec34a52293a2122081d3df",
+      "snapshot": "data/update-20261014/pairs/GROW_08/late_original.json"
+    },
+    "pairs/GROW_08/predicted_grown_models.json": {
+      "sha256": "874104411bd5bce3a7ebb956fc0d0d51a46cb2873ed60dc802bece289a3f7c8d",
+      "snapshot": "data/update-20261014/pairs/GROW_08/predicted_grown_models.json"
+    },
+    "pairs/GROW_08/grown_display.json": {
+      "sha256": "854e45e725f35926ce5af1b16adb14810649cf2773fe801dee61482752630be5",
+      "snapshot": "data/update-20261014/pairs/GROW_08/grown_display.json"
+    },
+    "pairs/GROW_08/report.json": {
+      "sha256": "95aa3c7364c870c28d4248ad24f7db0687e0bfa276e67ccf3d24ccc0ad90508c",
+      "snapshot": "data/update-20261014/pairs/GROW_08/report.json"
+    },
+    "pairs/GROW_09/early_original.json": {
+      "sha256": "bc2be5461c1915ba8b219127942d5b12e8ab093760468361b4aa864ea1a365d0",
+      "snapshot": "data/update-20261014/pairs/GROW_09/early_original.json"
+    },
+    "pairs/GROW_09/late_original.json": {
+      "sha256": "dd52acb8fd342bf42a3fc91485a3f8e6bcb47e21ddeaf7366931a70348db2b5e",
+      "snapshot": "data/update-20261014/pairs/GROW_09/late_original.json"
+    },
+    "pairs/GROW_09/predicted_grown_models.json": {
+      "sha256": "17bb1d9eb961caa3253e116d638d14a0f98dab1c50fc087b4ab7b9dd3aca8ba3",
+      "snapshot": "data/update-20261014/pairs/GROW_09/predicted_grown_models.json"
+    },
+    "pairs/GROW_09/grown_display.json": {
+      "sha256": "37007b9c87d6c71e4d3acc74df396b049e04bc2cc7b41997c8e03cf31710f4f4",
+      "snapshot": "data/update-20261014/pairs/GROW_09/grown_display.json"
+    },
+    "pairs/GROW_09/report.json": {
+      "sha256": "d40fd46dc65c23e4c9cbea1824c27788bdb726b3d82aa1021e49707d7b56ca81",
+      "snapshot": "data/update-20261014/pairs/GROW_09/report.json"
+    },
+    "pairs/GROW_10/early_original.json": {
+      "sha256": "a972943c84e5107c63c2959cc97736b79a65ab0d3b84ee096f51e9e6b0255b28",
+      "snapshot": "data/update-20261014/pairs/GROW_10/early_original.json"
+    },
+    "pairs/GROW_10/late_original.json": {
+      "sha256": "2401fcbde90772dc5b5509b8b647849f1f5678db1aa80750014da494da5267ce",
+      "snapshot": "data/update-20261014/pairs/GROW_10/late_original.json"
+    },
+    "pairs/GROW_10/predicted_grown_models.json": {
+      "sha256": "73324647ff9b6265172a3f0620ed3341e0b989c49759af295f48b6cdf907445d",
+      "snapshot": "data/update-20261014/pairs/GROW_10/predicted_grown_models.json"
+    },
+    "pairs/GROW_10/grown_display.json": {
+      "sha256": "657f2b68db497a74928cc8035486298e4e7932c5d692159b780a2d212cf6e8d4",
+      "snapshot": "data/update-20261014/pairs/GROW_10/grown_display.json"
+    },
+    "pairs/GROW_10/report.json": {
+      "sha256": "bdb17c7143ad5cd45efd288f215424e74c74cd7bc59b229c441256b96ab30428",
+      "snapshot": "data/update-20261014/pairs/GROW_10/report.json"
+    },
+    "pairs/YG_01/early_original.json": {
+      "sha256": "573928c69f7d1283f9c77af47bf44dafae8da8c08e5f4899bf7fd4d6a682c051",
+      "snapshot": "data/update-20261014/pairs/YG_01/early_original.json"
+    },
+    "pairs/YG_01/late_original.json": {
+      "sha256": "d5a3560deccdad34b5b8f9bfd32d3dda6e0a9bdd9b6be70eecbb751373d13961",
+      "snapshot": "data/update-20261014/pairs/YG_01/late_original.json"
+    },
+    "pairs/YG_01/predicted_grown_models.json": {
+      "sha256": "2d5de82aed8f90c4a5cda8f480f378e2dac72e8f9609aade9d981d7ef05b1e11",
+      "snapshot": "data/update-20261014/pairs/YG_01/predicted_grown_models.json"
+    },
+    "pairs/YG_01/grown_display.json": {
+      "sha256": "e41da1e0add3d8eaebece92fec4818cd0ecddd0b02114b5a88f50a53754fe2e4",
+      "snapshot": "data/update-20261014/pairs/YG_01/grown_display.json"
+    },
+    "pairs/YG_01/report.json": {
+      "sha256": "3aac37d221e09474a68fae0e5b5bd335e0a3ed31a390f8aa745ce61933ea728f",
+      "snapshot": "data/update-20261014/pairs/YG_01/report.json"
+    },
+    "pairs/YG_02/early_original.json": {
+      "sha256": "91a50bd022321d6a4796fef9ede8f171fe154c1a09409c9233999df53cff1d18",
+      "snapshot": "data/update-20261014/pairs/YG_02/early_original.json"
+    },
+    "pairs/YG_02/late_original.json": {
+      "sha256": "3a43684001b2cd30a7be3b82c922fc21abaa488d777ff8d07434921c1d6e3771",
+      "snapshot": "data/update-20261014/pairs/YG_02/late_original.json"
+    },
+    "pairs/YG_02/predicted_grown_models.json": {
+      "sha256": "259952e66b46af4949cebefce5e157497bf186f7a855c643e809af4d9fbe29b5",
+      "snapshot": "data/update-20261014/pairs/YG_02/predicted_grown_models.json"
+    },
+    "pairs/YG_02/grown_display.json": {
+      "sha256": "5c7a983dbcab9282326b0f16bb81032c4b87ff3b44147883fe51213338888623",
+      "snapshot": "data/update-20261014/pairs/YG_02/grown_display.json"
+    },
+    "pairs/YG_02/report.json": {
+      "sha256": "0d7e019e1f2f3bd3cb8748e6da53ce053dbf58d1493a6a12d09c075beebd70c8",
+      "snapshot": "data/update-20261014/pairs/YG_02/report.json"
+    },
+    "pairs/YG_03/early_original.json": {
+      "sha256": "983e02ba47c80f372b3d50fb6efb559d981d90d74ca8c3b6c456fe30cab5a9b7",
+      "snapshot": "data/update-20261014/pairs/YG_03/early_original.json"
+    },
+    "pairs/YG_03/late_original.json": {
+      "sha256": "aa48da0721c8a8f274cef66522018a00a0c0f0a7c66d0b076e8785b882289d00",
+      "snapshot": "data/update-20261014/pairs/YG_03/late_original.json"
+    },
+    "pairs/YG_03/predicted_grown_models.json": {
+      "sha256": "71bfcb528bcdf5a09721cb960120ede335bcdae5758f8fd5e97f6d4f549f51be",
+      "snapshot": "data/update-20261014/pairs/YG_03/predicted_grown_models.json"
+    },
+    "pairs/YG_03/grown_display.json": {
+      "sha256": "8a51dc6757500903fdf2d9ccec13d1f06d1232ac9972b993cb4d38408a536500",
+      "snapshot": "data/update-20261014/pairs/YG_03/grown_display.json"
+    },
+    "pairs/YG_03/report.json": {
+      "sha256": "e745614d8b3ed0ea82a4b1454640d436848e60863fa523946e13276b5ebb6249",
+      "snapshot": "data/update-20261014/pairs/YG_03/report.json"
+    },
+    "pairs/YG_04/early_original.json": {
+      "sha256": "0f419a6f5c6e852d288802f0828c1d8bbbc6ff7e979a77d38f0530cdfaf1b9e8",
+      "snapshot": "data/update-20261014/pairs/YG_04/early_original.json"
+    },
+    "pairs/YG_04/late_original.json": {
+      "sha256": "e00963397fd1f576528ff851ca5449f259b7aea203e131f460eea39db37607f9",
+      "snapshot": "data/update-20261014/pairs/YG_04/late_original.json"
+    },
+    "pairs/YG_04/predicted_grown_models.json": {
+      "sha256": "2e8601cb0607a2a0989253023eaa507481fdcf1cf21123744c3bd21368f486e8",
+      "snapshot": "data/update-20261014/pairs/YG_04/predicted_grown_models.json"
+    },
+    "pairs/YG_04/grown_display.json": {
+      "sha256": "61c8b4e1a1c211daa2f2f0ec76d54891152a2d03da7e6378b8f523ef755e6ca5",
+      "snapshot": "data/update-20261014/pairs/YG_04/grown_display.json"
+    },
+    "pairs/YG_04/report.json": {
+      "sha256": "d4ab0017d33e905a6f29a347d6dacd7e9364ac37ea0143569f9728ac2262e543",
+      "snapshot": "data/update-20261014/pairs/YG_04/report.json"
+    },
+    "pairs/YG_05/early_original.json": {
+      "sha256": "6ca05da049ddeea83f3713b387ce83413b660fa283ebf1d38e31560a8dcaab4d",
+      "snapshot": "data/update-20261014/pairs/YG_05/early_original.json"
+    },
+    "pairs/YG_05/late_original.json": {
+      "sha256": "19f929ea203f9f1e185731ae1a02a4b6787ad831949aee6c9eb337e1b573094a",
+      "snapshot": "data/update-20261014/pairs/YG_05/late_original.json"
+    },
+    "pairs/YG_05/predicted_grown_models.json": {
+      "sha256": "90b581b676454b6ba0f562513c4b64d2df01c44332dd1412eb5becc11ac64dd7",
+      "snapshot": "data/update-20261014/pairs/YG_05/predicted_grown_models.json"
+    },
+    "pairs/YG_05/grown_display.json": {
+      "sha256": "b10b9fba654e4f34547df83205f3d4759685880c0b987891d2f8348cb56c8c5d",
+      "snapshot": "data/update-20261014/pairs/YG_05/grown_display.json"
+    },
+    "pairs/YG_05/report.json": {
+      "sha256": "68e8cdb1e3d6db05182383f7c893ac709947e6ba076e5cf846c4ee3f8ee20849",
+      "snapshot": "data/update-20261014/pairs/YG_05/report.json"
+    },
+    "pairs/YG_06/early_original.json": {
+      "sha256": "d6a3c0abf36a0dc3c91ac24d30272ab796a05ec688abe5130a12e63280378220",
+      "snapshot": "data/update-20261014/pairs/YG_06/early_original.json"
+    },
+    "pairs/YG_06/late_original.json": {
+      "sha256": "ab6d54334cc8ece65b94232791b2c4ce120c2db10f0fdbfb961f10c687e7a0bf",
+      "snapshot": "data/update-20261014/pairs/YG_06/late_original.json"
+    },
+    "pairs/YG_06/predicted_grown_models.json": {
+      "sha256": "3eac71bb206303dc463c22811a2447d60da025f2818c1ba3c805a0f2edeea760",
+      "snapshot": "data/update-20261014/pairs/YG_06/predicted_grown_models.json"
+    },
+    "pairs/YG_06/grown_display.json": {
+      "sha256": "ab4d25303d5a6ae6ba87619bc745c32c961b2230adaa74562a66111e4788e3fc",
+      "snapshot": "data/update-20261014/pairs/YG_06/grown_display.json"
+    },
+    "pairs/YG_06/report.json": {
+      "sha256": "80b11a4927699e43e1e60d288f75ec172de22422373bb990d5297684bbf7599e",
+      "snapshot": "data/update-20261014/pairs/YG_06/report.json"
+    },
+    "pairs/YG_07/early_original.json": {
+      "sha256": "73362350c75c8b0f27e93ef456f7d7f4566cf750f399131f8993b3a8694a56c8",
+      "snapshot": "data/update-20261014/pairs/YG_07/early_original.json"
+    },
+    "pairs/YG_07/late_original.json": {
+      "sha256": "93d668c9b2016c4b8ff797af3af6dffe3c90e0245254b93a5ab8790965347847",
+      "snapshot": "data/update-20261014/pairs/YG_07/late_original.json"
+    },
+    "pairs/YG_07/predicted_grown_models.json": {
+      "sha256": "24c07e14f9251c6dfcb8ac5e095208f9a731f07724cb3c22b080b9b4ece59752",
+      "snapshot": "data/update-20261014/pairs/YG_07/predicted_grown_models.json"
+    },
+    "pairs/YG_07/report.json": {
+      "sha256": "920b78088cf8f559fcd58c13bc42b413278890a2b7c10d66e40e24983713937c",
+      "snapshot": "data/update-20261014/pairs/YG_07/report.json"
+    },
+    "pairs/YG_08/early_original.json": {
+      "sha256": "5d07684ac06de11caef69c085edc51ced3cac8545bca1111ee6775ccae8f7750",
+      "snapshot": "data/update-20261014/pairs/YG_08/early_original.json"
+    },
+    "pairs/YG_08/late_original.json": {
+      "sha256": "16848b85ee0a36146f445af20c0a743a3579d3aeb7eced049c4a4830243e09a1",
+      "snapshot": "data/update-20261014/pairs/YG_08/late_original.json"
+    },
+    "pairs/YG_08/predicted_grown_models.json": {
+      "sha256": "35f037b4fda945ab3af2897fd5e62d596d294941098f740b652321be8fde4975",
+      "snapshot": "data/update-20261014/pairs/YG_08/predicted_grown_models.json"
+    },
+    "pairs/YG_08/report.json": {
+      "sha256": "f699633b73777f28ee4384590f2e7d83d148e49fe9ca45d8d48a8b5ca7792f91",
+      "snapshot": "data/update-20261014/pairs/YG_08/report.json"
+    },
+    "pairs/YG_09/early_original.json": {
+      "sha256": "320c467dc41da37d8ec6389a324a1a88c1df9bd557e0382aea841d391fdb4443",
+      "snapshot": "data/update-20261014/pairs/YG_09/early_original.json"
+    },
+    "pairs/YG_09/late_original.json": {
+      "sha256": "985272b9a5242778aa912679c8231d0d8121a8005061f71dc90d94563fd18b5c",
+      "snapshot": "data/update-20261014/pairs/YG_09/late_original.json"
+    },
+    "pairs/YG_09/predicted_grown_models.json": {
+      "sha256": "962d0249e3423db548e7ef19d98f1d1b83f2835002318e50b31f67f7998fab23",
+      "snapshot": "data/update-20261014/pairs/YG_09/predicted_grown_models.json"
+    },
+    "pairs/YG_09/grown_display.json": {
+      "sha256": "179cd04bd045295060898708e6854a2bcb5304526d39b53e1704fb3ed188b596",
+      "snapshot": "data/update-20261014/pairs/YG_09/grown_display.json"
+    },
+    "pairs/YG_09/report.json": {
+      "sha256": "e3741376da7a42aaa413f115c491de84e728c573e1075306ae1613e6ceecf437",
+      "snapshot": "data/update-20261014/pairs/YG_09/report.json"
+    },
+    "pairs/YG_10/early_original.json": {
+      "sha256": "57285d8251ee3e708b1bc598b9184a4e8dafab9500151195300c497559f29be9",
+      "snapshot": "data/update-20261014/pairs/YG_10/early_original.json"
+    },
+    "pairs/YG_10/late_original.json": {
+      "sha256": "67a97ebe7803d8df0b9d4bc07dc2eb9eb9a0006eafa1527db4da38ec402f94ea",
+      "snapshot": "data/update-20261014/pairs/YG_10/late_original.json"
+    },
+    "pairs/YG_10/predicted_grown_models.json": {
+      "sha256": "39922677557dbfcc9bd5fc9ef16dabcbc3300c48f23311c0461a7c9a3103b993",
+      "snapshot": "data/update-20261014/pairs/YG_10/predicted_grown_models.json"
+    },
+    "pairs/YG_10/grown_display.json": {
+      "sha256": "d3c50acea57ec3c00a29dc5345873eda19e9604dedc672ab3067916a7e85eb1d",
+      "snapshot": "data/update-20261014/pairs/YG_10/grown_display.json"
+    },
+    "pairs/YG_10/report.json": {
+      "sha256": "594ba1d658a76fe9ad29f07329fd8ffaa13de92545149379b40a33125b0e3219",
+      "snapshot": "data/update-20261014/pairs/YG_10/report.json"
+    }
+  },
+  "growth_cases": 20,
+  "portable_images": 56
+}

@@ -1,0 +1,514 @@
+{
+  "sample_id": "May_g2_03",
+  "bunch_id": "GROW_03",
+  "group": "GROW",
+  "models": [
+    {
+      "id": "N001",
+      "center": [
+        0.1864286806930289,
+        -0.05670702931881391,
+        0.7086055042931215
+      ],
+      "radius": 0.14874045641454392,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "N002",
+      "center": [
+        0.9884501243750112,
+        -0.47193764983939007,
+        0.5775452313678451
+      ],
+      "radius": 0.16293586450658876,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N003",
+      "center": [
+        0.5758185694199411,
+        0.0793592065681476,
+        0.9236420980324687
+      ],
+      "radius": 0.150687810093952,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "N004",
+      "center": [
+        1.0087617947011065,
+        -0.2723981988273021,
+        0.18202592711589774
+      ],
+      "radius": 0.1467128130622098,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N005",
+      "center": [
+        1.2065807587033233,
+        0.09609850490690172,
+        0.5801018707322279
+      ],
+      "radius": 0.1509449134390043,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N006",
+      "center": [
+        0.4966113159979397,
+        0.006855259910674979,
+        0.13048825142903775
+      ],
+      "radius": 0.15376631369020063,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N007",
+      "center": [
+        -0.045176683517392215,
+        -1.3236397525324735,
+        0.36666406685843606
+      ],
+      "radius": 0.14947070962041165,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "N008",
+      "center": [
+        0.2860711027840439,
+        -0.38193132352031733,
+        0.23227038313465204
+      ],
+      "radius": 0.1410700125598171,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N009",
+      "center": [
+        0.5471306323387293,
+        -0.40949230680150506,
+        -0.010755632002416169
+      ],
+      "radius": 0.15242349670753047,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "N011",
+      "center": [
+        0.493458629149235,
+        -0.6419140989067471,
+        0.3655537032910632
+      ],
+      "radius": 0.1613784737155859,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "N013",
+      "center": [
+        0.6619301750029823,
+        0.3318666799001093,
+        0.8518457829201667
+      ],
+      "radius": 0.14680188905566588,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "N017",
+      "center": [
+        0.581861370299621,
+        -0.31557417951122324,
+        0.9072426326847861
+      ],
+      "radius": 0.14295148059532276,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "N018",
+      "center": [
+        0.5384830414402589,
+        0.5983985009016543,
+        0.30158402290540587
+      ],
+      "radius": 0.16079103257301158,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "M001",
+      "center": [
+        0.8910357636958951,
+        1.2509617074940416,
+        0.8476914223586858
+      ],
+      "radius": 0.16034607472870538,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "M002",
+      "center": [
+        1.0820626663700523,
+        1.0903275626385789,
+        0.6489806456899779
+      ],
+      "radius": 0.14660603616807016,
+      "evidence": "sphere_conversion_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "M003",
+      "center": [
+        0.9459094811816738,
+        0.6008449764735831,
+        0.5522852986060008
+      ],
+      "radius": 0.13549699303375778,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "M004",
+      "center": [
+        1.1154233014729795,
+        -1.3214113360608233,
+        0.6512183249383426
+      ],
+      "radius": 0.14421458777785684,
+      "evidence": "sphere_conversion_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "M005",
+      "center": [
+        0.9719768161511648,
+        -1.2730842111944913,
+        0.21921389135629762
+      ],
+      "radius": 0.13939417727157657,
+      "evidence": "sphere_conversion_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "N012",
+      "center": [
+        0.6161264024877059,
+        -0.9700279262182404,
+        0.61839678335803
+      ],
+      "radius": 0.13631874826037665,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "N015",
+      "center": [
+        0.49137201472396147,
+        -1.223750510115997,
+        1.0465378754610364
+      ],
+      "radius": 0.12534576821614746,
+      "evidence": "sphere_conversion_approximate",
+      "shape": "sphere"
+    },
+    {
+      "id": "M006",
+      "center": [
+        0.6022894829261387,
+        0.9157202604211546,
+        0.8589483929977642
+      ],
+      "radius": 0.13655692437384145,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "N016",
+      "center": [
+        0.9376347103696553,
+        0.8679550383672854,
+        0.4381027240751326
+      ],
+      "radius": 0.15322963126577133,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "U001",
+      "center": [
+        0.0886597977494495,
+        -0.9339362355254812,
+        0.9736366305939042
+      ],
+      "radius": 0.14530211293661163,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U002",
+      "center": [
+        0.3795822427153182,
+        -1.114607264017102,
+        -0.010219936184766248
+      ],
+      "radius": 0.14644757241794962,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "U003",
+      "center": [
+        0.9080366462885887,
+        -0.632401444577686,
+        0.1323103685464118
+      ],
+      "radius": 0.15658771394139698,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U004",
+      "center": [
+        0.027236542684190058,
+        -0.19129433597376388,
+        0.33131469584753315
+      ],
+      "radius": 0.14857486489889715,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "U005",
+      "center": [
+        0.21460018168492867,
+        0.2031806945406749,
+        0.33010945468999786
+      ],
+      "radius": 0.1410700125598171,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U006",
+      "center": [
+        0.7325781862277208,
+        1.2914578041644056,
+        0.45090218836285445
+      ],
+      "radius": 0.1410700125598171,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U007",
+      "center": [
+        0.8687526749894491,
+        -0.10681559777875094,
+        0.9337098254009908
+      ],
+      "radius": 0.1467128130622098,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U008",
+      "center": [
+        0.628360339199203,
+        0.30615240734825333,
+        0.23416521073913113
+      ],
+      "radius": 0.1410700125598171,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U009",
+      "center": [
+        0.46313123975267567,
+        0.6290230588984367,
+        0.6475725033111661
+      ],
+      "radius": 0.14863198902910585,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "U010",
+      "center": [
+        0.29487667913687027,
+        -0.7646391386313206,
+        0.6705402636565273
+      ],
+      "radius": 0.1392655680517225,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "U011",
+      "center": [
+        0.1631205178179264,
+        -0.500273583450335,
+        0.5081128396620382
+      ],
+      "radius": 0.1410700125598171,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U012",
+      "center": [
+        0.4960742366974334,
+        0.8781911193455539,
+        0.5299664249783006
+      ],
+      "radius": 0.1434054663550029,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    },
+    {
+      "id": "U013",
+      "center": [
+        1.018277715295392,
+        0.14295700445581871,
+        0.37681055955623016
+      ],
+      "radius": 0.14991624052546298,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "early_surface_refit_candidate",
+      "shape": "sphere",
+      "uses_future_reference": false,
+      "individually_verified_around_full_orbit": false,
+      "observations": [],
+      "surface_support_indices_require_recompute": true
+    }
+  ],
+  "uses_future_reference": true,
+  "repair_provenance": "Existing candidate created while comparing the same late reference; conditional illustration only."
+}

@@ -1,0 +1,3 @@
+# Optional CPU inference for the October 14 frozen 128D geometry model
+-r requirements.txt
+torch>=2.4,<3

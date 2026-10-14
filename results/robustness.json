@@ -1,0 +1,440 @@
+[
+  {
+    "sample_id": "July_g1_01",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.0037440421529648e-16,
+    "remove_30_percent_distance": 0.09983400973624186
+  },
+  {
+    "sample_id": "July_g1_02",
+    "type": "synthetic robustness only",
+    "transform_distance": 7.401091538236592e-17,
+    "remove_30_percent_distance": 0.13050044197834024
+  },
+  {
+    "sample_id": "July_g1_03",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.1959531388233124e-16,
+    "remove_30_percent_distance": 0.11989286100071364
+  },
+  {
+    "sample_id": "July_g1_04",
+    "type": "synthetic robustness only",
+    "transform_distance": 8.362734666696147e-17,
+    "remove_30_percent_distance": 0.10548219601593567
+  },
+  {
+    "sample_id": "July_g1_05",
+    "type": "synthetic robustness only",
+    "transform_distance": 5.979136609301385e-17,
+    "remove_30_percent_distance": 0.06613436263503286
+  },
+  {
+    "sample_id": "July_g1_06",
+    "type": "synthetic robustness only",
+    "transform_distance": 3.122502256758253e-17,
+    "remove_30_percent_distance": 0.0987069858761134
+  },
+  {
+    "sample_id": "July_g1_07",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.1316993474494503e-16,
+    "remove_30_percent_distance": 0.10791203815465501
+  },
+  {
+    "sample_id": "July_g1_08",
+    "type": "synthetic robustness only",
+    "transform_distance": 7.72682523912663e-17,
+    "remove_30_percent_distance": 0.10623590845915015
+  },
+  {
+    "sample_id": "July_g1_09",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.3351737358012384e-16,
+    "remove_30_percent_distance": 0.07125397196282372
+  },
+  {
+    "sample_id": "July_g1_10",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.459746871047234e-16,
+    "remove_30_percent_distance": 0.08836242813254282
+  },
+  {
+    "sample_id": "July_g2_01",
+    "type": "synthetic robustness only",
+    "transform_distance": 5.0582882715142127e-17,
+    "remove_30_percent_distance": 0.10050476984116802
+  },
+  {
+    "sample_id": "July_g2_02",
+    "type": "synthetic robustness only",
+    "transform_distance": 7.788889089478546e-17,
+    "remove_30_percent_distance": 0.084195719727813
+  },
+  {
+    "sample_id": "July_g2_03",
+    "type": "synthetic robustness only",
+    "transform_distance": 3.1034707204833584e-17,
+    "remove_30_percent_distance": 0.14228613857775585
+  },
+  {
+    "sample_id": "July_g2_04",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.1286372766659226e-16,
+    "remove_30_percent_distance": 0.10664293748200046
+  },
+  {
+    "sample_id": "July_g2_05",
+    "type": "synthetic robustness only",
+    "transform_distance": 2.4099548727191465e-17,
+    "remove_30_percent_distance": 0.06356820643194855
+  },
+  {
+    "sample_id": "July_g2_06",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.4915595906034286e-16,
+    "remove_30_percent_distance": 0.10026109840215433
+  },
+  {
+    "sample_id": "July_g2_07",
+    "type": "synthetic robustness only",
+    "transform_distance": 3.25578529052133e-17,
+    "remove_30_percent_distance": 0.0781735303327648
+  },
+  {
+    "sample_id": "July_g2_08",
+    "type": "synthetic robustness only",
+    "transform_distance": 6.138078244619834e-17,
+    "remove_30_percent_distance": 0.06420789645738827
+  },
+  {
+    "sample_id": "July_g2_09",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.0469457474484338e-16,
+    "remove_30_percent_distance": 0.18564823595213722
+  },
+  {
+    "sample_id": "July_g2_10",
+    "type": "synthetic robustness only",
+    "transform_distance": 6.331146576060244e-17,
+    "remove_30_percent_distance": 0.07609509429079989
+  },
+  {
+    "sample_id": "July_g3_01",
+    "type": "synthetic robustness only",
+    "transform_distance": 7.850462293418876e-17,
+    "remove_30_percent_distance": 0.10141580542494473
+  },
+  {
+    "sample_id": "July_g3_02",
+    "type": "synthetic robustness only",
+    "transform_distance": 8.42011259293812e-17,
+    "remove_30_percent_distance": 0.12864197162250857
+  },
+  {
+    "sample_id": "July_g3_03",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.2222108709692242e-16,
+    "remove_30_percent_distance": 0.09267538703257998
+  },
+  {
+    "sample_id": "July_g3_04",
+    "type": "synthetic robustness only",
+    "transform_distance": 5.0306980803327406e-17,
+    "remove_30_percent_distance": 0.08283009306927322
+  },
+  {
+    "sample_id": "July_g3_07",
+    "type": "synthetic robustness only",
+    "transform_distance": 5.76648802964689e-17,
+    "remove_30_percent_distance": 0.0739099656919487
+  },
+  {
+    "sample_id": "July_g3_08",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.1328952961336746e-16,
+    "remove_30_percent_distance": 0.1182410721570409
+  },
+  {
+    "sample_id": "July_g3_09",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.0106532319600569e-16,
+    "remove_30_percent_distance": 0.09616477236498173
+  },
+  {
+    "sample_id": "July_g3_10",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.326694920936101e-16,
+    "remove_30_percent_distance": 0.06306732055337433
+  },
+  {
+    "sample_id": "July_g3_13",
+    "type": "synthetic robustness only",
+    "transform_distance": 6.138078244619834e-17,
+    "remove_30_percent_distance": 0.11401605868945942
+  },
+  {
+    "sample_id": "July_g3_14",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.918101328731341e-16,
+    "remove_30_percent_distance": 0.10444816272472386
+  },
+  {
+    "sample_id": "July_g3_15",
+    "type": "synthetic robustness only",
+    "transform_distance": 6.664589960562512e-17,
+    "remove_30_percent_distance": 0.06511681530377746
+  },
+  {
+    "sample_id": "July_g3_16",
+    "type": "synthetic robustness only",
+    "transform_distance": 9.463389583759429e-17,
+    "remove_30_percent_distance": 0.08628116670414061
+  },
+  {
+    "sample_id": "July_g3_17",
+    "type": "synthetic robustness only",
+    "transform_distance": 6.444211699335286e-17,
+    "remove_30_percent_distance": 0.08095828941496287
+  },
+  {
+    "sample_id": "July_g3_18",
+    "type": "synthetic robustness only",
+    "transform_distance": 7.186027875946681e-17,
+    "remove_30_percent_distance": 0.07227307513455107
+  },
+  {
+    "sample_id": "July_g3_19",
+    "type": "synthetic robustness only",
+    "transform_distance": 6.406745034707793e-17,
+    "remove_30_percent_distance": 0.08401062108509097
+  },
+  {
+    "sample_id": "July_g3_20",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.0020937631108464e-16,
+    "remove_30_percent_distance": 0.08386233257987674
+  },
+  {
+    "sample_id": "May_g1_01",
+    "type": "synthetic robustness only",
+    "transform_distance": 2.0514600482976978e-16,
+    "remove_30_percent_distance": 0.09692219389272477
+  },
+  {
+    "sample_id": "May_g1_02",
+    "type": "synthetic robustness only",
+    "transform_distance": 8.103684174824287e-17,
+    "remove_30_percent_distance": 0.08919482590925804
+  },
+  {
+    "sample_id": "May_g1_03",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.134195857247286e-16,
+    "remove_30_percent_distance": 0.07853871468155652
+  },
+  {
+    "sample_id": "May_g1_04",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.289775945451176e-16,
+    "remove_30_percent_distance": 0.09546791917304288
+  },
+  {
+    "sample_id": "May_g1_05",
+    "type": "synthetic robustness only",
+    "transform_distance": 5.732467154385379e-17,
+    "remove_30_percent_distance": 0.09699578702939296
+  },
+  {
+    "sample_id": "May_g1_06",
+    "type": "synthetic robustness only",
+    "transform_distance": 5.984570697995583e-17,
+    "remove_30_percent_distance": 0.10787787133922705
+  },
+  {
+    "sample_id": "May_g1_07",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.2023951101918142e-16,
+    "remove_30_percent_distance": 0.09049327532355327
+  },
+  {
+    "sample_id": "May_g1_08",
+    "type": "synthetic robustness only",
+    "transform_distance": 4.389398889109717e-17,
+    "remove_30_percent_distance": 0.13009264411720728
+  },
+  {
+    "sample_id": "May_g1_09",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.3183898417423734e-16,
+    "remove_30_percent_distance": 0.13086993081599374
+  },
+  {
+    "sample_id": "May_g1_10",
+    "type": "synthetic robustness only",
+    "transform_distance": 5.951391046091368e-17,
+    "remove_30_percent_distance": 0.13790209963165306
+  },
+  {
+    "sample_id": "May_g1_11",
+    "type": "synthetic robustness only",
+    "transform_distance": 6.406745034707793e-17,
+    "remove_30_percent_distance": 0.13754777449800545
+  },
+  {
+    "sample_id": "May_g1_12",
+    "type": "synthetic robustness only",
+    "transform_distance": 5.2845041577819695e-17,
+    "remove_30_percent_distance": 0.1116231204702083
+  },
+  {
+    "sample_id": "May_g1_13",
+    "type": "synthetic robustness only",
+    "transform_distance": 2.0722954510905304e-16,
+    "remove_30_percent_distance": 0.07308547460892312
+  },
+  {
+    "sample_id": "May_g1_14",
+    "type": "synthetic robustness only",
+    "transform_distance": 5.4884194479314e-17,
+    "remove_30_percent_distance": 0.09818166422191146
+  },
+  {
+    "sample_id": "May_g1_16",
+    "type": "synthetic robustness only",
+    "transform_distance": 6.518499014193635e-17,
+    "remove_30_percent_distance": 0.09681929575886443
+  },
+  {
+    "sample_id": "May_g1_17",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.18774731498903e-16,
+    "remove_30_percent_distance": 0.11700828853606222
+  },
+  {
+    "sample_id": "May_g1_18",
+    "type": "synthetic robustness only",
+    "transform_distance": 9.047210765559601e-17,
+    "remove_30_percent_distance": 0.08797572820652762
+  },
+  {
+    "sample_id": "May_g2_01",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.12336739818902e-16,
+    "remove_30_percent_distance": 0.08529845929904337
+  },
+  {
+    "sample_id": "May_g2_02",
+    "type": "synthetic robustness only",
+    "transform_distance": 6.206335383118183e-17,
+    "remove_30_percent_distance": 0.1459772700293072
+  },
+  {
+    "sample_id": "May_g2_03",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.7291634505335761e-16,
+    "remove_30_percent_distance": 0.10937953737072047
+  },
+  {
+    "sample_id": "May_g2_04",
+    "type": "synthetic robustness only",
+    "transform_distance": 4.119739996032822e-17,
+    "remove_30_percent_distance": 0.1486868760522084
+  },
+  {
+    "sample_id": "May_g2_05",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.2529700041219694e-16,
+    "remove_30_percent_distance": 0.10406593379380019
+  },
+  {
+    "sample_id": "May_g2_06",
+    "type": "synthetic robustness only",
+    "transform_distance": 6.546139416680338e-17,
+    "remove_30_percent_distance": 0.13814447459643306
+  },
+  {
+    "sample_id": "May_g2_07",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.186860226979983e-16,
+    "remove_30_percent_distance": 0.12362776483234521
+  },
+  {
+    "sample_id": "May_g2_08",
+    "type": "synthetic robustness only",
+    "transform_distance": 7.569439599172468e-17,
+    "remove_30_percent_distance": 0.15785831131256695
+  },
+  {
+    "sample_id": "May_g2_09",
+    "type": "synthetic robustness only",
+    "transform_distance": 8.471775674780676e-17,
+    "remove_30_percent_distance": 0.11559650969497005
+  },
+  {
+    "sample_id": "May_g2_10",
+    "type": "synthetic robustness only",
+    "transform_distance": 7.827429102573778e-17,
+    "remove_30_percent_distance": 0.17533719168380468
+  },
+  {
+    "sample_id": "May_g3_01",
+    "type": "synthetic robustness only",
+    "transform_distance": 5.3309313833631863e-17,
+    "remove_30_percent_distance": 0.06055494777289945
+  },
+  {
+    "sample_id": "May_g3_02",
+    "type": "synthetic robustness only",
+    "transform_distance": 3.863412619563315e-17,
+    "remove_30_percent_distance": 0.07663631220995477
+  },
+  {
+    "sample_id": "May_g3_03",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.4622764567653275e-16,
+    "remove_30_percent_distance": 0.12971556022536807
+  },
+  {
+    "sample_id": "May_g3_04",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.1636878843346592e-16,
+    "remove_30_percent_distance": 0.09703343255728135
+  },
+  {
+    "sample_id": "May_g3_05",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.116709290276899e-16,
+    "remove_30_percent_distance": 0.1159409095362042
+  },
+  {
+    "sample_id": "May_g3_06",
+    "type": "synthetic robustness only",
+    "transform_distance": 6.947562107041945e-17,
+    "remove_30_percent_distance": 0.13865084637347685
+  },
+  {
+    "sample_id": "May_g3_07",
+    "type": "synthetic robustness only",
+    "transform_distance": 1.3773925607494566e-16,
+    "remove_30_percent_distance": 0.08981248578227466
+  },
+  {
+    "sample_id": "May_g3_08",
+    "type": "synthetic robustness only",
+    "transform_distance": 6.591949208711867e-17,
+    "remove_30_percent_distance": 0.10343550176646828
+  },
+  {
+    "sample_id": "May_g3_09",
+    "type": "synthetic robustness only",
+    "transform_distance": 4.654751537338637e-17,
+    "remove_30_percent_distance": 0.10980708602021053
+  },
+  {
+    "sample_id": "May_g3_10",
+    "type": "synthetic robustness only",
+    "transform_distance": 6.216025217875883e-17,
+    "remove_30_percent_distance": 0.11764991335504743
+  }
+]

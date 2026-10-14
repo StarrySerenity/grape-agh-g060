@@ -1,0 +1,888 @@
+{
+  "sample_id": "May_g3_02",
+  "bunch_id": "YG_02",
+  "group": "YG",
+  "date": "20260528",
+  "stage": "yg",
+  "models": [
+    {
+      "id": "N001",
+      "center": [
+        -0.4403853543671797,
+        0.2944718849983603,
+        0.7928401716974283
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N002",
+      "center": [
+        0.44540708865960144,
+        -0.8471897823212039,
+        0.4144031665120766
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N003",
+      "center": [
+        -0.23270587434150558,
+        -1.0010675477479358,
+        0.9129059929918908
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N004",
+      "center": [
+        -0.6648916621063333,
+        -0.13034138685073915,
+        0.6920894727184675
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N005",
+      "center": [
+        -0.15450564645992845,
+        0.34104110578116253,
+        0.631593506035286
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N006",
+      "center": [
+        -0.1074843485671631,
+        -0.5458270553352306,
+        0.7184097461733007
+      ],
+      "radius": 0.14656335709021967,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N007",
+      "center": [
+        0.13221306079545786,
+        -0.6733250525147825,
+        0.40579091383645693
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N008",
+      "center": [
+        0.5206008980345611,
+        -1.296236272637426,
+        0.6284077595697409
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N009",
+      "center": [
+        -0.24090113968750315,
+        0.8415827288780896,
+        0.5733127855620447
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N010",
+      "center": [
+        0.2367720042096724,
+        0.7115728669801671,
+        0.5083548291080322
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N011",
+      "center": [
+        0.2474853169722998,
+        -0.36789172446111024,
+        0.1915048838323511
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N012",
+      "center": [
+        -0.2504913890357463,
+        -1.2750993696732549,
+        1.051435440173744
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N013",
+      "center": [
+        0.2731299809131017,
+        -1.0685708927257376,
+        0.567090203602024
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N014",
+      "center": [
+        0.2791605078390156,
+        0.16037455834331715,
+        0.49392117916309164
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N015",
+      "center": [
+        0.1938538714754835,
+        1.2797084439633506,
+        0.3897654287526367
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N016",
+      "center": [
+        0.33429136509860796,
+        -1.485612746509608,
+        0.8415350124306673
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N017",
+      "center": [
+        0.11718950858448104,
+        -1.4697617328107457,
+        0.9635776017307837
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N018",
+      "center": [
+        -0.24417302400395408,
+        -0.12050746611916835,
+        0.5926113344972361
+      ],
+      "radius": 0.14656335709021967,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N019",
+      "center": [
+        -0.07746956147306858,
+        -0.9867816194706128,
+        0.6346377077188287
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N020",
+      "center": [
+        0.5280824447077851,
+        -1.1043976329337746,
+        -0.12641725907841586
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N021",
+      "center": [
+        0.02287250379456355,
+        -0.11567515947766063,
+        0.22797476099403544
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N022",
+      "center": [
+        0.146203933519695,
+        0.4663093100656493,
+        0.27802210361678764
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N023",
+      "center": [
+        -0.4953039323736495,
+        -1.210865416819983,
+        0.7318377544908397
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N024",
+      "center": [
+        0.3204261387160235,
+        -0.2261988622476575,
+        -0.17524118913782252
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N025",
+      "center": [
+        0.3080885179503902,
+        1.1935829274017755,
+        0.05944642821049241
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N026",
+      "center": [
+        0.4913294437327823,
+        -0.7640419693469322,
+        -0.1940850382717848
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N027",
+      "center": [
+        -0.6497441010636739,
+        -1.523685959795711,
+        0.8513224330881883
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N028",
+      "center": [
+        -0.8892493013637128,
+        -0.6873079538477755,
+        0.17464073715380213
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N029",
+      "center": [
+        -0.1702149380913127,
+        1.2335163252229384,
+        0.4253330029121587
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N030",
+      "center": [
+        0.3386733073725302,
+        0.4396228508187362,
+        -0.20556417152839473
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N031",
+      "center": [
+        -0.11134494465889941,
+        -0.31446934874471366,
+        0.37320563858559935
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N032",
+      "center": [
+        0.24942043285664667,
+        0.777427478549818,
+        -0.246092655139943
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N033",
+      "center": [
+        0.03623716395885466,
+        1.03445599674725,
+        0.33285674471210547
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N034",
+      "center": [
+        0.051847210586959354,
+        0.007613554509697277,
+        -0.05337713883846139
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N035",
+      "center": [
+        0.21162115254513322,
+        -0.5347561514957049,
+        -0.24557171915450726
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N036",
+      "center": [
+        -0.4186491881919187,
+        0.6915178102590953,
+        0.33395503198685356
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N037",
+      "center": [
+        0.024425551474734568,
+        1.5323686047190934,
+        0.3977027854226776
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N038",
+      "center": [
+        0.29897850571117923,
+        -0.6445051215807016,
+        0.02221084966769594
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N039",
+      "center": [
+        0.41894277455062323,
+        -1.1550916310845214,
+        0.3398706867855396
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N040",
+      "center": [
+        0.03352364656301835,
+        -0.39876874733052686,
+        -0.4253285428691342
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N041",
+      "center": [
+        -1.0977609405753497,
+        -0.978690874738746,
+        0.1940077316782369
+      ],
+      "radius": 0.14656335709021967,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N042",
+      "center": [
+        -0.5602191148863049,
+        0.48699036470646795,
+        0.20204492583927408
+      ],
+      "radius": 0.17764212616378428,
+      "evidence": "provisional_surface_refit_heldout_checked",
+      "shape": "sphere"
+    },
+    {
+      "id": "N043",
+      "center": [
+        0.2965886190998185,
+        0.9914935330849315,
+        -0.11456653090063491
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N044",
+      "center": [
+        -0.05624033970443557,
+        0.2851881770748845,
+        -0.42890674525997824
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N045",
+      "center": [
+        -0.524988151097961,
+        0.964707267118331,
+        0.07827467272673817
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N046",
+      "center": [
+        -0.6891017063815577,
+        -0.18396182309045506,
+        0.2850658279289929
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N047",
+      "center": [
+        -0.8113746884784635,
+        -0.20330933628047823,
+        -0.4479085609151501
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N048",
+      "center": [
+        -0.5025201428091888,
+        -0.7122183494815972,
+        0.12527970495264293
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N049",
+      "center": [
+        0.2784777972036788,
+        -1.0877156745608414,
+        0.1081366686614093
+      ],
+      "radius": 0.15964228505741973,
+      "evidence": "provisional_surface_refit_heldout_checked",
+      "shape": "sphere"
+    },
+    {
+      "id": "N050",
+      "center": [
+        -0.7646942321117541,
+        0.6412747529848805,
+        -0.08959958741704763
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N052",
+      "center": [
+        0.08448200790104127,
+        1.5455912410666952,
+        -0.01757203315427408
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N053",
+      "center": [
+        0.07913360693655562,
+        0.33022251881282166,
+        0.02170829298127245
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N054",
+      "center": [
+        -0.18059637415723168,
+        -0.43705999008845076,
+        -0.1618298512542194
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N055",
+      "center": [
+        -0.7945031924520918,
+        0.1430138459647553,
+        0.05333534026443833
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N056",
+      "center": [
+        -0.6921307360757418,
+        0.17340326787914817,
+        -0.32961237257752396
+      ],
+      "radius": 0.16512612223485654,
+      "evidence": "provisional_surface_refit_heldout_checked",
+      "shape": "sphere"
+    },
+    {
+      "id": "N057",
+      "center": [
+        -0.7098847997133605,
+        -0.7370289070211251,
+        0.11147608076082068
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N058",
+      "center": [
+        -0.42345497823107225,
+        -0.3568695224434953,
+        0.33507835849429335
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N059",
+      "center": [
+        -0.3219988115288306,
+        1.4054360582774428,
+        0.09000200240034069
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N060",
+      "center": [
+        0.00937067790058621,
+        0.6988258100998556,
+        -0.45774938344871235
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N061",
+      "center": [
+        -0.4684424219173163,
+        0.006246333292617587,
+        0.40882017939205156
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N062",
+      "center": [
+        -0.021540309356334955,
+        -0.9794603976618034,
+        -0.8380056882804171
+      ],
+      "radius": 0.15092664944208517,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N063",
+      "center": [
+        0.1708422014672002,
+        -0.8872438656709326,
+        -0.30037059823024176
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N064",
+      "center": [
+        0.18391324687920474,
+        -0.3626842771443372,
+        -0.20248297862778322
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N065",
+      "center": [
+        -0.6682854205057214,
+        -0.5504211569153771,
+        -0.06735859904743291
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N066",
+      "center": [
+        -0.4549310805257151,
+        0.14817834513543593,
+        -0.6463458741636314
+      ],
+      "radius": 0.14656335709021967,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N067",
+      "center": [
+        -0.05006250028417414,
+        -0.10871711806922778,
+        -0.30231277478278656
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N068",
+      "center": [
+        -0.5518177455886888,
+        -0.9371032204508767,
+        0.13252375880794717
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N069",
+      "center": [
+        -0.1509808883959882,
+        -0.7274247655864293,
+        -0.5553981225245248
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N070",
+      "center": [
+        -0.23446282927194884,
+        0.9950652187282665,
+        0.1845149794425901
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N071",
+      "center": [
+        -0.15779136698670232,
+        0.41315579559647725,
+        0.3520497101511326
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "N072",
+      "center": [
+        -1.12029092259341,
+        -0.8907298733973291,
+        -0.12901946638615633
+      ],
+      "radius": 0.14656335709021967,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U001",
+      "center": [
+        -0.2707883205054649,
+        -0.5943523153724236,
+        -0.7215252061138399
+      ],
+      "radius": 0.14656335709021967,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U002",
+      "center": [
+        -0.6010287211132215,
+        -1.0081538157534993,
+        -0.5697484143235855
+      ],
+      "radius": 0.15096025780292627,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U003",
+      "center": [
+        -0.257064558223294,
+        1.2171388133569636,
+        -0.33917258812740464
+      ],
+      "radius": 0.14656335709021967,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U004",
+      "center": [
+        -0.37975603102215005,
+        0.9067015368391308,
+        -0.24498744410497145
+      ],
+      "radius": 0.16561659351194824,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U005",
+      "center": [
+        -0.29730512079187144,
+        0.5884353912798419,
+        -0.38892421473584676
+      ],
+      "radius": 0.15682279208653505,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U006",
+      "center": [
+        0.09062872070263817,
+        1.1837801974015623,
+        -0.28521461297446765
+      ],
+      "radius": 0.14656335709021967,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    }
+  ],
+  "model_source": "E:\\grape_all_bunch_reaudit_20261011\\manual_edits\\May_g3_02\\state.json",
+  "model_sha256": "4dfa353e79c07efac4909faf56827766e01a2fe8fe4801e593bce4dd6499a9ed",
+  "revision": 2,
+  "measured_cloud": "E:\\grape_geometry_remaining_20261011\\g3_02\\review\\measured_cloud.ply",
+  "source_videos": [
+    "E:/grape_data_jurong/20260528/阳光玫瑰/2/2.mp4"
+  ],
+  "uses_future_reference": false,
+  "input_manifest": "E:\\grape_colmap_additional_20261009\\g3_02\\full_video_reconstruction\\delivery_manifest.json",
+  "viewer_path": "E:\\grape_all_bunch_reaudit_20261011\\May_g3_02\\viewer.html"
+}

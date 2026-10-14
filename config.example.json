@@ -1,0 +1,7 @@
+{
+  "source_root": "E:/grape_all_bunch_reaudit_20261011",
+  "identity_csv": "E:/PyCharm/Project/grape_berry_2d/.worktrees/gbisc-baseline/datasets/fingerprint_v2/identity_map.csv",
+  "data": "data/samples.json",
+  "editor_url": "http://127.0.0.1:8766",
+  "agh_url": "http://127.0.0.1:4177"
+}

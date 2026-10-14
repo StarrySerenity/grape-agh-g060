@@ -1,0 +1,692 @@
+{
+  "models": [
+    {
+      "id": "N001",
+      "center": [
+        0.022973370363962603,
+        -1.909226720024321,
+        5.980473121894078
+      ],
+      "radius": 0.4778523814330515,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N002",
+      "center": [
+        -1.0238218709305884,
+        -3.13558062120808,
+        8.86717943301588
+      ],
+      "radius": 0.5130025081843753,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N003",
+      "center": [
+        -0.7833188422855911,
+        -0.5160807370037085,
+        5.759794836059138
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N004",
+      "center": [
+        -0.6882282913455973,
+        -1.448214888007671,
+        8.10118004231458
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N005",
+      "center": [
+        -0.13672842644296127,
+        -3.1412925026350265,
+        8.3977122657735
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N006",
+      "center": [
+        -1.4686535999992782,
+        0.17361513344454368,
+        8.31249247124737
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N007",
+      "center": [
+        -2.1074826115340874,
+        -1.8688131775676065,
+        9.081443224056857
+      ],
+      "radius": 0.4285475704374519,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N008",
+      "center": [
+        0.16525181719774074,
+        -2.800697255301886,
+        6.514636666204786
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N009",
+      "center": [
+        -0.4204423906509794,
+        0.7148532897742679,
+        6.0790651749560105
+      ],
+      "radius": 0.44105053380708353,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N010",
+      "center": [
+        -0.26451992897971005,
+        0.29407547469008316,
+        6.9039381419224926
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N011",
+      "center": [
+        -0.5826918397265777,
+        -1.127278221805462,
+        6.644347037456129
+      ],
+      "radius": 0.5055052614945356,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N012",
+      "center": [
+        -0.571159731308126,
+        0.8999307916452078,
+        7.928159583302606
+      ],
+      "radius": 0.5115029260537076,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N013",
+      "center": [
+        0.0340325402429955,
+        -1.1898490042319798,
+        7.589608024589786
+      ],
+      "radius": 0.43175139798442924,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N014",
+      "center": [
+        -0.6516104701228624,
+        -0.5260376840397114,
+        8.122382300610328
+      ],
+      "radius": 0.4328739370214436,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N015",
+      "center": [
+        -0.49384028722465634,
+        2.1116460009972,
+        8.840159075313412
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N017",
+      "center": [
+        -2.1619061057319566,
+        -0.6485690209079444,
+        8.688991400017027
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N018",
+      "center": [
+        -1.925508980325623,
+        -2.768897914395681,
+        9.111864894857202
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N019",
+      "center": [
+        -2.0446136790045855,
+        1.7324299285444327,
+        7.687854448005693
+      ],
+      "radius": 0.48644593847605677,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N020",
+      "center": [
+        0.09891652398363256,
+        4.007204054626219,
+        8.842862025911497
+      ],
+      "radius": 0.4597470218810094,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N021",
+      "center": [
+        -1.0604104606036269,
+        -2.3619093005899967,
+        8.204361799917727
+      ],
+      "radius": 0.5013536151296656,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N022",
+      "center": [
+        0.24560459478377544,
+        0.3442778369068151,
+        8.096948459294769
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N023",
+      "center": [
+        -0.8070604448671286,
+        -1.8509567863832925,
+        5.504053722958314
+      ],
+      "radius": 0.47619278854460195,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N024",
+      "center": [
+        -1.475008469214646,
+        1.565450461207611,
+        8.463851838349782
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N025",
+      "center": [
+        0.8650259168567255,
+        2.350289943089128,
+        7.220472157484246
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N026",
+      "center": [
+        -0.3615177415710477,
+        -2.6740903986080022,
+        7.570552026107288
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N027",
+      "center": [
+        -1.4094197236451722,
+        -3.154963863003949,
+        6.182203199037448
+      ],
+      "radius": 0.46002868199287117,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N028",
+      "center": [
+        -2.189957794490049,
+        -1.5142738519167531,
+        8.237824752978987
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N029",
+      "center": [
+        -3.60770156225505,
+        -1.9238070683188162,
+        7.724765297087906
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N030",
+      "center": [
+        -2.531970849733053,
+        -2.341309208344161,
+        7.666679121598606
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N031",
+      "center": [
+        -0.6969703424473918,
+        3.4573090236113906,
+        7.81231993831554
+      ],
+      "radius": 0.5602898274618859,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N032",
+      "center": [
+        -3.081874687588814,
+        -1.636522638385426,
+        6.954404943274005
+      ],
+      "radius": 0.48541528518029303,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N033",
+      "center": [
+        -0.5998569864301639,
+        3.491417506669107,
+        6.766170852682774
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N034",
+      "center": [
+        -1.2012418217312328,
+        -0.6175739132711782,
+        8.85977061724107
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N035",
+      "center": [
+        -3.107919644941638,
+        -2.4740250563794333,
+        6.534136794553463
+      ],
+      "radius": 0.4445542121763488,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N036",
+      "center": [
+        1.123502057646656,
+        1.7554499167441722,
+        7.950100509447059
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N037",
+      "center": [
+        1.0211082325833265,
+        3.4934985997213595,
+        7.59451186309288
+      ],
+      "radius": 0.47515695513975814,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N038",
+      "center": [
+        0.956175794668636,
+        4.09175774560168,
+        8.349716471331487
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N039",
+      "center": [
+        -0.6961467645351888,
+        1.1578431466406987,
+        8.888473757836303
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N040",
+      "center": [
+        -2.3132172587912914,
+        -1.455473283689777,
+        6.380934622463623
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N041",
+      "center": [
+        -0.26340219753623134,
+        1.3316431533318431,
+        6.775676912024377
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N042",
+      "center": [
+        0.0644930259107969,
+        2.7211164902832907,
+        6.71117466284156
+      ],
+      "radius": 0.5279508598787832,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N043",
+      "center": [
+        1.0238257882258066,
+        4.4120451470562285,
+        9.26941292295501
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N044",
+      "center": [
+        -1.7785472346481122,
+        0.6654827481641675,
+        5.885147594720388
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N045",
+      "center": [
+        -2.627566045205281,
+        0.48486739955560465,
+        8.240572345023221
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N046",
+      "center": [
+        -0.28902727862702926,
+        2.9477559896391723,
+        9.188839850687557
+      ],
+      "radius": 0.43846469495398815,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N047",
+      "center": [
+        -1.358599558526056,
+        -1.623341298630125,
+        6.26462692629526
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N048",
+      "center": [
+        0.8726793858616564,
+        3.45685906929009,
+        9.464671295351867
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N049",
+      "center": [
+        -0.006647633068481706,
+        2.5369153544914846,
+        7.824403127901309
+      ],
+      "radius": 0.584557944770049,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N050",
+      "center": [
+        -0.7956172959451536,
+        -2.441713930628291,
+        6.520538070591753
+      ],
+      "radius": 0.5349710050485018,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N051",
+      "center": [
+        -1.8148746140900929,
+        -2.8974442091111245,
+        7.184205685429849
+      ],
+      "radius": 0.5369675609305384,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N052",
+      "center": [
+        -1.7126379004549073,
+        -0.6787130371774528,
+        6.129907581695046
+      ],
+      "radius": 0.5227202197392805,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N053",
+      "center": [
+        -1.1631883569269523,
+        1.3717544739274314,
+        6.293208397730413
+      ],
+      "radius": 0.5309990133779384,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "N054",
+      "center": [
+        -2.6224308631352327,
+        0.9957393477094761,
+        7.40871563453621
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "U001",
+      "center": [
+        -2.838673546509654,
+        -0.5278115436045032,
+        6.807723025296162
+      ],
+      "radius": 0.45561001022261366,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "U002",
+      "center": [
+        -2.4976831145554534,
+        0.3467339850823906,
+        6.690222668117432
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "U003",
+      "center": [
+        -1.0139724530586234,
+        3.389657516753513,
+        8.812297556760868
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    },
+    {
+      "id": "U004",
+      "center": [
+        0.18718472622977342,
+        4.076061857638901,
+        7.654307626607334
+      ],
+      "radius": 0.4856807297139639,
+      "shape": "sphere",
+      "evidence": "growth_prediction_display",
+      "uses_future_reference": true
+    }
+  ],
+  "uses_future_reference": true,
+  "independent_early_prediction": false,
+  "absolute_scale_is_assumed": true,
+  "is_prediction_not_measurement": true
+}

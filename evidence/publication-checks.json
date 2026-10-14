@@ -1,0 +1,17 @@
+{
+  "public_snapshot_browser_passed": true,
+  "python_without_site_packages": true,
+  "successful_photos": 3,
+  "synthetic_cases": 6,
+  "real_pairs": 18,
+  "late_download_matches_display": true,
+  "public_execution_summary": true,
+  "historical_pages_available": true,
+  "script_errors": [],
+  "http_errors": [],
+  "root_pytest_passed": 17,
+  "agh_plugin_node_tests_passed": 2,
+  "growth_unit_tests_passed": 6,
+  "combined200_protocol_tests_passed": 5,
+  "total_code_tests_passed": 30
+}

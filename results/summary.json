@@ -1,0 +1,13 @@
+{
+  "sample_count": 77,
+  "evaluation_samples": 73,
+  "structure_top1": 0.06382978723404255,
+  "baseline_top1": 0.02127659574468085,
+  "forecast_better_than_baseline": [
+    false,
+    false
+  ],
+  "max_transform_distance": 2.0722954510905304e-16,
+  "report": "results/dashboard.js",
+  "metrics": "results/metrics.csv"
+}

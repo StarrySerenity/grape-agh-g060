@@ -1,0 +1,258 @@
+{
+  "sessionId": "agnes:local:local-dev:g060:professional:1791889612755",
+  "model": "agnes-3.0-flash",
+  "completed": true,
+  "outcome": {
+    "stopReason": "end_turn",
+    "reason": "completed",
+    "lastSeq": 131,
+    "credits": {
+      "used": 0,
+      "source": "estimated"
+    }
+  },
+  "professional_steps": 6,
+  "calls": [
+    {
+      "name": "grape_inventory",
+      "args": {},
+      "callSeq": 18,
+      "isError": false,
+      "resultSeq": 22,
+      "summary": {
+        "ok": true,
+        "samples": 77,
+        "evaluation_samples": 73,
+        "evaluation_identities": 46,
+        "exclusions": [
+          "July_g3_05",
+          "July_g3_06",
+          "July_g3_11",
+          "July_g3_12"
+        ],
+        "candidate_queries": [
+          "July_g1_01",
+          "July_g1_02",
+          "July_g1_03",
+          "July_g1_04",
+          "July_g1_05",
+          "July_g1_06",
+          "July_g1_07",
+          "July_g1_08",
+          "July_g1_09",
+          "July_g1_10",
+          "May_g1_01",
+          "May_g1_02",
+          "May_g1_03",
+          "May_g1_04",
+          "May_g1_05",
+          "May_g1_06",
+          "May_g1_07",
+          "May_g1_08",
+          "May_g1_09",
+          "May_g1_10",
+          "May_g1_11",
+          "May_g1_12",
+          "May_g1_13",
+          "May_g1_14",
+          "May_g1_16",
+          "May_g1_17",
+          "May_g1_18",
+          "May_g2_01",
+          "May_g2_02",
+          "May_g2_03",
+          "May_g2_04",
+          "May_g2_05",
+          "May_g2_06",
+          "May_g2_07",
+          "May_g2_08",
+          "May_g2_09",
+          "May_g2_10",
+          "May_g3_01",
+          "May_g3_02",
+          "May_g3_03",
+          "May_g3_04",
+          "May_g3_05",
+          "May_g3_06",
+          "May_g3_07",
+          "May_g3_08",
+          "May_g3_09",
+          "May_g3_10"
+        ],
+        "limitations": [
+          "model-estimated geometry, not per-berry ground truth",
+          "independent COLMAP scales; no physical growth measurements"
+        ]
+      }
+    },
+    {
+      "name": "grape_describe",
+      "args": {
+        "sample_id": "May_g2_07"
+      },
+      "callSeq": 35,
+      "isError": false,
+      "resultSeq": 39,
+      "summary": {
+        "ok": true,
+        "sample_id": "May_g2_07",
+        "bunch_id": "GROW_07",
+        "metrics": {
+          "berry_count": 45,
+          "distinct_centers": 45,
+          "median_radius_over_center_scale": 0.13285938044899773,
+          "covariance_minor_major_ratio": 0.1275665586136427,
+          "covariance_middle_major_ratio": 0.14162748640177839,
+          "radius_coefficient_variation": 0.017708197167232476,
+          "nearest_neighbor_over_scale": 0.2705879729210288,
+          "estimated_sphere_overlap_fraction": 0.013131313131313131
+        },
+        "warnings": [
+          "estimated spheres; not individually verified ground truth",
+          "dimensionless geometry; no physical growth rate"
+        ],
+        "identity_excluded": false,
+        "descriptor_dimensions": 72
+      }
+    },
+    {
+      "name": "grape_retrieve",
+      "args": {
+        "sample_id": "May_g2_07"
+      },
+      "callSeq": 52,
+      "isError": false,
+      "resultSeq": 56,
+      "summary": {
+        "ok": true,
+        "sample_id": "May_g2_07",
+        "reference_identity": "GROW_07",
+        "candidates": [
+          {
+            "sample_id": "May_g2_05",
+            "bunch_id": "GROW_05",
+            "date": "20260528",
+            "distance": 0.10503885847751614
+          },
+          {
+            "sample_id": "May_g3_02",
+            "bunch_id": "YG_02",
+            "date": "20260528",
+            "distance": 0.10986548213946357
+          },
+          {
+            "sample_id": "May_g3_07",
+            "bunch_id": "YG_07",
+            "date": "20260528",
+            "distance": 0.11753965451136762
+          },
+          {
+            "sample_id": "May_g2_09",
+            "bunch_id": "GROW_09",
+            "date": "20260528",
+            "distance": 0.11795977139633694
+          },
+          {
+            "sample_id": "May_g1_01",
+            "bunch_id": "YG_01",
+            "date": "20260514",
+            "distance": 0.11866603223707645
+          }
+        ],
+        "reference_rank": 38,
+        "warning": "ranking is an experimental suggestion; no verified identity decision"
+      }
+    },
+    {
+      "name": "grape_evaluate",
+      "args": {},
+      "callSeq": 69,
+      "isError": false,
+      "resultSeq": 73,
+      "summary": {
+        "ok": true,
+        "baseline": {
+          "eligible_queries": 47,
+          "top1": 0.02127659574468085,
+          "top3": 0.06382978723404255
+        },
+        "structure": {
+          "eligible_queries": 47,
+          "top1": 0.06382978723404255,
+          "top3": 0.1702127659574468
+        },
+        "scopes": {
+          "same_date": {
+            "eligible_queries": 14,
+            "top1": 0.21428571428571427,
+            "top3": 0.5714285714285714
+          },
+          "cross_date": {
+            "eligible_queries": 47,
+            "top1": 0,
+            "top3": 0.02127659574468085
+          }
+        },
+        "limitations": [
+          "queries exclude self, exact geometry and shared source video",
+          "no per-berry ground truth; no tuned weights"
+        ]
+      }
+    },
+    {
+      "name": "grape_forecast",
+      "args": {},
+      "callSeq": 86,
+      "isError": false,
+      "resultSeq": 90,
+      "summary": {
+        "ok": true,
+        "pairs": 10,
+        "targets": [
+          "median_radius_over_center_scale",
+          "covariance_minor_major_ratio"
+        ],
+        "model_mae": [
+          0.013616044720634903,
+          0.08277912633977948
+        ],
+        "baseline_mae": [
+          0.013585697180198818,
+          0.0634084363317011
+        ],
+        "model_better_than_baseline": [
+          false,
+          false
+        ],
+        "limits": [
+          "ten or fewer biological identities in current data",
+          "targets are dimensionless fitted-model estimates, not ground truth growth",
+          "negative or out-of-range forecasts are retained as model failures"
+        ],
+        "out_of_range_predictions": 0,
+        "validation": "leave-one-biological-identity-out, train-only normalization, fixed alpha=1"
+      }
+    },
+    {
+      "name": "grape_report",
+      "args": {},
+      "callSeq": 103,
+      "isError": false,
+      "resultSeq": 109,
+      "summary": {
+        "ok": true,
+        "sample_count": 77,
+        "evaluation_samples": 73,
+        "structure_top1": 0.06382978723404255,
+        "baseline_top1": 0.02127659574468085,
+        "forecast_better_than_baseline": [
+          false,
+          false
+        ],
+        "max_transform_distance": 2.0722954510905304e-16,
+        "report": "results/dashboard.js",
+        "metrics": "results/metrics.csv"
+      }
+    }
+  ]
+}

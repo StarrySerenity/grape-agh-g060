@@ -1,0 +1,60 @@
+{
+  "total_identities": 200,
+  "original_identities": 100,
+  "new_identities": 100,
+  "views_per_identity": 24,
+  "total_images": 4800,
+  "total_masks": 4800,
+  "unique_geometry_hashes": 200,
+  "unique_initial_grammar_hashes": 200,
+  "unique_image_hashes": 4800,
+  "original_files_unchanged": 204,
+  "family_counts": {
+    "original": 100,
+    "soft_cone": 17,
+    "slender": 17,
+    "short_full": 17,
+    "near_column": 17,
+    "one_shoulder": 16,
+    "soft_bend": 16
+  },
+  "family_length_width_ranges": {
+    "original": [
+      1.1538924271088393,
+      1.7004787704659525
+    ],
+    "soft_cone": [
+      1.300734603135566,
+      1.7488462049953668
+    ],
+    "slender": [
+      1.4994068440489525,
+      1.8187346402939715
+    ],
+    "short_full": [
+      1.3038177739051307,
+      1.5125504846449107
+    ],
+    "near_column": [
+      1.3398536909719194,
+      1.6679841006293856
+    ],
+    "one_shoulder": [
+      1.1978315754204067,
+      1.5635682140916
+    ],
+    "soft_bend": [
+      1.4673276777397284,
+      1.8621334032950783
+    ]
+  },
+  "sphere_and_stem_geometry_checks_passed": true,
+  "gpu_used": false,
+  "cpu_threads": 2,
+  "old_recognition_model_retrained": false,
+  "old_recognition_gallery_changed": false,
+  "old_40_query_metrics_not_relabelled_as_200_identity_metrics": true,
+  "shape_parameters": "small OIV-inspired engineering variations, not measured cultivar distribution",
+  "visual_review_log": "visual_review.json",
+  "data_ready_for_training": true
+}

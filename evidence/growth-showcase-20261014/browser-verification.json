@@ -1,0 +1,13 @@
+{
+  "featured_photos": 3,
+  "synthetic_cases": 6,
+  "animation_and_progress": true,
+  "real_pairs": 18,
+  "provenance_and_downloads": true,
+  "same_berry_selection": true,
+  "drag": true,
+  "passed": true,
+  "script_errors": [],
+  "http_errors": [],
+  "mobile_no_overflow": true
+}

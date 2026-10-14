@@ -1,0 +1,202 @@
+{
+  "successful_scientific_shell_calls": 27,
+  "successful_commands": [
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/training/train.py'",
+      "call_seq": 203,
+      "result_seq": 209
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase calibrate",
+      "call_seq": 452,
+      "result_seq": 458
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase synthetic --batch 0",
+      "call_seq": 472,
+      "result_seq": 478
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase synthetic --batch 1",
+      "call_seq": 491,
+      "result_seq": 497
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase synthetic --batch 2",
+      "call_seq": 510,
+      "result_seq": 516
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase synthetic --batch 3",
+      "call_seq": 529,
+      "result_seq": 535
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase synthetic --batch 4",
+      "call_seq": 548,
+      "result_seq": 554
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase synthetic --batch 5",
+      "call_seq": 568,
+      "result_seq": 574
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase synthetic --batch 6",
+      "call_seq": 588,
+      "result_seq": 594
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase synthetic --batch 7",
+      "call_seq": 607,
+      "result_seq": 613
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase synthetic --batch 8",
+      "call_seq": 627,
+      "result_seq": 633
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase synthetic --batch 9",
+      "call_seq": 647,
+      "result_seq": 653
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase real-detect",
+      "call_seq": 667,
+      "result_seq": 673
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase real --batch 0",
+      "call_seq": 687,
+      "result_seq": 693
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase real --batch 1",
+      "call_seq": 707,
+      "result_seq": 713
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase real --batch 2",
+      "call_seq": 727,
+      "result_seq": 733
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase real --batch 3",
+      "call_seq": 746,
+      "result_seq": 752
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase real --batch 4",
+      "call_seq": 765,
+      "result_seq": 771
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase real --batch 5",
+      "call_seq": 784,
+      "result_seq": 790
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase real --batch 6",
+      "call_seq": 803,
+      "result_seq": 809
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase real --batch 7",
+      "call_seq": 822,
+      "result_seq": 828
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase real --batch 8",
+      "call_seq": 841,
+      "result_seq": 847
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase real --batch 9",
+      "call_seq": 860,
+      "result_seq": 866
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase real --batch 10",
+      "call_seq": 879,
+      "result_seq": 885
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase real --batch 11",
+      "call_seq": 898,
+      "result_seq": 904
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase real --batch 12",
+      "call_seq": 917,
+      "result_seq": 923
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/summarize_verified.py'",
+      "call_seq": 1130,
+      "result_seq": 1136
+    }
+  ],
+  "failed_or_controller_declined_shell_calls": [
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -c \"import json;raw=json.loads(open(r'E:/grape_growth_workspace_20261013/synthetic_expansion_200_20261014/proposed_training_split.json',encoding='utf-8').read());print({k:len(v) for k,v in raw.items()});print('training[0:3]',raw['training'][:3]);print('training[-3:]',raw['training'][-3:])\"",
+      "call_seq": 135,
+      "result_seq": 140
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -c \"import json;raw=json.loads(open(r'E:/grape_growth_workspace_20261013/synthetic_expansion_200_20261014/proposed_training_split.json',encoding='utf-8').read());print({k:len(v) for k,v in raw.items()})\"",
+      "call_seq": 151,
+      "result_seq": 156
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B -c \"import json;raw=json.loads(open(r'E:/grape_growth_workspace_20261013/synthetic_expansion_200_20261014/proposed_training_split.json',encoding='utf-8').read());print({k:len(v) for k,v in raw.items()})\"",
+      "call_seq": 185,
+      "result_seq": 190
+    },
+    {
+      "command": "Get-Item 'E:/grape_hackathon_G060_200_20261014/training/synthetic_consumer/detector_best.pt' | Select-Object Length,LastWriteTime",
+      "call_seq": 259,
+      "result_seq": 264
+    },
+    {
+      "command": "Get-ChildItem 'E:/grape_hackathon_G060_200_20261014/training/synthetic_consumer/' | Select-Object Name,Length,LastWriteTime",
+      "call_seq": 275,
+      "result_seq": 280
+    },
+    {
+      "command": "Get-ChildItem -Path 'E:/grape_hackathon_G060_200_20261014/reference/real_consumer_test_20261014' -Recurse -Name",
+      "call_seq": 350,
+      "result_seq": 355
+    },
+    {
+      "command": "Get-ChildItem -Path 'E:/grape_hackathon_G060_200_20261014/reference' -Directory | Select-Object Name",
+      "call_seq": 366,
+      "result_seq": 371
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B 'E:/grape_hackathon_G060_200_20261014/experiment.py' --phase summarize",
+      "call_seq": 937,
+      "result_seq": 943
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B -c \"\nimport json,hashlib\nsnap=json.loads(open('E:/grape_hackathon_G060_200_20261014/source-snapshot.json',encoding='utf-8-sig').read())\np=r'E:\\grape_growth_workspace_20261013\\real_consumer_test_20261014\\build_report.py'\nexpected=snap['protected'].get(p)\nactual=hashlib.sha256(open(p,'rb').read()).hexdigest()\nprint('in_snapshot:', expected is not None)\nprint('expected:', expected)\nprint('actual  :', actual)\nprint('match   :', expected==actual if expected else 'not_in_snapshot')\n\"",
+      "call_seq": 991,
+      "result_seq": 996
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B -c \"import hashlib,os;p=r'E:\\grape_growth_workspace_20261013\\real_consumer_test_20261014\\build_report.py';print('exists:',os.path.exists(p));print('sha   :',hashlib.sha256(open(p,'rb').read()).hexdigest())\"",
+      "call_seq": 1024,
+      "result_seq": 1029
+    },
+    {
+      "command": "& 'D:/Anaconda/envs/grape1/python.exe' -B -c \"import hashlib,os;p=r'E:\\grape_growth_workspace_20261013\\real_consumer_test_20261014\\build_report.py';print('exists:',os.path.exists(p));print('sha   :',hashlib.sha256(open(p,'rb').read()).hexdigest() if os.path.exists(p) else 'FILE_MISSING')\"",
+      "call_seq": 1041,
+      "result_seq": 1046
+    }
+  ],
+  "corrected_assistant_message_seq": 1171,
+  "native_last_seq": 1176,
+  "correction_durable_submit_seq": 1157,
+  "correction_receipt": "SDK live listener timed out, but native ledger independently verifies corrected message and completed turn.",
+  "explanation": "All raw refusals and the first failed summary remain. No snapshot rewrite, no post-test model/threshold changes. Final assistant sentence saying no retraining refers to the correction turn; the actual 48-epoch training shell call is recorded above."
+}

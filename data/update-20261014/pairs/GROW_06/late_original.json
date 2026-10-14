@@ -1,0 +1,436 @@
+{
+  "sample_id": "July_g1_06",
+  "bunch_id": "GROW_06",
+  "group": "GROW",
+  "date": "20260707",
+  "stage": "mature",
+  "models": [
+    {
+      "id": "C001",
+      "center": [
+        -1.4464934676712142,
+        -0.9201387231389487,
+        0.2269737339803315
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C002",
+      "center": [
+        -1.3120084826483154,
+        -0.17053607289430822,
+        0.5426790410376636
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C003",
+      "center": [
+        -1.2023416824293605,
+        -1.3530966939524696,
+        0.0865931704552478
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C004",
+      "center": [
+        -1.1566454037626355,
+        -0.0322332288756684,
+        0.15002581015089703
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C005",
+      "center": [
+        -1.2803137844890506,
+        -0.7816778489543299,
+        0.7134451198898804
+      ],
+      "radius": 0.23581161641943382,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C006",
+      "center": [
+        -1.1263157962014332,
+        -0.5497464414491366,
+        0.16438282905087756
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C007",
+      "center": [
+        -1.1099356302967287,
+        0.2750024291408656,
+        0.43244636483099635
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C008",
+      "center": [
+        -1.0678641082050007,
+        0.49714316522006413,
+        0.08132645991674665
+      ],
+      "radius": 0.26900597478391475,
+      "evidence": "provisional_surface_refit_heldout_checked",
+      "shape": "sphere"
+    },
+    {
+      "id": "C009",
+      "center": [
+        -1.0173543677205024,
+        -1.2533949031811376,
+        0.9530109110424336
+      ],
+      "radius": 0.23581161641943382,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C010",
+      "center": [
+        -1.0389279015993045,
+        -0.37989664578263915,
+        0.8830786562222034
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C011",
+      "center": [
+        -1.0379892747721398,
+        -0.9513187741888278,
+        -0.05621622408138459
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C012",
+      "center": [
+        -1.0126915957704352,
+        -1.3011640090366938,
+        -0.467707530999451
+      ],
+      "radius": 0.20101303002191442,
+      "evidence": "provisional_surface_refit_heldout_checked",
+      "shape": "sphere"
+    },
+    {
+      "id": "C013",
+      "center": [
+        -1.006236200152978,
+        0.11264368148374088,
+        0.8566902287217597
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C014",
+      "center": [
+        -0.9189019240898574,
+        -1.6771484207357539,
+        -0.0639558697920728
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C015",
+      "center": [
+        -0.914948943597235,
+        0.7201904264818549,
+        0.528537259980835
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C016",
+      "center": [
+        -0.8842051071071851,
+        -0.2902945006888617,
+        -0.23747372593543464
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C017",
+      "center": [
+        -0.8462709070268248,
+        -0.8870193944074267,
+        0.9367902592168983
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C018",
+      "center": [
+        -0.6685439002124142,
+        -1.2338279140828485,
+        -0.1902571501281949
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C019",
+      "center": [
+        -0.6507656872340805,
+        0.09659750745236974,
+        -0.018948739155088906
+      ],
+      "radius": 0.2658916312036854,
+      "evidence": "provisional_surface_refit_heldout_checked",
+      "shape": "sphere"
+    },
+    {
+      "id": "C020",
+      "center": [
+        -0.6306302630208834,
+        0.38455808364056154,
+        0.8074649326108994
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C021",
+      "center": [
+        -0.6233029500182639,
+        0.6731165859233621,
+        0.039396010547940966
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C022",
+      "center": [
+        -0.5944608384761786,
+        -0.12290793522318656,
+        0.5985573386631944
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C023",
+      "center": [
+        -0.5814291817556352,
+        -0.6956834977712919,
+        -0.2909244302362724
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C025",
+      "center": [
+        -0.506509989707814,
+        -0.4613466235635038,
+        0.8529552251387311
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C026",
+      "center": [
+        -0.5077446119216581,
+        -1.1992548703920076,
+        1.098859810346456
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C027",
+      "center": [
+        -0.4220687980802933,
+        -0.3950651059081114,
+        0.11654134994863294
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C028",
+      "center": [
+        -0.39549940090159386,
+        -1.752619096076512,
+        0.9087268758407818
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C029",
+      "center": [
+        -0.3815034162091841,
+        0.31692849655153477,
+        0.3473157638544359
+      ],
+      "radius": 0.26091802570765005,
+      "evidence": "provisional_surface_refit_heldout_checked",
+      "shape": "sphere"
+    },
+    {
+      "id": "C030",
+      "center": [
+        -0.3464981229212854,
+        -0.9285757084033258,
+        0.7790619505256345
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C031",
+      "center": [
+        -0.27600432579816486,
+        -1.395169539501573,
+        0.7249831964369812
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C032",
+      "center": [
+        -0.17018344713619815,
+        -1.3653978085199758,
+        -0.297606170686098
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C033",
+      "center": [
+        -0.09818590812609732,
+        -0.9071020034485281,
+        -0.19948130913070294
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C034",
+      "center": [
+        -0.05944833748634765,
+        -1.5945063832056783,
+        0.1844112888719804
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "C035",
+      "center": [
+        0.05381944582223839,
+        -0.6399648088814337,
+        0.2358614159802085
+      ],
+      "radius": 0.23581161641943382,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U001",
+      "center": [
+        -0.1979858551345678,
+        -1.1077181888108674,
+        0.3641328457735683
+      ],
+      "radius": 0.23581161641943382,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U002",
+      "center": [
+        -0.9097054067505301,
+        -1.413521884699529,
+        0.49173772961865175
+      ],
+      "radius": 0.2051561062849074,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    },
+    {
+      "id": "U003",
+      "center": [
+        -1.117480594403891,
+        -1.8350188313342217,
+        0.33436288357460686
+      ],
+      "radius": 0.19808175779232443,
+      "manual": true,
+      "manual_edited": true,
+      "evidence": "provisional",
+      "shape": "sphere"
+    }
+  ],
+  "model_source": "E:\\grape_all_bunch_reaudit_20261011\\manual_edits\\July_g1_06\\state.json",
+  "model_sha256": "d8a3fe62f6138f08ad9961aa2b7e822497bd69e3099514d124918c3a3b2a4693",
+  "revision": 1,
+  "measured_cloud": "E:/grape_colmap_20260707_20261002/1/6/6.ply",
+  "source_videos": [
+    "E:/grape_data_jurong/20260707/1/6/6.mp4"
+  ],
+  "uses_future_reference": false,
+  "input_manifest": null,
+  "viewer_path": "E:\\grape_all_bunch_reaudit_20261011\\July_g1_06\\viewer.html"
+}

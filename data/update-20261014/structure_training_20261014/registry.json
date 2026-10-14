@@ -1,0 +1,17 @@
+{
+  "models": {
+    "real_only": {
+      "checkpoint": "structure_training_20261014/models/real_only/best.pt",
+      "gallery": "structure_training_20261014/gallery/real_only",
+      "checkpoint_sha256": "e74568bd6e594328969287eb77b1ef3af15349715303875e57f280d3fd94886d",
+      "weight": 0.0
+    },
+    "mixed": {
+      "checkpoint": "structure_training_20261014/models/mixed_010/best.pt",
+      "gallery": "structure_training_20261014/gallery/mixed",
+      "checkpoint_sha256": "e75f720fc8db6449ed22dd17b08c3a6fce188a5d9d37244ef0eff663c8a3e752",
+      "weight": 0.1
+    }
+  },
+  "recommended": "mixed"
+}

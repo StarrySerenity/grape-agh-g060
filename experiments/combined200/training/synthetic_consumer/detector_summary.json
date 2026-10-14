@@ -1,0 +1,45 @@
+{
+  "epoch": 24,
+  "loss": 0.25753923831507564,
+  "validation": {
+    "annotated": 2279,
+    "predicted": 1976,
+    "matched": 1930,
+    "annotated_recall": 0.8468626590609917,
+    "precision": 0.9767206477732794,
+    "f1": 0.9071680376028202,
+    "median_center_error_radius": 0.049174972319528026,
+    "median_relative_radius_error": 0.030977388700832886,
+    "threshold": 0.25,
+    "center_match_gate_radius": 0.35,
+    "caveat": "known synthetic projected sphere-center labels, separate geometry identities"
+  },
+  "old_shape_validation": {
+    "annotated": 1129,
+    "predicted": 990,
+    "matched": 971,
+    "annotated_recall": 0.8600531443755536,
+    "precision": 0.9808080808080808,
+    "f1": 0.9164700330344503,
+    "median_center_error_radius": 0.045918834424323464,
+    "median_relative_radius_error": 0.03158462953252439,
+    "threshold": 0.25,
+    "center_match_gate_radius": 0.35,
+    "caveat": "known synthetic projected sphere-center labels, separate geometry identities"
+  },
+  "new_shape_validation": {
+    "annotated": 1150,
+    "predicted": 986,
+    "matched": 959,
+    "annotated_recall": 0.8339130434782609,
+    "precision": 0.9726166328600405,
+    "f1": 0.8979400749063671,
+    "median_center_error_radius": 0.05241709242637287,
+    "median_relative_radius_error": 0.030506950385285392,
+    "threshold": 0.25,
+    "center_match_gate_radius": 0.35,
+    "caveat": "known synthetic projected sphere-center labels, separate geometry identities"
+  },
+  "selection_score": 0.9022882576278738,
+  "elapsed_seconds": 35.11
+}

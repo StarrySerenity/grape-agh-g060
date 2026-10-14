@@ -1,0 +1,507 @@
+{
+  "pairs": 10,
+  "targets": [
+    "median_radius_over_center_scale",
+    "covariance_minor_major_ratio"
+  ],
+  "folds": [
+    {
+      "bunch_id": "GROW_01",
+      "early": "May_g2_01",
+      "late": "July_g1_01",
+      "train_ids": [
+        "GROW_02",
+        "GROW_03",
+        "GROW_04",
+        "GROW_05",
+        "GROW_06",
+        "GROW_07",
+        "GROW_08",
+        "GROW_09",
+        "GROW_10"
+      ],
+      "reference": [
+        0.2100796322616321,
+        0.2665313131185745
+      ],
+      "prediction": [
+        0.1899421675726241,
+        0.35479857216543476
+      ],
+      "baseline": [
+        0.1925315917506551,
+        0.22444341647309246
+      ],
+      "early_metrics": {
+        "berry_count": 49,
+        "distinct_centers": 49,
+        "median_radius_over_center_scale": 0.13720001703988238,
+        "covariance_minor_major_ratio": 0.1656284165566177,
+        "covariance_middle_major_ratio": 0.2009985412668305,
+        "radius_coefficient_variation": 0.0042417570797605155,
+        "nearest_neighbor_over_scale": 0.28488789164356143,
+        "estimated_sphere_overlap_fraction": 0.013605442176870748
+      },
+      "late_metrics": {
+        "berry_count": 47,
+        "distinct_centers": 47,
+        "median_radius_over_center_scale": 0.2100796322616321,
+        "covariance_minor_major_ratio": 0.2665313131185745,
+        "covariance_middle_major_ratio": 0.35567457767729627,
+        "radius_coefficient_variation": 0.044071151787132966,
+        "nearest_neighbor_over_scale": 0.36969417790883047,
+        "estimated_sphere_overlap_fraction": 0.0666049953746531
+      }
+    },
+    {
+      "bunch_id": "GROW_02",
+      "early": "May_g2_02",
+      "late": "July_g1_02",
+      "train_ids": [
+        "GROW_01",
+        "GROW_03",
+        "GROW_04",
+        "GROW_05",
+        "GROW_06",
+        "GROW_07",
+        "GROW_08",
+        "GROW_09",
+        "GROW_10"
+      ],
+      "reference": [
+        0.2073564738209624,
+        0.205605846372064
+      ],
+      "prediction": [
+        0.1989338833845296,
+        0.18118746684130954
+      ],
+      "baseline": [
+        0.19283416491072955,
+        0.23121291277826034
+      ],
+      "early_metrics": {
+        "berry_count": 39,
+        "distinct_centers": 39,
+        "median_radius_over_center_scale": 0.11431499544402864,
+        "covariance_minor_major_ratio": 0.14115112642077213,
+        "covariance_middle_major_ratio": 0.17182693160034426,
+        "radius_coefficient_variation": 0.04962850532778427,
+        "nearest_neighbor_over_scale": 0.3164708133258114,
+        "estimated_sphere_overlap_fraction": 0.001349527665317139
+      },
+      "late_metrics": {
+        "berry_count": 39,
+        "distinct_centers": 39,
+        "median_radius_over_center_scale": 0.2073564738209624,
+        "covariance_minor_major_ratio": 0.205605846372064,
+        "covariance_middle_major_ratio": 0.2764252349230511,
+        "radius_coefficient_variation": 0.01155999749027222,
+        "nearest_neighbor_over_scale": 0.37523732390110803,
+        "estimated_sphere_overlap_fraction": 0.04993252361673414
+      }
+    },
+    {
+      "bunch_id": "GROW_03",
+      "early": "May_g2_03",
+      "late": "July_g1_03",
+      "train_ids": [
+        "GROW_01",
+        "GROW_02",
+        "GROW_04",
+        "GROW_05",
+        "GROW_06",
+        "GROW_07",
+        "GROW_08",
+        "GROW_09",
+        "GROW_10"
+      ],
+      "reference": [
+        0.2222138626397373,
+        0.2352342696845011
+      ],
+      "prediction": [
+        0.20111178602576713,
+        0.2985176678303223
+      ],
+      "baseline": [
+        0.19118334393086564,
+        0.2279208657435451
+      ],
+      "early_metrics": {
+        "berry_count": 35,
+        "distinct_centers": 35,
+        "median_radius_over_center_scale": 0.13713511908901196,
+        "covariance_minor_major_ratio": 0.14547043388570075,
+        "covariance_middle_major_ratio": 0.17483525368099612,
+        "radius_coefficient_variation": 0.055544839724422555,
+        "nearest_neighbor_over_scale": 0.34899506921170526,
+        "estimated_sphere_overlap_fraction": 0.0016806722689075631
+      },
+      "late_metrics": {
+        "berry_count": 37,
+        "distinct_centers": 37,
+        "median_radius_over_center_scale": 0.2222138626397373,
+        "covariance_minor_major_ratio": 0.2352342696845011,
+        "covariance_middle_major_ratio": 0.30538370415380633,
+        "radius_coefficient_variation": 0.019459459459459462,
+        "nearest_neighbor_over_scale": 0.37851825834955305,
+        "estimated_sphere_overlap_fraction": 0.07057057057057058
+      }
+    },
+    {
+      "bunch_id": "GROW_04",
+      "early": "May_g2_04",
+      "late": "July_g1_04",
+      "train_ids": [
+        "GROW_01",
+        "GROW_02",
+        "GROW_03",
+        "GROW_05",
+        "GROW_06",
+        "GROW_07",
+        "GROW_08",
+        "GROW_09",
+        "GROW_10"
+      ],
+      "reference": [
+        0.1877863713056426,
+        0.26557323474744415
+      ],
+      "prediction": [
+        0.204890329957506,
+        0.22315380897975506
+      ],
+      "baseline": [
+        0.19500862074576505,
+        0.22454986962544032
+      ],
+      "early_metrics": {
+        "berry_count": 47,
+        "distinct_centers": 47,
+        "median_radius_over_center_scale": 0.11719638741831964,
+        "covariance_minor_major_ratio": 0.1641171855167431,
+        "covariance_middle_major_ratio": 0.22360195733125754,
+        "radius_coefficient_variation": 0.042368502880559725,
+        "nearest_neighbor_over_scale": 0.29146352577639545,
+        "estimated_sphere_overlap_fraction": 0.004625346901017576
+      },
+      "late_metrics": {
+        "berry_count": 40,
+        "distinct_centers": 40,
+        "median_radius_over_center_scale": 0.1877863713056426,
+        "covariance_minor_major_ratio": 0.26557323474744415,
+        "covariance_middle_major_ratio": 0.32923283542692666,
+        "radius_coefficient_variation": 0.03411296997274096,
+        "nearest_neighbor_over_scale": 0.35669355437045075,
+        "estimated_sphere_overlap_fraction": 0.03333333333333333
+      }
+    },
+    {
+      "bunch_id": "GROW_05",
+      "early": "May_g2_05",
+      "late": "July_g1_05",
+      "train_ids": [
+        "GROW_01",
+        "GROW_02",
+        "GROW_03",
+        "GROW_04",
+        "GROW_06",
+        "GROW_07",
+        "GROW_08",
+        "GROW_09",
+        "GROW_10"
+      ],
+      "reference": [
+        0.18924582384397182,
+        0.3799713406502393
+      ],
+      "prediction": [
+        0.20509805233631148,
+        0.2590735059343989
+      ],
+      "baseline": [
+        0.19484645935261738,
+        0.21183896896957416
+      ],
+      "early_metrics": {
+        "berry_count": 45,
+        "distinct_centers": 45,
+        "median_radius_over_center_scale": 0.14081639914555627,
+        "covariance_minor_major_ratio": 0.15703419214701778,
+        "covariance_middle_major_ratio": 0.1956970415858784,
+        "radius_coefficient_variation": 0.026105306385019778,
+        "nearest_neighbor_over_scale": 0.28514264488832236,
+        "estimated_sphere_overlap_fraction": 0.014141414141414142
+      },
+      "late_metrics": {
+        "berry_count": 42,
+        "distinct_centers": 42,
+        "median_radius_over_center_scale": 0.18924582384397182,
+        "covariance_minor_major_ratio": 0.3799713406502393,
+        "covariance_middle_major_ratio": 0.43408745564846524,
+        "radius_coefficient_variation": 0.04171165636730218,
+        "nearest_neighbor_over_scale": 0.3568964542988159,
+        "estimated_sphere_overlap_fraction": 0.029036004645760744
+      }
+    },
+    {
+      "bunch_id": "GROW_06",
+      "early": "May_g2_06",
+      "late": "July_g1_06",
+      "train_ids": [
+        "GROW_01",
+        "GROW_02",
+        "GROW_03",
+        "GROW_04",
+        "GROW_05",
+        "GROW_07",
+        "GROW_08",
+        "GROW_09",
+        "GROW_10"
+      ],
+      "reference": [
+        0.19863125179557414,
+        0.2812888359800994
+      ],
+      "prediction": [
+        0.1874579988831855,
+        0.29344930460971397
+      ],
+      "baseline": [
+        0.19380363402466153,
+        0.22280369171070083
+      ],
+      "early_metrics": {
+        "berry_count": 41,
+        "distinct_centers": 41,
+        "median_radius_over_center_scale": 0.11369229519820775,
+        "covariance_minor_major_ratio": 0.1371998414239799,
+        "covariance_middle_major_ratio": 0.16506572084361665,
+        "radius_coefficient_variation": 0.09854070102016337,
+        "nearest_neighbor_over_scale": 0.28850090578284443,
+        "estimated_sphere_overlap_fraction": 0.01097560975609756
+      },
+      "late_metrics": {
+        "berry_count": 37,
+        "distinct_centers": 37,
+        "median_radius_over_center_scale": 0.19863125179557414,
+        "covariance_minor_major_ratio": 0.2812888359800994,
+        "covariance_middle_major_ratio": 0.34179753917884553,
+        "radius_coefficient_variation": 0.054918194122439895,
+        "nearest_neighbor_over_scale": 0.39278283042957135,
+        "estimated_sphere_overlap_fraction": 0.02252252252252252
+      }
+    },
+    {
+      "bunch_id": "GROW_07",
+      "early": "May_g2_07",
+      "late": "July_g1_07",
+      "train_ids": [
+        "GROW_01",
+        "GROW_02",
+        "GROW_03",
+        "GROW_04",
+        "GROW_05",
+        "GROW_06",
+        "GROW_08",
+        "GROW_09",
+        "GROW_10"
+      ],
+      "reference": [
+        0.18945552185800676,
+        0.20827848103426466
+      ],
+      "prediction": [
+        0.1969810859649589,
+        0.23509370486651052
+      ],
+      "baseline": [
+        0.19482315957328017,
+        0.2309159533713491
+      ],
+      "early_metrics": {
+        "berry_count": 45,
+        "distinct_centers": 45,
+        "median_radius_over_center_scale": 0.13285938044899773,
+        "covariance_minor_major_ratio": 0.1275665586136427,
+        "covariance_middle_major_ratio": 0.14162748640177839,
+        "radius_coefficient_variation": 0.017708197167232476,
+        "nearest_neighbor_over_scale": 0.2705879729210288,
+        "estimated_sphere_overlap_fraction": 0.013131313131313131
+      },
+      "late_metrics": {
+        "berry_count": 42,
+        "distinct_centers": 42,
+        "median_radius_over_center_scale": 0.18945552185800676,
+        "covariance_minor_major_ratio": 0.20827848103426466,
+        "covariance_middle_major_ratio": 0.2581645338837722,
+        "radius_coefficient_variation": 0.047400268417259965,
+        "nearest_neighbor_over_scale": 0.3757859805398025,
+        "estimated_sphere_overlap_fraction": 0.025551684088269456
+      }
+    },
+    {
+      "bunch_id": "GROW_08",
+      "early": "May_g2_08",
+      "late": "July_g1_08",
+      "train_ids": [
+        "GROW_01",
+        "GROW_02",
+        "GROW_03",
+        "GROW_04",
+        "GROW_05",
+        "GROW_06",
+        "GROW_07",
+        "GROW_09",
+        "GROW_10"
+      ],
+      "reference": [
+        0.1634199512148963,
+        0.04995869447201928
+      ],
+      "prediction": [
+        0.15453936605362356,
+        0.42496990498399445
+      ],
+      "baseline": [
+        0.19771600075584797,
+        0.24850704076715419
+      ],
+      "early_metrics": {
+        "berry_count": 27,
+        "distinct_centers": 27,
+        "median_radius_over_center_scale": 0.12376061755924342,
+        "covariance_minor_major_ratio": 0.16374673263434703,
+        "covariance_middle_major_ratio": 0.36094727739949084,
+        "radius_coefficient_variation": 0.041351065147962954,
+        "nearest_neighbor_over_scale": 0.3162982369796468,
+        "estimated_sphere_overlap_fraction": 0.002849002849002849
+      },
+      "late_metrics": {
+        "berry_count": 34,
+        "distinct_centers": 34,
+        "median_radius_over_center_scale": 0.1634199512148963,
+        "covariance_minor_major_ratio": 0.04995869447201928,
+        "covariance_middle_major_ratio": 0.17069377494160987,
+        "radius_coefficient_variation": 0.08139590220250438,
+        "nearest_neighbor_over_scale": 0.2767078399015507,
+        "estimated_sphere_overlap_fraction": 0.0481283422459893
+      }
+    },
+    {
+      "bunch_id": "GROW_09",
+      "early": "May_g2_09",
+      "late": "July_g1_09",
+      "train_ids": [
+        "GROW_01",
+        "GROW_02",
+        "GROW_03",
+        "GROW_04",
+        "GROW_05",
+        "GROW_06",
+        "GROW_07",
+        "GROW_08",
+        "GROW_10"
+      ],
+      "reference": [
+        0.19100815760862855,
+        0.22794554937537664
+      ],
+      "prediction": [
+        0.1745453910490633,
+        0.3009482718443768
+      ],
+      "baseline": [
+        0.19465064448987773,
+        0.22873072355567003
+      ],
+      "early_metrics": {
+        "berry_count": 70,
+        "distinct_centers": 70,
+        "median_radius_over_center_scale": 0.11542628053770189,
+        "covariance_minor_major_ratio": 0.1385646884579645,
+        "covariance_middle_major_ratio": 0.16910690566384162,
+        "radius_coefficient_variation": 0.04332950480848361,
+        "nearest_neighbor_over_scale": 0.224749451995325,
+        "estimated_sphere_overlap_fraction": 0.012836438923395446
+      },
+      "late_metrics": {
+        "berry_count": 56,
+        "distinct_centers": 56,
+        "median_radius_over_center_scale": 0.19100815760862855,
+        "covariance_minor_major_ratio": 0.22794554937537664,
+        "covariance_middle_major_ratio": 0.25422557350643094,
+        "radius_coefficient_variation": 0.05079288171132845,
+        "nearest_neighbor_over_scale": 0.33696310133608237,
+        "estimated_sphere_overlap_fraction": 0.04935064935064935
+      }
+    },
+    {
+      "bunch_id": "GROW_10",
+      "early": "May_g2_10",
+      "late": "July_g1_10",
+      "train_ids": [
+        "GROW_01",
+        "GROW_02",
+        "GROW_03",
+        "GROW_04",
+        "GROW_05",
+        "GROW_06",
+        "GROW_07",
+        "GROW_08",
+        "GROW_09"
+      ],
+      "reference": [
+        0.1836669116684762,
+        0.16613449594182392
+      ],
+      "prediction": [
+        0.1931668712510325,
+        0.1646191551938303
+      ],
+      "baseline": [
+        0.195466338483228,
+        0.23559861838162036
+      ],
+      "early_metrics": {
+        "berry_count": 43,
+        "distinct_centers": 43,
+        "median_radius_over_center_scale": 0.11529392792064423,
+        "covariance_minor_major_ratio": 0.12270985541354901,
+        "covariance_middle_major_ratio": 0.14614273204670356,
+        "radius_coefficient_variation": 0.05174493877392974,
+        "nearest_neighbor_over_scale": 0.2671857673584288,
+        "estimated_sphere_overlap_fraction": 0.005537098560354375
+      },
+      "late_metrics": {
+        "berry_count": 48,
+        "distinct_centers": 48,
+        "median_radius_over_center_scale": 0.1836669116684762,
+        "covariance_minor_major_ratio": 0.16613449594182392,
+        "covariance_middle_major_ratio": 0.21528843032615222,
+        "radius_coefficient_variation": 0.038441217218844685,
+        "nearest_neighbor_over_scale": 0.33170029852140154,
+        "estimated_sphere_overlap_fraction": 0.038120567375886524
+      }
+    }
+  ],
+  "model_mae": [
+    0.013616044720634903,
+    0.08277912633977948
+  ],
+  "baseline_mae": [
+    0.013585697180198818,
+    0.0634084363317011
+  ],
+  "model_better_than_baseline": [
+    false,
+    false
+  ],
+  "limits": [
+    "ten or fewer biological identities in current data",
+    "targets are dimensionless fitted-model estimates, not ground truth growth",
+    "negative or out-of-range forecasts are retained as model failures"
+  ],
+  "out_of_range_predictions": 0
+}

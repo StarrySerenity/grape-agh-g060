@@ -1,0 +1,15 @@
+.superpowers/
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+node_modules/
+plugin/runtime-config.json
+config.local.json
+build/
+.chart-data-*/
+private/
+
+experiments/growth/real/
+experiments/growth/synthetic/cases/
+experiments/growth/synthetic/qa/

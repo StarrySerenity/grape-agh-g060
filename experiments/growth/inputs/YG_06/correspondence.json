@@ -1,0 +1,594 @@
+{
+  "rotation": [
+    [
+      0.4051519755103834,
+      -0.36252555513909224,
+      0.8393015540383131
+    ],
+    [
+      0.5499238427247451,
+      0.8300150812769431,
+      0.09305230816954413
+    ],
+    [
+      -0.7303667872671125,
+      0.4238516093209078,
+      0.5356436962507756
+    ]
+  ],
+  "scale": 0.9237014103074005,
+  "translation": [
+    -0.0698221499781208,
+    -0.08036171308519247,
+    0.3326068107689419
+  ],
+  "transformed_late_centers": [
+    [
+      -0.11041358814019983,
+      0.68757244623319,
+      0.22360147536681108
+    ],
+    [
+      -0.2724953794227123,
+      0.2739005829403607,
+      0.4267296212680781
+    ],
+    [
+      0.12533222914334174,
+      -0.5024409213495695,
+      0.3038211465189045
+    ],
+    [
+      -0.06191306446957129,
+      0.37470086822444404,
+      0.22575450703331318
+    ],
+    [
+      0.14221521479245036,
+      -0.40009323694367865,
+      -0.2826698951984988
+    ],
+    [
+      0.033418486449811935,
+      0.7455134395607481,
+      0.8336787949307167
+    ],
+    [
+      0.05139669470335968,
+      -0.14727188005191175,
+      0.5047316530659485
+    ],
+    [
+      0.493454827761656,
+      -0.6383735504586113,
+      0.32479962186491285
+    ],
+    [
+      0.4968060369757242,
+      0.2733635980448006,
+      0.15666455920710495
+    ],
+    [
+      -0.000501698456934152,
+      0.4606665644764405,
+      0.710240770510304
+    ],
+    [
+      0.6922556389134267,
+      -0.49588844785678216,
+      -0.35238089988613913
+    ],
+    [
+      0.07168965634317795,
+      -0.22156569645549448,
+      0.15210999916901838
+    ],
+    [
+      0.55601510983771,
+      0.21640483899427587,
+      0.3584689739624175
+    ],
+    [
+      0.2875698404846026,
+      0.4105183822355143,
+      -0.11097517231078785
+    ],
+    [
+      0.7782463935845818,
+      -0.14657482138471817,
+      0.06256667885831074
+    ],
+    [
+      0.25787992934387677,
+      0.006638944954899917,
+      -0.2625104941827879
+    ],
+    [
+      0.5080699560051978,
+      -0.25113714734710446,
+      0.4815274745140885
+    ],
+    [
+      0.585077908776888,
+      0.6709554653662936,
+      0.5005920870531257
+    ],
+    [
+      0.5976006150633848,
+      -0.13093793216457672,
+      -0.2528437248392001
+    ],
+    [
+      0.7768022011901825,
+      -0.449860190577294,
+      0.01519800171689184
+    ],
+    [
+      -0.0014073143936018107,
+      1.181145032061595,
+      0.9456400932341253
+    ],
+    [
+      0.4292085216470654,
+      0.08036510953930154,
+      0.5758635088993276
+    ],
+    [
+      0.35259267974499603,
+      0.7716511533616983,
+      0.237349085946866
+    ],
+    [
+      0.15144781286582276,
+      1.0153771664295728,
+      0.22166080723806547
+    ],
+    [
+      0.41455765040799764,
+      0.9683626026857816,
+      0.41957206197808994
+    ],
+    [
+      -0.17791358363270995,
+      0.005393986567839876,
+      -0.11939064883549483
+    ],
+    [
+      0.27091852760795143,
+      0.8421852848312675,
+      0.8736445631655305
+    ],
+    [
+      0.22127087226915326,
+      0.18642384924971345,
+      0.5834524026460122
+    ],
+    [
+      0.5427688629157872,
+      0.9190289029680012,
+      0.5996752286996792
+    ],
+    [
+      -0.07592797145754293,
+      1.161179586584315,
+      0.5207353754703468
+    ],
+    [
+      -0.1326474586357025,
+      -0.5911390344361532,
+      -0.3175514798081723
+    ],
+    [
+      0.37183512364383564,
+      1.2662865518189323,
+      0.563245602450052
+    ],
+    [
+      -0.13236762894764467,
+      0.47002929148475947,
+      0.5423558683700271
+    ],
+    [
+      0.518571701295224,
+      -0.18848045447032513,
+      0.2913604373351102
+    ],
+    [
+      0.37470294350263056,
+      0.019504880213019993,
+      -0.07536789742237365
+    ],
+    [
+      0.30340290064871883,
+      1.5951156741173231,
+      0.7766011629248362
+    ],
+    [
+      -0.12311788935779217,
+      1.3667627756019827,
+      0.7857753698742933
+    ],
+    [
+      0.25689978072506386,
+      -0.5419997966403752,
+      -0.5797092989207919
+    ],
+    [
+      0.10147732188280201,
+      -0.9589957957422169,
+      0.20814245683831223
+    ],
+    [
+      -0.04335851570060234,
+      -0.35431105297120585,
+      -0.11452000137384383
+    ],
+    [
+      0.39456754411414646,
+      0.43290420894849024,
+      0.8356111213307609
+    ],
+    [
+      0.5817881054253291,
+      0.6531783617957857,
+      0.07723761179520178
+    ],
+    [
+      -0.22400576509755604,
+      0.8585060144929144,
+      0.726194269771875
+    ],
+    [
+      -0.2529203430058365,
+      1.1326207217703224,
+      0.8804032822915757
+    ],
+    [
+      0.04713564354147065,
+      1.4875588833742492,
+      0.971714913676544
+    ],
+    [
+      0.13674372122301331,
+      1.4957887540928199,
+      0.5654002340187887
+    ],
+    [
+      0.47925991779768223,
+      1.3936623775716637,
+      0.8947192562876052
+    ],
+    [
+      0.34638637516010107,
+      1.0814960288727118,
+      0.9670898471824199
+    ],
+    [
+      0.524406095202989,
+      1.1456778569545918,
+      0.766488406482404
+    ],
+    [
+      -0.03524894941166598,
+      0.07913528223486302,
+      0.18268906797623652
+    ],
+    [
+      -0.16018675797656656,
+      0.8719412813008214,
+      0.40570887561355107
+    ],
+    [
+      0.6924064350684533,
+      -0.7965375303677756,
+      0.42173233267281784
+    ],
+    [
+      0.8570306549345614,
+      -0.726786951977863,
+      0.06095055872693178
+    ],
+    [
+      0.28307310504942523,
+      1.4130753762194321,
+      1.0615865739875505
+    ],
+    [
+      0.19029840256111374,
+      1.2578325099236416,
+      0.385232006141579
+    ]
+  ],
+  "matches": [
+    {
+      "early_id": "N004",
+      "late_id": "U004",
+      "early_index": 3,
+      "late_index": 40,
+      "residual_over_radius": 0.9466380268977208,
+      "local_margin_over_radius": 1.667155414944995,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N005",
+      "late_id": "N017",
+      "early_index": 4,
+      "late_index": 16,
+      "residual_over_radius": 1.022846965881283,
+      "local_margin_over_radius": 2.3474126712320573,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N006",
+      "late_id": "N009",
+      "early_index": 5,
+      "late_index": 8,
+      "residual_over_radius": 0.5222271317193292,
+      "local_margin_over_radius": 1.787907603069498,
+      "geometric_confidence": "strong_candidate",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N007",
+      "late_id": "U015",
+      "early_index": 6,
+      "late_index": 51,
+      "residual_over_radius": 1.2490648967806561,
+      "local_margin_over_radius": 0.09367925781986766,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N008",
+      "late_id": "N022",
+      "early_index": 7,
+      "late_index": 21,
+      "residual_over_radius": 1.076453988985017,
+      "local_margin_over_radius": 1.7811011893632254,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N011",
+      "late_id": "N031",
+      "early_index": 10,
+      "late_index": 30,
+      "residual_over_radius": 0.8859643385093073,
+      "local_margin_over_radius": 1.1830556404343662,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N013",
+      "late_id": "N016",
+      "early_index": 12,
+      "late_index": 15,
+      "residual_over_radius": 0.8187161788003103,
+      "local_margin_over_radius": 0.48666306452692965,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N016",
+      "late_id": "N011",
+      "early_index": 14,
+      "late_index": 10,
+      "residual_over_radius": 1.1061073098162697,
+      "local_margin_over_radius": 0.8076462861655187,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N017",
+      "late_id": "N004",
+      "early_index": 15,
+      "late_index": 3,
+      "residual_over_radius": 0.6484206157021197,
+      "local_margin_over_radius": 1.8189058941203562,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N018",
+      "late_id": "N028",
+      "early_index": 16,
+      "late_index": 27,
+      "residual_over_radius": 1.1077814908591594,
+      "local_margin_over_radius": 2.110822383519461,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N020",
+      "late_id": "N023",
+      "early_index": 17,
+      "late_index": 22,
+      "residual_over_radius": 0.5375380428907137,
+      "local_margin_over_radius": 2.516991760538412,
+      "geometric_confidence": "strong_candidate",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N021",
+      "late_id": "U001",
+      "early_index": 18,
+      "late_index": 37,
+      "residual_over_radius": 0.7027811653367411,
+      "local_margin_over_radius": 2.4547642913379284,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N022",
+      "late_id": "N013",
+      "early_index": 19,
+      "late_index": 12,
+      "residual_over_radius": 0.6320094876753068,
+      "local_margin_over_radius": 2.1107163520357974,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N024",
+      "late_id": "N007",
+      "early_index": 21,
+      "late_index": 6,
+      "residual_over_radius": 0.9605423897345671,
+      "local_margin_over_radius": 2.9449348870623946,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N026",
+      "late_id": "U017",
+      "early_index": 23,
+      "late_index": 53,
+      "residual_over_radius": 1.3404108707482079,
+      "local_margin_over_radius": 1.2165776408053988,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N028",
+      "late_id": "U016",
+      "early_index": 25,
+      "late_index": 52,
+      "residual_over_radius": 1.0293192347375306,
+      "local_margin_over_radius": 1.269114822257743,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N032",
+      "late_id": "N012",
+      "early_index": 28,
+      "late_index": 11,
+      "residual_over_radius": 1.29237007669487,
+      "local_margin_over_radius": 2.609747307928835,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N038",
+      "late_id": "N025",
+      "early_index": 34,
+      "late_index": 24,
+      "residual_over_radius": 0.3181563201108207,
+      "local_margin_over_radius": 1.3454329840737098,
+      "geometric_confidence": "strong_candidate",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N040",
+      "late_id": "N030",
+      "early_index": 36,
+      "late_index": 29,
+      "residual_over_radius": 1.2641142576761624,
+      "local_margin_over_radius": 1.4928782141329826,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N041",
+      "late_id": "N006",
+      "early_index": 37,
+      "late_index": 5,
+      "residual_over_radius": 1.3454567142849814,
+      "local_margin_over_radius": 0.957768272721151,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N042",
+      "late_id": "N024",
+      "early_index": 38,
+      "late_index": 23,
+      "residual_over_radius": 0.9520441987383106,
+      "local_margin_over_radius": 1.5550144446082046,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N044",
+      "late_id": "N010",
+      "early_index": 40,
+      "late_index": 9,
+      "residual_over_radius": 0.38964303758658464,
+      "local_margin_over_radius": 1.3297473539582718,
+      "geometric_confidence": "strong_candidate",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N046",
+      "late_id": "N019",
+      "early_index": 42,
+      "late_index": 18,
+      "residual_over_radius": 1.1177617579864958,
+      "local_margin_over_radius": 1.1126851812977838,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N055",
+      "late_id": "N027",
+      "early_index": 51,
+      "late_index": 26,
+      "residual_over_radius": 1.2048279829699005,
+      "local_margin_over_radius": 1.098397004036232,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "N058",
+      "late_id": "U009",
+      "early_index": 53,
+      "late_index": 45,
+      "residual_over_radius": 0.9717959219284139,
+      "local_margin_over_radius": 1.281469935928291,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "U001",
+      "late_id": "U003",
+      "early_index": 59,
+      "late_index": 39,
+      "residual_over_radius": 1.2221821337615875,
+      "local_margin_over_radius": 1.2305224320678516,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "U002",
+      "late_id": "N026",
+      "early_index": 60,
+      "late_index": 25,
+      "residual_over_radius": 0.8014666207190525,
+      "local_margin_over_radius": 2.5681829242177563,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    },
+    {
+      "early_id": "U003",
+      "late_id": "U012",
+      "early_index": 61,
+      "late_index": 48,
+      "residual_over_radius": 1.169311549775131,
+      "local_margin_over_radius": 1.1212140153122772,
+      "geometric_confidence": "ambiguous",
+      "identity_verified": false
+    }
+  ],
+  "median_residual_over_radius": 0.9973214439048486,
+  "coverage_early": 0.4375,
+  "coverage_late": 0.509090909090909,
+  "objective": 1.5531432347709049,
+  "alternative_objective_gap": 0.2404304698009192,
+  "ambiguous_global_alignment": false,
+  "physical_growth_scale": false,
+  "all_correspondences_verified": false,
+  "alignment_source": "automatic_geometric_candidates",
+  "anchors": []
+}

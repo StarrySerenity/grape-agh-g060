@@ -1,0 +1,2304 @@
+{
+  "locked_utc": "2026-10-14T08:14:10.578544+00:00",
+  "selected_mixed": "mixed_010",
+  "candidates": [
+    {
+      "name": "mixed_010",
+      "score": 0.46978634607772374,
+      "epoch": 25,
+      "weight": 0.1,
+      "metrics": {
+        "queries": 22,
+        "gallery_identities": 40,
+        "gallery_frames": 772,
+        "top1": 0.5909090909090909,
+        "top3": 0.6818181818181818,
+        "map": 0.1871666081378671,
+        "insufficient_queries": 0,
+        "records": [
+          {
+            "index": 18,
+            "identity": "FP2_02",
+            "rank": 1,
+            "ap": 0.1776204359349748,
+            "candidates": [
+              {
+                "identity": "FP2_02",
+                "cosine": 0.9943705399831136,
+                "best_index": 22
+              },
+              {
+                "identity": "FP2_04",
+                "cosine": 0.9901884396870931,
+                "best_index": 74
+              },
+              {
+                "identity": "FP3_20",
+                "cosine": 0.9895249009132385,
+                "best_index": 424
+              },
+              {
+                "identity": "FP2_03",
+                "cosine": 0.9892056981722513,
+                "best_index": 50
+              },
+              {
+                "identity": "FP3_08",
+                "cosine": 0.9875646233558655,
+                "best_index": 263
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 19,
+            "identity": "FP2_02",
+            "rank": 8,
+            "ap": 0.08219767060160527,
+            "candidates": [
+              {
+                "identity": "GROW_10",
+                "cosine": 0.987830638885498,
+                "best_index": 591
+              },
+              {
+                "identity": "FP3_20",
+                "cosine": 0.979820708433787,
+                "best_index": 441
+              },
+              {
+                "identity": "FP2_06",
+                "cosine": 0.9789398511250814,
+                "best_index": 92
+              },
+              {
+                "identity": "FP3_07",
+                "cosine": 0.9763240814208984,
+                "best_index": 227
+              },
+              {
+                "identity": "FP3_19",
+                "cosine": 0.9725965062777201,
+                "best_index": 404
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 20,
+            "identity": "FP2_02",
+            "rank": 4,
+            "ap": 0.09318479064320663,
+            "candidates": [
+              {
+                "identity": "FP3_16",
+                "cosine": 0.9915181994438171,
+                "best_index": 367
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9901394645373026,
+                "best_index": 280
+              },
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9900392095247904,
+                "best_index": 514
+              },
+              {
+                "identity": "FP2_02",
+                "cosine": 0.9895509680112203,
+                "best_index": 35
+              },
+              {
+                "identity": "FP3_17",
+                "cosine": 0.9888624350229899,
+                "best_index": 395
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 21,
+            "identity": "FP2_02",
+            "rank": 8,
+            "ap": 0.05989268459275071,
+            "candidates": [
+              {
+                "identity": "FP3_20",
+                "cosine": 0.9940520326296488,
+                "best_index": 438
+              },
+              {
+                "identity": "FP3_15",
+                "cosine": 0.9916288256645203,
+                "best_index": 344
+              },
+              {
+                "identity": "GROW_07",
+                "cosine": 0.9883268276850382,
+                "best_index": 563
+              },
+              {
+                "identity": "FP3_08",
+                "cosine": 0.9869690934816996,
+                "best_index": 248
+              },
+              {
+                "identity": "FP2_07",
+                "cosine": 0.9867680271466573,
+                "best_index": 109
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 142,
+            "identity": "FP2_09",
+            "rank": 1,
+            "ap": 0.2802940289016078,
+            "candidates": [
+              {
+                "identity": "FP2_09",
+                "cosine": 0.9984924991925558,
+                "best_index": 155
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9977668722470602,
+                "best_index": 275
+              },
+              {
+                "identity": "GROW_02",
+                "cosine": 0.9971894025802612,
+                "best_index": 479
+              },
+              {
+                "identity": "FP3_16",
+                "cosine": 0.9965270757675171,
+                "best_index": 363
+              },
+              {
+                "identity": "GROW_06",
+                "cosine": 0.9964122772216797,
+                "best_index": 546
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 143,
+            "identity": "FP2_09",
+            "rank": 1,
+            "ap": 0.370132513255622,
+            "candidates": [
+              {
+                "identity": "FP2_09",
+                "cosine": 0.9983976284662882,
+                "best_index": 146
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9972023367881775,
+                "best_index": 275
+              },
+              {
+                "identity": "GROW_02",
+                "cosine": 0.9967422286669413,
+                "best_index": 478
+              },
+              {
+                "identity": "GROW_06",
+                "cosine": 0.9962295691172282,
+                "best_index": 552
+              },
+              {
+                "identity": "FP3_16",
+                "cosine": 0.9956971804300944,
+                "best_index": 381
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 144,
+            "identity": "FP2_09",
+            "rank": 1,
+            "ap": 0.3578132094238978,
+            "candidates": [
+              {
+                "identity": "FP2_09",
+                "cosine": 0.9983622431755066,
+                "best_index": 147
+              },
+              {
+                "identity": "GROW_05",
+                "cosine": 0.9963978330294291,
+                "best_index": 540
+              },
+              {
+                "identity": "GROW_02",
+                "cosine": 0.9955612222353617,
+                "best_index": 477
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.9946048855781555,
+                "best_index": 137
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9941821297009786,
+                "best_index": 269
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 165,
+            "identity": "FP3_01",
+            "rank": 10,
+            "ap": 0.09389346694133961,
+            "candidates": [
+              {
+                "identity": "FP3_03",
+                "cosine": 0.9976890881856283,
+                "best_index": 222
+              },
+              {
+                "identity": "GROW_06",
+                "cosine": 0.99695752064387,
+                "best_index": 559
+              },
+              {
+                "identity": "FP2_09",
+                "cosine": 0.9966147343317667,
+                "best_index": 163
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.9964936176935831,
+                "best_index": 133
+              },
+              {
+                "identity": "GROW_02",
+                "cosine": 0.9949636856714884,
+                "best_index": 463
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 166,
+            "identity": "FP3_01",
+            "rank": 1,
+            "ap": 0.2843101363719448,
+            "candidates": [
+              {
+                "identity": "FP3_01",
+                "cosine": 0.9972381194432577,
+                "best_index": 183
+              },
+              {
+                "identity": "FP3_03",
+                "cosine": 0.9966561992963155,
+                "best_index": 223
+              },
+              {
+                "identity": "FP3_10",
+                "cosine": 0.9965661764144897,
+                "best_index": 295
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.994465708732605,
+                "best_index": 138
+              },
+              {
+                "identity": "GROW_05",
+                "cosine": 0.9943927526473999,
+                "best_index": 536
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 167,
+            "identity": "FP3_01",
+            "rank": 1,
+            "ap": 0.297651019124032,
+            "candidates": [
+              {
+                "identity": "FP3_01",
+                "cosine": 0.9973817467689514,
+                "best_index": 169
+              },
+              {
+                "identity": "FP3_03",
+                "cosine": 0.9964379072189331,
+                "best_index": 213
+              },
+              {
+                "identity": "FP3_10",
+                "cosine": 0.9961037635803223,
+                "best_index": 301
+              },
+              {
+                "identity": "FP3_16",
+                "cosine": 0.9953976074854533,
+                "best_index": 376
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.9937633673350016,
+                "best_index": 138
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 168,
+            "identity": "FP3_01",
+            "rank": 1,
+            "ap": 0.19593137496946633,
+            "candidates": [
+              {
+                "identity": "FP3_01",
+                "cosine": 0.9976000189781189,
+                "best_index": 186
+              },
+              {
+                "identity": "FP3_03",
+                "cosine": 0.9970737099647522,
+                "best_index": 224
+              },
+              {
+                "identity": "GROW_05",
+                "cosine": 0.99615478515625,
+                "best_index": 538
+              },
+              {
+                "identity": "GROW_01",
+                "cosine": 0.9960074226061503,
+                "best_index": 449
+              },
+              {
+                "identity": "GROW_06",
+                "cosine": 0.9959399104118347,
+                "best_index": 553
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 189,
+            "identity": "FP3_02",
+            "rank": 1,
+            "ap": 0.40380989525135264,
+            "candidates": [
+              {
+                "identity": "FP3_02",
+                "cosine": 0.9989638725916544,
+                "best_index": 204
+              },
+              {
+                "identity": "GROW_03",
+                "cosine": 0.9977802832921346,
+                "best_index": 487
+              },
+              {
+                "identity": "FP3_17",
+                "cosine": 0.9974779089291891,
+                "best_index": 399
+              },
+              {
+                "identity": "FP2_09",
+                "cosine": 0.9971535404523214,
+                "best_index": 160
+              },
+              {
+                "identity": "GROW_02",
+                "cosine": 0.9968049724896749,
+                "best_index": 467
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 190,
+            "identity": "FP3_02",
+            "rank": 3,
+            "ap": 0.13358775256525288,
+            "candidates": [
+              {
+                "identity": "GROW_02",
+                "cosine": 0.994873066743215,
+                "best_index": 469
+              },
+              {
+                "identity": "FP3_17",
+                "cosine": 0.9942666490872701,
+                "best_index": 384
+              },
+              {
+                "identity": "FP3_02",
+                "cosine": 0.993981679280599,
+                "best_index": 203
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.9939468105634054,
+                "best_index": 126
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9938963055610657,
+                "best_index": 272
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 191,
+            "identity": "FP3_02",
+            "rank": 2,
+            "ap": 0.2041012967224287,
+            "candidates": [
+              {
+                "identity": "FP3_17",
+                "cosine": 0.99681423107783,
+                "best_index": 386
+              },
+              {
+                "identity": "FP3_02",
+                "cosine": 0.9956987500190735,
+                "best_index": 199
+              },
+              {
+                "identity": "GROW_01",
+                "cosine": 0.9945095380147299,
+                "best_index": 452
+              },
+              {
+                "identity": "FP2_02",
+                "cosine": 0.9930355151494344,
+                "best_index": 37
+              },
+              {
+                "identity": "GROW_03",
+                "cosine": 0.99278857310613,
+                "best_index": 484
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 192,
+            "identity": "FP3_02",
+            "rank": 1,
+            "ap": 0.26134380986236916,
+            "candidates": [
+              {
+                "identity": "FP3_02",
+                "cosine": 0.9977030952771505,
+                "best_index": 201
+              },
+              {
+                "identity": "GROW_02",
+                "cosine": 0.9971229831377665,
+                "best_index": 467
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9965790510177612,
+                "best_index": 267
+              },
+              {
+                "identity": "GROW_03",
+                "cosine": 0.9959963162740072,
+                "best_index": 487
+              },
+              {
+                "identity": "FP2_09",
+                "cosine": 0.9958104689915975,
+                "best_index": 159
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 481,
+            "identity": "GROW_03",
+            "rank": 7,
+            "ap": 0.06473343391124697,
+            "candidates": [
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9957714478174845,
+                "best_index": 514
+              },
+              {
+                "identity": "FP3_17",
+                "cosine": 0.9953439434369405,
+                "best_index": 395
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9928529659907023,
+                "best_index": 283
+              },
+              {
+                "identity": "GROW_05",
+                "cosine": 0.992088774840037,
+                "best_index": 533
+              },
+              {
+                "identity": "FP2_02",
+                "cosine": 0.9919381936391195,
+                "best_index": 41
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 482,
+            "identity": "GROW_03",
+            "rank": 7,
+            "ap": 0.07690908392622894,
+            "candidates": [
+              {
+                "identity": "GROW_02",
+                "cosine": 0.9981392423311869,
+                "best_index": 475
+              },
+              {
+                "identity": "GROW_06",
+                "cosine": 0.9979170759518942,
+                "best_index": 552
+              },
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9974867502848307,
+                "best_index": 510
+              },
+              {
+                "identity": "GROW_05",
+                "cosine": 0.9970383246739706,
+                "best_index": 526
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9970011313756307,
+                "best_index": 271
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 483,
+            "identity": "GROW_03",
+            "rank": 7,
+            "ap": 0.07023379984307329,
+            "candidates": [
+              {
+                "identity": "GROW_05",
+                "cosine": 0.9963048497835795,
+                "best_index": 525
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9959242939949036,
+                "best_index": 283
+              },
+              {
+                "identity": "FP3_01",
+                "cosine": 0.99430251121521,
+                "best_index": 173
+              },
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9941131869951884,
+                "best_index": 521
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.9937877655029297,
+                "best_index": 122
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 504,
+            "identity": "GROW_04",
+            "rank": 1,
+            "ap": 0.1621717025190765,
+            "candidates": [
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9942613442738851,
+                "best_index": 512
+              },
+              {
+                "identity": "FP3_08",
+                "cosine": 0.9928571383158366,
+                "best_index": 264
+              },
+              {
+                "identity": "FP3_03",
+                "cosine": 0.9922038912773132,
+                "best_index": 211
+              },
+              {
+                "identity": "FP3_01",
+                "cosine": 0.9918628533681234,
+                "best_index": 179
+              },
+              {
+                "identity": "FP3_16",
+                "cosine": 0.991538941860199,
+                "best_index": 377
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 505,
+            "identity": "GROW_04",
+            "rank": 1,
+            "ap": 0.20009096597576312,
+            "candidates": [
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9953687985738119,
+                "best_index": 514
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9947672088940939,
+                "best_index": 279
+              },
+              {
+                "identity": "FP3_16",
+                "cosine": 0.9938444097836813,
+                "best_index": 367
+              },
+              {
+                "identity": "FP2_02",
+                "cosine": 0.9932657678922018,
+                "best_index": 41
+              },
+              {
+                "identity": "FP3_10",
+                "cosine": 0.9905630548795065,
+                "best_index": 288
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 506,
+            "identity": "GROW_04",
+            "rank": 1,
+            "ap": 0.08988081613535716,
+            "candidates": [
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9948874314626058,
+                "best_index": 520
+              },
+              {
+                "identity": "GROW_05",
+                "cosine": 0.9947629968325297,
+                "best_index": 524
+              },
+              {
+                "identity": "FP3_01",
+                "cosine": 0.9946961005528768,
+                "best_index": 184
+              },
+              {
+                "identity": "FP3_03",
+                "cosine": 0.9939048886299133,
+                "best_index": 209
+              },
+              {
+                "identity": "GROW_10",
+                "cosine": 0.9932085673014323,
+                "best_index": 596
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 507,
+            "identity": "GROW_04",
+            "rank": 1,
+            "ap": 0.15788149156047912,
+            "candidates": [
+              {
+                "identity": "GROW_04",
+                "cosine": 0.997240940729777,
+                "best_index": 509
+              },
+              {
+                "identity": "GROW_05",
+                "cosine": 0.997036079565684,
+                "best_index": 534
+              },
+              {
+                "identity": "GROW_06",
+                "cosine": 0.9965353012084961,
+                "best_index": 549
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9964585701624552,
+                "best_index": 283
+              },
+              {
+                "identity": "FP3_17",
+                "cosine": 0.9962337215741476,
+                "best_index": 396
+              }
+            ],
+            "status": "candidate"
+          }
+        ]
+      }
+    },
+    {
+      "name": "mixed_030",
+      "score": 0.44204173668076197,
+      "epoch": 51,
+      "weight": 0.3,
+      "metrics": {
+        "queries": 22,
+        "gallery_identities": 40,
+        "gallery_frames": 772,
+        "top1": 0.5454545454545454,
+        "top3": 0.7272727272727273,
+        "map": 0.2007451828752673,
+        "insufficient_queries": 0,
+        "records": [
+          {
+            "index": 18,
+            "identity": "FP2_02",
+            "rank": 1,
+            "ap": 0.1833979758938322,
+            "candidates": [
+              {
+                "identity": "FP2_02",
+                "cosine": 0.9661122759183248,
+                "best_index": 24
+              },
+              {
+                "identity": "FP3_20",
+                "cosine": 0.9628907044728597,
+                "best_index": 432
+              },
+              {
+                "identity": "FP2_04",
+                "cosine": 0.9574694434801737,
+                "best_index": 77
+              },
+              {
+                "identity": "FP3_08",
+                "cosine": 0.9519331256548563,
+                "best_index": 250
+              },
+              {
+                "identity": "FP2_01",
+                "cosine": 0.9424670139948527,
+                "best_index": 8
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 19,
+            "identity": "FP2_02",
+            "rank": 2,
+            "ap": 0.1382748473340472,
+            "candidates": [
+              {
+                "identity": "FP3_20",
+                "cosine": 0.9584011832873026,
+                "best_index": 423
+              },
+              {
+                "identity": "FP2_02",
+                "cosine": 0.9518902897834778,
+                "best_index": 28
+              },
+              {
+                "identity": "FP3_08",
+                "cosine": 0.9383097887039185,
+                "best_index": 263
+              },
+              {
+                "identity": "GROW_10",
+                "cosine": 0.9344982306162516,
+                "best_index": 588
+              },
+              {
+                "identity": "FP2_01",
+                "cosine": 0.912939707438151,
+                "best_index": 6
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 20,
+            "identity": "FP2_02",
+            "rank": 1,
+            "ap": 0.18094514542714785,
+            "candidates": [
+              {
+                "identity": "FP2_02",
+                "cosine": 0.9604578614234924,
+                "best_index": 35
+              },
+              {
+                "identity": "GROW_10",
+                "cosine": 0.9584450920422872,
+                "best_index": 584
+              },
+              {
+                "identity": "GROW_07",
+                "cosine": 0.9532369375228882,
+                "best_index": 569
+              },
+              {
+                "identity": "GROW_05",
+                "cosine": 0.9499325354894003,
+                "best_index": 526
+              },
+              {
+                "identity": "GROW_01",
+                "cosine": 0.9428708354632059,
+                "best_index": 452
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 21,
+            "identity": "FP2_02",
+            "rank": 1,
+            "ap": 0.24620659462234706,
+            "candidates": [
+              {
+                "identity": "FP2_02",
+                "cosine": 0.9693466226259867,
+                "best_index": 26
+              },
+              {
+                "identity": "FP3_20",
+                "cosine": 0.9636730750401815,
+                "best_index": 424
+              },
+              {
+                "identity": "FP3_08",
+                "cosine": 0.9585445324579874,
+                "best_index": 258
+              },
+              {
+                "identity": "GROW_07",
+                "cosine": 0.9422756632169088,
+                "best_index": 579
+              },
+              {
+                "identity": "GROW_05",
+                "cosine": 0.9382781187693278,
+                "best_index": 524
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 142,
+            "identity": "FP2_09",
+            "rank": 1,
+            "ap": 0.3477485533057764,
+            "candidates": [
+              {
+                "identity": "FP2_09",
+                "cosine": 0.9922435681025187,
+                "best_index": 155
+              },
+              {
+                "identity": "GROW_02",
+                "cosine": 0.9877245823542277,
+                "best_index": 477
+              },
+              {
+                "identity": "FP3_16",
+                "cosine": 0.9846464395523071,
+                "best_index": 364
+              },
+              {
+                "identity": "GROW_06",
+                "cosine": 0.9808322389920553,
+                "best_index": 551
+              },
+              {
+                "identity": "FP3_10",
+                "cosine": 0.9757784207661947,
+                "best_index": 290
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 143,
+            "identity": "FP2_09",
+            "rank": 1,
+            "ap": 0.3020491323509381,
+            "candidates": [
+              {
+                "identity": "FP2_09",
+                "cosine": 0.991567075252533,
+                "best_index": 145
+              },
+              {
+                "identity": "GROW_02",
+                "cosine": 0.9881974458694458,
+                "best_index": 477
+              },
+              {
+                "identity": "FP3_16",
+                "cosine": 0.9874180555343628,
+                "best_index": 364
+              },
+              {
+                "identity": "GROW_06",
+                "cosine": 0.9870074391365051,
+                "best_index": 552
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9783663153648376,
+                "best_index": 269
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 144,
+            "identity": "FP2_09",
+            "rank": 1,
+            "ap": 0.4428373702134576,
+            "candidates": [
+              {
+                "identity": "FP2_09",
+                "cosine": 0.9898212750752767,
+                "best_index": 154
+              },
+              {
+                "identity": "GROW_02",
+                "cosine": 0.9862585862477621,
+                "best_index": 474
+              },
+              {
+                "identity": "FP3_10",
+                "cosine": 0.9801036715507507,
+                "best_index": 289
+              },
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9775715470314026,
+                "best_index": 508
+              },
+              {
+                "identity": "GROW_05",
+                "cosine": 0.9767043987909952,
+                "best_index": 528
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 165,
+            "identity": "FP3_01",
+            "rank": 7,
+            "ap": 0.08732383633270521,
+            "candidates": [
+              {
+                "identity": "FP3_03",
+                "cosine": 0.9791198372840881,
+                "best_index": 222
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.9618603189786276,
+                "best_index": 132
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9618272384007772,
+                "best_index": 273
+              },
+              {
+                "identity": "FP2_02",
+                "cosine": 0.9557912349700928,
+                "best_index": 33
+              },
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9551736116409302,
+                "best_index": 518
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 166,
+            "identity": "FP3_01",
+            "rank": 1,
+            "ap": 0.38658178594741877,
+            "candidates": [
+              {
+                "identity": "FP3_01",
+                "cosine": 0.9910742441813151,
+                "best_index": 175
+              },
+              {
+                "identity": "FP3_03",
+                "cosine": 0.9857721130053202,
+                "best_index": 216
+              },
+              {
+                "identity": "FP2_04",
+                "cosine": 0.9810310006141663,
+                "best_index": 79
+              },
+              {
+                "identity": "FP3_10",
+                "cosine": 0.9730561971664429,
+                "best_index": 292
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.9592298467954,
+                "best_index": 130
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 167,
+            "identity": "FP3_01",
+            "rank": 1,
+            "ap": 0.3119264302682656,
+            "candidates": [
+              {
+                "identity": "FP3_01",
+                "cosine": 0.9918578664461771,
+                "best_index": 169
+              },
+              {
+                "identity": "FP3_10",
+                "cosine": 0.9904325405756632,
+                "best_index": 295
+              },
+              {
+                "identity": "FP3_03",
+                "cosine": 0.9866584539413452,
+                "best_index": 219
+              },
+              {
+                "identity": "FP3_16",
+                "cosine": 0.9775639176368713,
+                "best_index": 376
+              },
+              {
+                "identity": "FP2_03",
+                "cosine": 0.9764294823010763,
+                "best_index": 43
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 168,
+            "identity": "FP3_01",
+            "rank": 2,
+            "ap": 0.18571468083129555,
+            "candidates": [
+              {
+                "identity": "FP3_03",
+                "cosine": 0.9950614968935648,
+                "best_index": 224
+              },
+              {
+                "identity": "FP3_01",
+                "cosine": 0.9866243799527487,
+                "best_index": 182
+              },
+              {
+                "identity": "FP3_10",
+                "cosine": 0.9836722811063131,
+                "best_index": 287
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.9806412855784098,
+                "best_index": 137
+              },
+              {
+                "identity": "FP2_04",
+                "cosine": 0.9798307021458944,
+                "best_index": 64
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 189,
+            "identity": "FP3_02",
+            "rank": 1,
+            "ap": 0.27763555609892127,
+            "candidates": [
+              {
+                "identity": "FP3_02",
+                "cosine": 0.9915441274642944,
+                "best_index": 204
+              },
+              {
+                "identity": "FP3_17",
+                "cosine": 0.9909881949424744,
+                "best_index": 399
+              },
+              {
+                "identity": "GROW_03",
+                "cosine": 0.9851531982421875,
+                "best_index": 488
+              },
+              {
+                "identity": "FP2_09",
+                "cosine": 0.9840560952822367,
+                "best_index": 161
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9829447666803995,
+                "best_index": 285
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 190,
+            "identity": "FP3_02",
+            "rank": 5,
+            "ap": 0.06638949686223333,
+            "candidates": [
+              {
+                "identity": "GROW_02",
+                "cosine": 0.9948776761690775,
+                "best_index": 480
+              },
+              {
+                "identity": "GROW_06",
+                "cosine": 0.9909868041674296,
+                "best_index": 546
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9902330438296,
+                "best_index": 269
+              },
+              {
+                "identity": "GROW_03",
+                "cosine": 0.9872847596804301,
+                "best_index": 485
+              },
+              {
+                "identity": "FP3_02",
+                "cosine": 0.9849767486254374,
+                "best_index": 195
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 191,
+            "identity": "FP3_02",
+            "rank": 1,
+            "ap": 0.28105920073022544,
+            "candidates": [
+              {
+                "identity": "FP3_02",
+                "cosine": 0.9860573212305704,
+                "best_index": 199
+              },
+              {
+                "identity": "FP3_17",
+                "cosine": 0.9809997876485189,
+                "best_index": 401
+              },
+              {
+                "identity": "GROW_03",
+                "cosine": 0.9767715136210123,
+                "best_index": 489
+              },
+              {
+                "identity": "GROW_01",
+                "cosine": 0.9751272797584534,
+                "best_index": 455
+              },
+              {
+                "identity": "FP2_09",
+                "cosine": 0.9573997457822164,
+                "best_index": 161
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 192,
+            "identity": "FP3_02",
+            "rank": 1,
+            "ap": 0.288698525399356,
+            "candidates": [
+              {
+                "identity": "FP3_02",
+                "cosine": 0.9918235739072164,
+                "best_index": 206
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9916455547014872,
+                "best_index": 272
+              },
+              {
+                "identity": "FP3_17",
+                "cosine": 0.986479123433431,
+                "best_index": 396
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.9772416750590006,
+                "best_index": 126
+              },
+              {
+                "identity": "GROW_02",
+                "cosine": 0.9771815737088522,
+                "best_index": 468
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 481,
+            "identity": "GROW_03",
+            "rank": 11,
+            "ap": 0.05102487420151017,
+            "candidates": [
+              {
+                "identity": "GROW_05",
+                "cosine": 0.9777941107749939,
+                "best_index": 534
+              },
+              {
+                "identity": "FP2_02",
+                "cosine": 0.9743528366088867,
+                "best_index": 41
+              },
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9731641610463461,
+                "best_index": 509
+              },
+              {
+                "identity": "GROW_07",
+                "cosine": 0.9681061506271362,
+                "best_index": 560
+              },
+              {
+                "identity": "FP3_17",
+                "cosine": 0.9679017861684164,
+                "best_index": 395
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 482,
+            "identity": "GROW_03",
+            "rank": 8,
+            "ap": 0.06228506728230953,
+            "candidates": [
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9879603385925293,
+                "best_index": 518
+              },
+              {
+                "identity": "GROW_05",
+                "cosine": 0.9854082266489664,
+                "best_index": 527
+              },
+              {
+                "identity": "GROW_06",
+                "cosine": 0.9842345913251241,
+                "best_index": 552
+              },
+              {
+                "identity": "GROW_02",
+                "cosine": 0.9787825345993042,
+                "best_index": 476
+              },
+              {
+                "identity": "FP2_09",
+                "cosine": 0.9778970082600912,
+                "best_index": 162
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 483,
+            "identity": "GROW_03",
+            "rank": 3,
+            "ap": 0.07353074228376073,
+            "candidates": [
+              {
+                "identity": "GROW_05",
+                "cosine": 0.9852679371833801,
+                "best_index": 541
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.9789358973503113,
+                "best_index": 128
+              },
+              {
+                "identity": "GROW_03",
+                "cosine": 0.973257819811503,
+                "best_index": 498
+              },
+              {
+                "identity": "FP3_03",
+                "cosine": 0.970957338809967,
+                "best_index": 226
+              },
+              {
+                "identity": "GROW_06",
+                "cosine": 0.9682108163833618,
+                "best_index": 554
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 504,
+            "identity": "GROW_04",
+            "rank": 1,
+            "ap": 0.16831771053935154,
+            "candidates": [
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9820426901181539,
+                "best_index": 513
+              },
+              {
+                "identity": "FP3_08",
+                "cosine": 0.9671486417452494,
+                "best_index": 265
+              },
+              {
+                "identity": "FP2_04",
+                "cosine": 0.9659821391105652,
+                "best_index": 72
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.9640606840451559,
+                "best_index": 130
+              },
+              {
+                "identity": "FP3_01",
+                "cosine": 0.9584612846374512,
+                "best_index": 185
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 505,
+            "identity": "GROW_04",
+            "rank": 4,
+            "ap": 0.11721479250925655,
+            "candidates": [
+              {
+                "identity": "GROW_05",
+                "cosine": 0.9858823617299398,
+                "best_index": 531
+              },
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9813641707102457,
+                "best_index": 268
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.9809865355491638,
+                "best_index": 126
+              },
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9803673426310221,
+                "best_index": 522
+              },
+              {
+                "identity": "GROW_06",
+                "cosine": 0.9715791344642639,
+                "best_index": 558
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 506,
+            "identity": "GROW_04",
+            "rank": 2,
+            "ap": 0.09995834880238354,
+            "candidates": [
+              {
+                "identity": "FP3_01",
+                "cosine": 0.9834318359692892,
+                "best_index": 185
+              },
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9832672278086344,
+                "best_index": 511
+              },
+              {
+                "identity": "FP3_10",
+                "cosine": 0.981823722521464,
+                "best_index": 294
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.9817269841829935,
+                "best_index": 138
+              },
+              {
+                "identity": "FP2_04",
+                "cosine": 0.9811686674753824,
+                "best_index": 70
+              }
+            ],
+            "status": "candidate"
+          },
+          {
+            "index": 507,
+            "identity": "GROW_04",
+            "rank": 5,
+            "ap": 0.11727335601934065,
+            "candidates": [
+              {
+                "identity": "FP3_09",
+                "cosine": 0.9897429347038269,
+                "best_index": 268
+              },
+              {
+                "identity": "GROW_05",
+                "cosine": 0.988023042678833,
+                "best_index": 531
+              },
+              {
+                "identity": "GROW_06",
+                "cosine": 0.9864506920178732,
+                "best_index": 558
+              },
+              {
+                "identity": "FP2_08",
+                "cosine": 0.9824841419855753,
+                "best_index": 132
+              },
+              {
+                "identity": "GROW_04",
+                "cosine": 0.9812790552775065,
+                "best_index": 522
+              }
+            ],
+            "status": "candidate"
+          }
+        ]
+      }
+    }
+  ],
+  "baseline": {
+    "score": 0.3450821558043561,
+    "epoch": 1,
+    "weight": 0.0,
+    "metrics": {
+      "queries": 22,
+      "gallery_identities": 40,
+      "gallery_frames": 772,
+      "top1": 0.45454545454545453,
+      "top3": 0.5454545454545454,
+      "map": 0.0896677920751264,
+      "insufficient_queries": 0,
+      "records": [
+        {
+          "index": 18,
+          "identity": "FP2_02",
+          "rank": 11,
+          "ap": 0.07556784096876104,
+          "candidates": [
+            {
+              "identity": "FP2_03",
+              "cosine": 0.9998285174369812,
+              "best_index": 45
+            },
+            {
+              "identity": "FP2_06",
+              "cosine": 0.9998277624448141,
+              "best_index": 96
+            },
+            {
+              "identity": "FP3_16",
+              "cosine": 0.9998212854067484,
+              "best_index": 365
+            },
+            {
+              "identity": "FP2_04",
+              "cosine": 0.9998056689898173,
+              "best_index": 72
+            },
+            {
+              "identity": "FP3_08",
+              "cosine": 0.9998055497805277,
+              "best_index": 247
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 19,
+          "identity": "FP2_02",
+          "rank": 1,
+          "ap": 0.09841877013283278,
+          "candidates": [
+            {
+              "identity": "FP2_02",
+              "cosine": 0.9998282194137573,
+              "best_index": 28
+            },
+            {
+              "identity": "FP3_15",
+              "cosine": 0.9998235106468201,
+              "best_index": 346
+            },
+            {
+              "identity": "FP2_06",
+              "cosine": 0.9998192191123962,
+              "best_index": 94
+            },
+            {
+              "identity": "FP3_08",
+              "cosine": 0.999809185663859,
+              "best_index": 249
+            },
+            {
+              "identity": "GROW_10",
+              "cosine": 0.9997992912928263,
+              "best_index": 596
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 20,
+          "identity": "FP2_02",
+          "rank": 9,
+          "ap": 0.04694107860011934,
+          "candidates": [
+            {
+              "identity": "FP3_16",
+              "cosine": 0.9998438556989034,
+              "best_index": 380
+            },
+            {
+              "identity": "FP2_03",
+              "cosine": 0.9998387495676676,
+              "best_index": 45
+            },
+            {
+              "identity": "FP3_20",
+              "cosine": 0.9998377164204916,
+              "best_index": 429
+            },
+            {
+              "identity": "FP2_04",
+              "cosine": 0.9998341004053751,
+              "best_index": 75
+            },
+            {
+              "identity": "GROW_04",
+              "cosine": 0.9998265306154887,
+              "best_index": 514
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 21,
+          "identity": "FP2_02",
+          "rank": 9,
+          "ap": 0.038830129005335785,
+          "candidates": [
+            {
+              "identity": "FP2_07",
+              "cosine": 0.9998244643211365,
+              "best_index": 121
+            },
+            {
+              "identity": "FP3_20",
+              "cosine": 0.9998222390810648,
+              "best_index": 427
+            },
+            {
+              "identity": "FP3_15",
+              "cosine": 0.9998176495234171,
+              "best_index": 350
+            },
+            {
+              "identity": "YG_04",
+              "cosine": 0.9998155037562052,
+              "best_index": 676
+            },
+            {
+              "identity": "FP2_04",
+              "cosine": 0.9998059868812561,
+              "best_index": 69
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 142,
+          "identity": "FP2_09",
+          "rank": 3,
+          "ap": 0.10137702478507368,
+          "candidates": [
+            {
+              "identity": "GROW_02",
+              "cosine": 0.999862551689148,
+              "best_index": 479
+            },
+            {
+              "identity": "GROW_06",
+              "cosine": 0.9998485843340555,
+              "best_index": 550
+            },
+            {
+              "identity": "FP2_09",
+              "cosine": 0.9998485445976257,
+              "best_index": 158
+            },
+            {
+              "identity": "FP3_16",
+              "cosine": 0.9998457034428915,
+              "best_index": 362
+            },
+            {
+              "identity": "FP3_10",
+              "cosine": 0.9998387694358826,
+              "best_index": 298
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 143,
+          "identity": "FP2_09",
+          "rank": 1,
+          "ap": 0.2522689413437505,
+          "candidates": [
+            {
+              "identity": "FP2_09",
+              "cosine": 0.9998974800109863,
+              "best_index": 163
+            },
+            {
+              "identity": "FP3_09",
+              "cosine": 0.9998426636060079,
+              "best_index": 275
+            },
+            {
+              "identity": "FP3_03",
+              "cosine": 0.9998398025830587,
+              "best_index": 224
+            },
+            {
+              "identity": "GROW_02",
+              "cosine": 0.9998274445533752,
+              "best_index": 470
+            },
+            {
+              "identity": "GROW_06",
+              "cosine": 0.9998181064923605,
+              "best_index": 556
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 144,
+          "identity": "FP2_09",
+          "rank": 11,
+          "ap": 0.05598740140091084,
+          "candidates": [
+            {
+              "identity": "GROW_06",
+              "cosine": 0.9998687108357748,
+              "best_index": 559
+            },
+            {
+              "identity": "FP3_02",
+              "cosine": 0.9998556971549988,
+              "best_index": 203
+            },
+            {
+              "identity": "FP2_08",
+              "cosine": 0.9998414715131124,
+              "best_index": 126
+            },
+            {
+              "identity": "GROW_02",
+              "cosine": 0.9998184442520142,
+              "best_index": 479
+            },
+            {
+              "identity": "GROW_05",
+              "cosine": 0.999815841515859,
+              "best_index": 538
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 165,
+          "identity": "FP3_01",
+          "rank": 1,
+          "ap": 0.10961297737665095,
+          "candidates": [
+            {
+              "identity": "FP3_01",
+              "cosine": 0.9998604853947958,
+              "best_index": 184
+            },
+            {
+              "identity": "FP3_03",
+              "cosine": 0.9998581608136495,
+              "best_index": 210
+            },
+            {
+              "identity": "FP2_07",
+              "cosine": 0.9998551805814108,
+              "best_index": 115
+            },
+            {
+              "identity": "GROW_02",
+              "cosine": 0.9998519619305929,
+              "best_index": 463
+            },
+            {
+              "identity": "FP3_19",
+              "cosine": 0.9998484055201212,
+              "best_index": 414
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 166,
+          "identity": "FP3_01",
+          "rank": 1,
+          "ap": 0.19434567888495208,
+          "candidates": [
+            {
+              "identity": "FP3_01",
+              "cosine": 0.999930222829183,
+              "best_index": 183
+            },
+            {
+              "identity": "FP3_03",
+              "cosine": 0.9998828371365865,
+              "best_index": 218
+            },
+            {
+              "identity": "FP3_15",
+              "cosine": 0.9998403588930765,
+              "best_index": 359
+            },
+            {
+              "identity": "FP2_03",
+              "cosine": 0.9998206694920858,
+              "best_index": 58
+            },
+            {
+              "identity": "FP3_14",
+              "cosine": 0.9998203913370768,
+              "best_index": 327
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 167,
+          "identity": "FP3_01",
+          "rank": 1,
+          "ap": 0.14705615009055312,
+          "candidates": [
+            {
+              "identity": "FP3_01",
+              "cosine": 0.9999021887779236,
+              "best_index": 169
+            },
+            {
+              "identity": "FP3_03",
+              "cosine": 0.9998774329821268,
+              "best_index": 219
+            },
+            {
+              "identity": "FP3_10",
+              "cosine": 0.9998703002929688,
+              "best_index": 293
+            },
+            {
+              "identity": "FP3_09",
+              "cosine": 0.9998595515886942,
+              "best_index": 268
+            },
+            {
+              "identity": "FP2_08",
+              "cosine": 0.9998530546824137,
+              "best_index": 137
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 168,
+          "identity": "FP3_01",
+          "rank": 3,
+          "ap": 0.09078963971592004,
+          "candidates": [
+            {
+              "identity": "FP3_03",
+              "cosine": 0.9999525745709738,
+              "best_index": 224
+            },
+            {
+              "identity": "GROW_02",
+              "cosine": 0.9998945593833923,
+              "best_index": 474
+            },
+            {
+              "identity": "FP3_01",
+              "cosine": 0.9998873869578043,
+              "best_index": 179
+            },
+            {
+              "identity": "FP3_19",
+              "cosine": 0.9998812079429626,
+              "best_index": 402
+            },
+            {
+              "identity": "FP2_09",
+              "cosine": 0.9998791813850403,
+              "best_index": 155
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 189,
+          "identity": "FP3_02",
+          "rank": 1,
+          "ap": 0.1390850215190212,
+          "candidates": [
+            {
+              "identity": "FP3_02",
+              "cosine": 0.9997876485188802,
+              "best_index": 204
+            },
+            {
+              "identity": "FP2_08",
+              "cosine": 0.9997815688451132,
+              "best_index": 139
+            },
+            {
+              "identity": "FP3_09",
+              "cosine": 0.9997673034667969,
+              "best_index": 267
+            },
+            {
+              "identity": "FP3_17",
+              "cosine": 0.9997631510098776,
+              "best_index": 394
+            },
+            {
+              "identity": "FP3_10",
+              "cosine": 0.9997446139653524,
+              "best_index": 299
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 190,
+          "identity": "FP3_02",
+          "rank": 1,
+          "ap": 0.05518848253027882,
+          "candidates": [
+            {
+              "identity": "FP3_02",
+              "cosine": 0.9998661875724792,
+              "best_index": 203
+            },
+            {
+              "identity": "FP3_03",
+              "cosine": 0.9998648564020792,
+              "best_index": 221
+            },
+            {
+              "identity": "GROW_04",
+              "cosine": 0.9998634854952494,
+              "best_index": 510
+            },
+            {
+              "identity": "FP2_08",
+              "cosine": 0.9998631477355957,
+              "best_index": 122
+            },
+            {
+              "identity": "GROW_06",
+              "cosine": 0.999859074751536,
+              "best_index": 558
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 191,
+          "identity": "FP3_02",
+          "rank": 5,
+          "ap": 0.04864999709234259,
+          "candidates": [
+            {
+              "identity": "FP3_16",
+              "cosine": 0.9997822841008505,
+              "best_index": 367
+            },
+            {
+              "identity": "GROW_01",
+              "cosine": 0.9997730255126953,
+              "best_index": 455
+            },
+            {
+              "identity": "GROW_06",
+              "cosine": 0.9997714757919312,
+              "best_index": 552
+            },
+            {
+              "identity": "FP3_17",
+              "cosine": 0.9997670451800028,
+              "best_index": 401
+            },
+            {
+              "identity": "FP3_02",
+              "cosine": 0.9997595945994059,
+              "best_index": 199
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 192,
+          "identity": "FP3_02",
+          "rank": 8,
+          "ap": 0.03809793618241556,
+          "candidates": [
+            {
+              "identity": "FP3_03",
+              "cosine": 0.9997741381327311,
+              "best_index": 222
+            },
+            {
+              "identity": "GROW_02",
+              "cosine": 0.9997738798459371,
+              "best_index": 463
+            },
+            {
+              "identity": "FP3_09",
+              "cosine": 0.9997497797012329,
+              "best_index": 277
+            },
+            {
+              "identity": "FP3_01",
+              "cosine": 0.9997400840123495,
+              "best_index": 175
+            },
+            {
+              "identity": "FP2_08",
+              "cosine": 0.9997377395629883,
+              "best_index": 136
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 481,
+          "identity": "GROW_03",
+          "rank": 29,
+          "ap": 0.016732759427479975,
+          "candidates": [
+            {
+              "identity": "FP3_08",
+              "cosine": 0.999834676583608,
+              "best_index": 247
+            },
+            {
+              "identity": "GROW_05",
+              "cosine": 0.9998241265614828,
+              "best_index": 532
+            },
+            {
+              "identity": "FP2_04",
+              "cosine": 0.9998236894607544,
+              "best_index": 72
+            },
+            {
+              "identity": "FP3_17",
+              "cosine": 0.999799390633901,
+              "best_index": 386
+            },
+            {
+              "identity": "GROW_07",
+              "cosine": 0.9997989336649576,
+              "best_index": 563
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 482,
+          "identity": "GROW_03",
+          "rank": 14,
+          "ap": 0.025105547889079587,
+          "candidates": [
+            {
+              "identity": "GROW_07",
+              "cosine": 0.999862531820933,
+              "best_index": 563
+            },
+            {
+              "identity": "FP3_16",
+              "cosine": 0.9998385508855184,
+              "best_index": 376
+            },
+            {
+              "identity": "FP3_01",
+              "cosine": 0.9998323122660319,
+              "best_index": 172
+            },
+            {
+              "identity": "GROW_05",
+              "cosine": 0.999822994073232,
+              "best_index": 525
+            },
+            {
+              "identity": "FP2_01",
+              "cosine": 0.9998209277788798,
+              "best_index": 16
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 483,
+          "identity": "GROW_03",
+          "rank": 29,
+          "ap": 0.016608938659414246,
+          "candidates": [
+            {
+              "identity": "FP3_01",
+              "cosine": 0.9999042550722758,
+              "best_index": 187
+            },
+            {
+              "identity": "GROW_05",
+              "cosine": 0.9998867909113566,
+              "best_index": 524
+            },
+            {
+              "identity": "FP3_17",
+              "cosine": 0.9998756448427836,
+              "best_index": 389
+            },
+            {
+              "identity": "FP3_03",
+              "cosine": 0.9998748898506165,
+              "best_index": 217
+            },
+            {
+              "identity": "GROW_10",
+              "cosine": 0.999872624874115,
+              "best_index": 582
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 504,
+          "identity": "GROW_04",
+          "rank": 18,
+          "ap": 0.03448255964462837,
+          "candidates": [
+            {
+              "identity": "FP3_14",
+              "cosine": 0.9998985330263773,
+              "best_index": 327
+            },
+            {
+              "identity": "FP2_06",
+              "cosine": 0.9998849232991537,
+              "best_index": 89
+            },
+            {
+              "identity": "FP3_01",
+              "cosine": 0.9998783071835836,
+              "best_index": 187
+            },
+            {
+              "identity": "FP3_07",
+              "cosine": 0.9998778502146403,
+              "best_index": 246
+            },
+            {
+              "identity": "FP3_13",
+              "cosine": 0.999876876672109,
+              "best_index": 302
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 505,
+          "identity": "GROW_04",
+          "rank": 1,
+          "ap": 0.13951896577608558,
+          "candidates": [
+            {
+              "identity": "GROW_04",
+              "cosine": 0.9998815655708313,
+              "best_index": 509
+            },
+            {
+              "identity": "FP3_17",
+              "cosine": 0.9998747905095419,
+              "best_index": 392
+            },
+            {
+              "identity": "FP2_08",
+              "cosine": 0.9998734593391418,
+              "best_index": 126
+            },
+            {
+              "identity": "GROW_05",
+              "cosine": 0.9998686114947001,
+              "best_index": 539
+            },
+            {
+              "identity": "FP3_10",
+              "cosine": 0.999863862991333,
+              "best_index": 301
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 506,
+          "identity": "GROW_04",
+          "rank": 1,
+          "ap": 0.12510468115112855,
+          "candidates": [
+            {
+              "identity": "GROW_04",
+              "cosine": 0.9999021887779236,
+              "best_index": 511
+            },
+            {
+              "identity": "FP2_04",
+              "cosine": 0.9999001224835714,
+              "best_index": 67
+            },
+            {
+              "identity": "FP2_03",
+              "cosine": 0.9998959104220072,
+              "best_index": 57
+            },
+            {
+              "identity": "GROW_05",
+              "cosine": 0.9998757441838583,
+              "best_index": 526
+            },
+            {
+              "identity": "FP3_03",
+              "cosine": 0.9998694459597269,
+              "best_index": 214
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "index": 507,
+          "identity": "GROW_04",
+          "rank": 1,
+          "ap": 0.12292090347604633,
+          "candidates": [
+            {
+              "identity": "GROW_04",
+              "cosine": 0.9998706579208374,
+              "best_index": 522
+            },
+            {
+              "identity": "FP3_17",
+              "cosine": 0.9998660484949747,
+              "best_index": 393
+            },
+            {
+              "identity": "GROW_05",
+              "cosine": 0.999855617682139,
+              "best_index": 533
+            },
+            {
+              "identity": "FP3_01",
+              "cosine": 0.9998555580774943,
+              "best_index": 172
+            },
+            {
+              "identity": "GROW_02",
+              "cosine": 0.9998514850934347,
+              "best_index": 477
+            }
+          ],
+          "status": "candidate"
+        }
+      ]
+    }
+  },
+  "recommended": "mixed",
+  "criterion": ".7 development validation identity Top1 + .3 frame mAP",
+  "frozen_regression_not_used_in_selection": true,
+  "validation_previously_viewed": true
+}

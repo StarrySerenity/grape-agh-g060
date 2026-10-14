@@ -1,0 +1,126 @@
+{
+  "id": "YOUNG_02",
+  "group": "GROW",
+  "seed": 330733,
+  "count": 42,
+  "profile": "shoulder",
+  "relative_radius": 0.125,
+  "target_days": 40,
+  "models": 42,
+  "young": "cases/YOUNG_02/young.json",
+  "grown": "cases/YOUNG_02/grown.json",
+  "young_ply": "cases/YOUNG_02/young.ply",
+  "grown_ply": "cases/YOUNG_02/grown.ply",
+  "young_metrics": {
+    "berry_count": 42,
+    "radius_over_center_spacing": 0.12499999999999999,
+    "middle_major_ratio": 0.29850387053325916,
+    "minor_major_ratio": 0.25146882380759,
+    "relative_nearest_spacing": 0.3560092999582515,
+    "radius_cv": 0.04224760357653805,
+    "fingerprint": [
+      0.5037758940490588,
+      0.7433384231274446,
+      1.0,
+      1.2899473347201287,
+      1.6282478247540653,
+      0.9192215393738702,
+      0.9746558831440968,
+      1.0,
+      1.0150792240656852,
+      1.0381424990829957,
+      0.6451726560417028,
+      0.19258653499067138,
+      0.16224080896762583
+    ]
+  },
+  "grown_metrics": {
+    "berry_count": 42,
+    "radius_over_center_spacing": 0.21058506922409456,
+    "middle_major_ratio": 0.3091510419406398,
+    "minor_major_ratio": 0.26544051228072396,
+    "relative_nearest_spacing": 0.4152332100365486,
+    "radius_cv": 0.042247603576538055,
+    "fingerprint": [
+      0.4873868427707942,
+      0.742652196726099,
+      1.0,
+      1.299363898446415,
+      1.621035821179237,
+      0.9192215393738702,
+      0.9746558831440967,
+      1.0,
+      1.0150792240656852,
+      1.0381424990829957,
+      0.6350853320145621,
+      0.19633729211351902,
+      0.168577375871919
+    ]
+  },
+  "berry_radius_ratio": 2.4009956279542672,
+  "center_distance_ratio": 1.4251934128098385,
+  "extent_ratio": [
+    1.6251264862758792,
+    1.5032475525992144,
+    1.6353009072862332
+  ],
+  "same_id_order": true,
+  "contact_constraint": {
+    "before_severe_overlap_pairs": 0,
+    "after_severe_overlap_pairs": 0,
+    "minimum_separation_ratio": 1.005,
+    "maximum_movement_over_radius": 0.5803397358048568,
+    "is_geometric_display_constraint": true,
+    "per_berry_biological_motion_learned": false,
+    "minimum_contact_ratio": 1.0049999999999981,
+    "overlapping_pairs": 0,
+    "iterations_limit": 2400,
+    "status": "clear"
+  },
+  "selection": [
+    {
+      "target_indices": [
+        0
+      ],
+      "selected": "ridge_1.0",
+      "inner_mae": 0.010945236578249157,
+      "candidate_inner_mae": {
+        "mean": 0.013585697180198818,
+        "ridge_1.0": 0.010945236578249157,
+        "ridge_3.0": 0.013847634862078378,
+        "ridge_10.0": 0.014950658174559473,
+        "ridge_30.0": 0.014831615085073687
+      }
+    },
+    {
+      "target_indices": [
+        1,
+        2
+      ],
+      "selected": "mean",
+      "inner_mae": 0.0645585828605352,
+      "candidate_inner_mae": {
+        "mean": 0.0645585828605352,
+        "ridge_1.0": 0.0870537222676339,
+        "ridge_3.0": 0.08444133141031077,
+        "ridge_10.0": 0.08142275222251086,
+        "ridge_30.0": 0.07686644470727488
+      }
+    },
+    {
+      "target_indices": [
+        3
+      ],
+      "selected": "mean",
+      "inner_mae": 0.02664949024624787,
+      "candidate_inner_mae": {
+        "mean": 0.02664949024624787,
+        "ridge_1.0": 0.03257313949672908,
+        "ridge_3.0": 0.03226051221916951,
+        "ridge_10.0": 0.03234689143498881,
+        "ridge_30.0": 0.03140494963595388
+      }
+    }
+  ],
+  "seconds": 0.93
+}

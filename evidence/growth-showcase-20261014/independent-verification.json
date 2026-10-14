@@ -1,0 +1,76 @@
+{
+  "real_pairs": 18,
+  "real_geometry_comparisons_recomputed": 36,
+  "synthetic_cases": 6,
+  "synthetic_berries": 306,
+  "protected_source_files_unchanged": 101,
+  "own_identity_excluded": true,
+  "future_assisted_flags_preserved": true,
+  "prediction_hashes_unchanged_after_comparison": true,
+  "unresolved_real_variants": [
+    {
+      "identity": "GROW_01",
+      "mode": "repaired_conditional",
+      "overlapping_pairs": 15
+    },
+    {
+      "identity": "GROW_04",
+      "mode": "repaired_conditional",
+      "overlapping_pairs": 3
+    },
+    {
+      "identity": "GROW_07",
+      "mode": "repaired_conditional",
+      "overlapping_pairs": 6
+    },
+    {
+      "identity": "GROW_09",
+      "mode": "original",
+      "overlapping_pairs": 9
+    },
+    {
+      "identity": "GROW_09",
+      "mode": "repaired_conditional",
+      "overlapping_pairs": 43
+    },
+    {
+      "identity": "YG_01",
+      "mode": "original",
+      "overlapping_pairs": 9
+    },
+    {
+      "identity": "YG_01",
+      "mode": "repaired_conditional",
+      "overlapping_pairs": 36
+    },
+    {
+      "identity": "YG_02",
+      "mode": "original",
+      "overlapping_pairs": 6
+    },
+    {
+      "identity": "YG_02",
+      "mode": "repaired_conditional",
+      "overlapping_pairs": 88
+    },
+    {
+      "identity": "YG_06",
+      "mode": "repaired_conditional",
+      "overlapping_pairs": 48
+    },
+    {
+      "identity": "YG_09",
+      "mode": "repaired_conditional",
+      "overlapping_pairs": 15
+    },
+    {
+      "identity": "YG_10",
+      "mode": "repaired_conditional",
+      "overlapping_pairs": 16
+    }
+  ],
+  "featured_fingerprint": "FP3_11, 3/3 correct accepts; selected success example, full batch counts retained",
+  "default_real": "GROW_02",
+  "default_variant": "repaired_conditional",
+  "no_claim_of_physical_growth_or_individual_identity_accuracy": true
+}

@@ -1,0 +1,390 @@
+{
+  "key": "ambiguous_FP3_11_010",
+  "identity": "FP3_11",
+  "candidate_key": "enrollment_extra_FP3_11_000",
+  "score": 0.6829540728897665,
+  "margin": 0.10389045350500214,
+  "pairs": [
+    {
+      "query": 0,
+      "gallery": 2,
+      "residual_radius": 0.07488040595922164
+    },
+    {
+      "query": 1,
+      "gallery": 1,
+      "residual_radius": 0.09043533152166222
+    },
+    {
+      "query": 2,
+      "gallery": 8,
+      "residual_radius": 0.04626740563405077
+    },
+    {
+      "query": 3,
+      "gallery": 3,
+      "residual_radius": 0.06700515170386105
+    },
+    {
+      "query": 4,
+      "gallery": 5,
+      "residual_radius": 0.07228954226188297
+    },
+    {
+      "query": 6,
+      "gallery": 0,
+      "residual_radius": 0.05233947153784031
+    },
+    {
+      "query": 7,
+      "gallery": 10,
+      "residual_radius": 0.20935880735548032
+    },
+    {
+      "query": 8,
+      "gallery": 14,
+      "residual_radius": 0.10836111612871871
+    },
+    {
+      "query": 9,
+      "gallery": 12,
+      "residual_radius": 0.2195716373338764
+    },
+    {
+      "query": 10,
+      "gallery": 13,
+      "residual_radius": 0.023079138731982675
+    },
+    {
+      "query": 11,
+      "gallery": 6,
+      "residual_radius": 0.07541608081740186
+    },
+    {
+      "query": 13,
+      "gallery": 4,
+      "residual_radius": 0.22126249615120214
+    },
+    {
+      "query": 14,
+      "gallery": 15,
+      "residual_radius": 0.05604556121165866
+    }
+  ],
+  "query_coverage": 0.8125,
+  "query_nodes": [
+    {
+      "x": 124.95508944988251,
+      "y": 189.64551162719727,
+      "radius": 13.328210830688477,
+      "confidence": 0.8108689785003662,
+      "visibility": 0.8426877856254578,
+      "center_type": "trained circle-center regression",
+      "id": "D00"
+    },
+    {
+      "x": 109.63697922229767,
+      "y": 146.30095171928406,
+      "radius": 14.77463150024414,
+      "confidence": 0.8086800575256348,
+      "visibility": 0.7057424783706665,
+      "center_type": "trained circle-center regression",
+      "id": "D01"
+    },
+    {
+      "x": 121.93749928474426,
+      "y": 69.84420871734619,
+      "radius": 14.610880851745605,
+      "confidence": 0.7163717746734619,
+      "visibility": 0.8980070352554321,
+      "center_type": "trained circle-center regression",
+      "id": "D02"
+    },
+    {
+      "x": 98.10054206848145,
+      "y": 78.8727662563324,
+      "radius": 13.891554832458496,
+      "confidence": 0.6401641964912415,
+      "visibility": 0.6554772257804871,
+      "center_type": "trained circle-center regression",
+      "id": "D03"
+    },
+    {
+      "x": 153.71828961372375,
+      "y": 94.17087411880493,
+      "radius": 15.091659545898438,
+      "confidence": 0.6108738780021667,
+      "visibility": 0.7268292307853699,
+      "center_type": "trained circle-center regression",
+      "id": "D04"
+    },
+    {
+      "x": 109.88109707832336,
+      "y": 165.93016695976257,
+      "radius": 13.630738258361816,
+      "confidence": 0.5438032150268555,
+      "visibility": 0.5568186044692993,
+      "center_type": "trained circle-center regression",
+      "id": "D05"
+    },
+    {
+      "x": 137.24857699871063,
+      "y": 165.00610876083374,
+      "radius": 12.637100219726562,
+      "confidence": 0.5325347781181335,
+      "visibility": 0.9238483905792236,
+      "center_type": "trained circle-center regression",
+      "id": "D06"
+    },
+    {
+      "x": 153.95127284526825,
+      "y": 154.15308928489685,
+      "radius": 15.562775611877441,
+      "confidence": 0.4643149971961975,
+      "visibility": 0.40915441513061523,
+      "center_type": "trained circle-center regression",
+      "id": "D07"
+    },
+    {
+      "x": 157.3612096309662,
+      "y": 124.77982050180435,
+      "radius": 15.136804580688477,
+      "confidence": 0.461572527885437,
+      "visibility": 0.4128682315349579,
+      "center_type": "trained circle-center regression",
+      "id": "D08"
+    },
+    {
+      "x": 129.88121557235718,
+      "y": 137.2040420770645,
+      "radius": 13.453588485717773,
+      "confidence": 0.4488869905471802,
+      "visibility": 0.6482856869697571,
+      "center_type": "trained circle-center regression",
+      "id": "D09"
+    },
+    {
+      "x": 149.16297662258148,
+      "y": 66.76212573051453,
+      "radius": 15.895259857177734,
+      "confidence": 0.4302123486995697,
+      "visibility": 0.6217817664146423,
+      "center_type": "trained circle-center regression",
+      "id": "D10"
+    },
+    {
+      "x": 142.06107640266418,
+      "y": 114.36522603034973,
+      "radius": 16.157211303710938,
+      "confidence": 0.4015468657016754,
+      "visibility": 0.4704584777355194,
+      "center_type": "trained circle-center regression",
+      "id": "D11"
+    },
+    {
+      "x": 105.18812155723572,
+      "y": 122.34201765060425,
+      "radius": 14.822903633117676,
+      "confidence": 0.3460879921913147,
+      "visibility": 0.5732184052467346,
+      "center_type": "trained circle-center regression",
+      "id": "D12"
+    },
+    {
+      "x": 125.21298789978027,
+      "y": 98.30345439910889,
+      "radius": 14.557865142822266,
+      "confidence": 0.3090514540672302,
+      "visibility": 0.4747168719768524,
+      "center_type": "trained circle-center regression",
+      "id": "D13"
+    },
+    {
+      "x": 156.8225343823433,
+      "y": 181.40380144119263,
+      "radius": 15.299911499023438,
+      "confidence": 0.28896963596343994,
+      "visibility": 0.536594808101654,
+      "center_type": "trained circle-center regression",
+      "id": "D14"
+    },
+    {
+      "x": 153.99280285835266,
+      "y": 213.2839457988739,
+      "radius": 16.858692169189453,
+      "confidence": 0.2598780393600464,
+      "visibility": 0.308284193277359,
+      "center_type": "trained circle-center regression",
+      "id": "D15"
+    }
+  ],
+  "gallery_nodes": [
+    {
+      "x": 138.28285932540894,
+      "y": 166.47125673294067,
+      "radius": 12.06883716583252,
+      "confidence": 0.8806868195533752,
+      "visibility": 0.9619482159614563,
+      "center_type": "trained circle-center regression",
+      "id": "D00"
+    },
+    {
+      "x": 109.59962332248688,
+      "y": 145.69648468494415,
+      "radius": 14.326680183410645,
+      "confidence": 0.8358753323554993,
+      "visibility": 0.5846167206764221,
+      "center_type": "trained circle-center regression",
+      "id": "D01"
+    },
+    {
+      "x": 124.19121970236301,
+      "y": 190.2035140991211,
+      "radius": 13.031438827514648,
+      "confidence": 0.8035206198692322,
+      "visibility": 0.9206749200820923,
+      "center_type": "trained circle-center regression",
+      "id": "D02"
+    },
+    {
+      "x": 98.02398538589478,
+      "y": 78.14315748214722,
+      "radius": 13.971413612365723,
+      "confidence": 0.8025375604629517,
+      "visibility": 0.5723650455474854,
+      "center_type": "trained circle-center regression",
+      "id": "D03"
+    },
+    {
+      "x": 126.15026640892029,
+      "y": 101.87848889827728,
+      "radius": 15.147233009338379,
+      "confidence": 0.7140756845474243,
+      "visibility": 0.6961482167243958,
+      "center_type": "trained circle-center regression",
+      "id": "D04"
+    },
+    {
+      "x": 153.6777251958847,
+      "y": 94.4185426235199,
+      "radius": 15.151839256286621,
+      "confidence": 0.7097143530845642,
+      "visibility": 0.6084483861923218,
+      "center_type": "trained circle-center regression",
+      "id": "D05"
+    },
+    {
+      "x": 142.78726196289062,
+      "y": 113.85324490070343,
+      "radius": 15.295568466186523,
+      "confidence": 0.695482611656189,
+      "visibility": 0.5467908382415771,
+      "center_type": "trained circle-center regression",
+      "id": "D06"
+    },
+    {
+      "x": 102.5410418510437,
+      "y": 63.09411144256592,
+      "radius": 13.831660270690918,
+      "confidence": 0.6038246750831604,
+      "visibility": 0.7039593458175659,
+      "center_type": "trained circle-center regression",
+      "id": "D07"
+    },
+    {
+      "x": 122.93078088760376,
+      "y": 69.24487900733948,
+      "radius": 14.66447639465332,
+      "confidence": 0.5942797660827637,
+      "visibility": 0.9263535141944885,
+      "center_type": "trained circle-center regression",
+      "id": "D08"
+    },
+    {
+      "x": 142.3107132911682,
+      "y": 206.54157209396362,
+      "radius": 15.614812850952148,
+      "confidence": 0.547062337398529,
+      "visibility": 0.6318880915641785,
+      "center_type": "trained circle-center regression",
+      "id": "D09"
+    },
+    {
+      "x": 154.06127643585205,
+      "y": 158.20242500305176,
+      "radius": 15.753281593322754,
+      "confidence": 0.5078104734420776,
+      "visibility": 0.34515589475631714,
+      "center_type": "trained circle-center regression",
+      "id": "D10"
+    },
+    {
+      "x": 118.00488638877869,
+      "y": 130.7235074043274,
+      "radius": 16.972230911254883,
+      "confidence": 0.4640687108039856,
+      "visibility": 0.4800906181335449,
+      "center_type": "trained circle-center regression",
+      "id": "D11"
+    },
+    {
+      "x": 133.5575577020645,
+      "y": 138.50023770332336,
+      "radius": 13.676969528198242,
+      "confidence": 0.43880560994148254,
+      "visibility": 0.6770135164260864,
+      "center_type": "trained circle-center regression",
+      "id": "D12"
+    },
+    {
+      "x": 150.22245812416077,
+      "y": 66.63197994232178,
+      "radius": 16.118492126464844,
+      "confidence": 0.3495253026485443,
+      "visibility": 0.6612256169319153,
+      "center_type": "trained circle-center regression",
+      "id": "D13"
+    },
+    {
+      "x": 157.65391504764557,
+      "y": 124.0698615834117,
+      "radius": 14.004556655883789,
+      "confidence": 0.3358379304409027,
+      "visibility": 0.3420693576335907,
+      "center_type": "trained circle-center regression",
+      "id": "D14"
+    },
+    {
+      "x": 157.21226382255554,
+      "y": 181.880872964859,
+      "radius": 15.359779357910156,
+      "confidence": 0.3035354018211365,
+      "visibility": 0.5079532861709595,
+      "center_type": "trained circle-center regression",
+      "id": "D15"
+    },
+    {
+      "x": 106.04478931427002,
+      "y": 105.4043151140213,
+      "radius": 14.627944946289062,
+      "confidence": 0.27195608615875244,
+      "visibility": 0.6927798390388489,
+      "center_type": "trained circle-center regression",
+      "id": "D16"
+    },
+    {
+      "x": 93.8048460483551,
+      "y": 118.04547023773193,
+      "radius": 13.19510555267334,
+      "confidence": 0.2650653123855591,
+      "visibility": 0.3898388743400574,
+      "center_type": "trained circle-center regression",
+      "id": "D17"
+    }
+  ],
+  "query_image": "data/showcase-20261014/fingerprint/ambiguous_FP3_11_010.jpg",
+  "gallery_image": "data/showcase-20261014/fingerprint/enrollment_extra_FP3_11_000.jpg",
+  "accepted": true,
+  "chosen_success_example": true,
+  "not_overall_accuracy": true
+}
